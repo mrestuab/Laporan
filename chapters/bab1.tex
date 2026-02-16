@@ -1,0 +1,144 @@
+\chapter{Pendahuluan}
+
+\section{Latar Belakang}
+
+Perkembangan teknologi digital telah membawa perubahan yang signifikan dalam praktik penggalangan dana, khususnya melalui platform donasi digital berbasis crowdfunding. Secara global, donation-based crowdfunding berkembang pesat karena mampu menghubungkan donatur dan penerima manfaat secara efisien tanpa batasan geografis. Penelitian menunjukkan bahwa platform donasi digital berperan pentong dalm meningkatkan akases pendanaan sosial serta mendonrong partisipasi masyarakat melaluli pemanfaatan teknologi informai \cite{halim2024}.
+
+Dalam konteks donasi digital, berbagai studi menekankan bahwa factor kepercayaan (\textit{trust}) dan inovasi teknologi merupakan determinan utama dalam Keputusan berdonasi. Inovasi platform crowdfunding serta Tingkat kepercayaan pengguna berpengaruh positif terhadap Keputusan donasi online \cite{tarigan2023}. Selain itu, persepsi transparansi da keamanan system turut membentuk keyakinan donator dalam menggunakan olatform donasi digital. Temuan ini di perkuat oleh penelitian \cite{zikrinawati2025} yang menunjukan bahwa kepercayaan dan persepsi risiko memiliki pengaruh signifikan terhadap Keputusan donasi online, khususnya pada platform berbasis web.
+
+Di Indonesia, perkemangan donasi digital sejalan dengan meningkatnya adopsi teknologi finansial. Integrasi system pembayaran digital, seperti QRIS, pada platform donasi terbukti mempermudah proses transaksi serta meningkatkan efisiensi dan aksesibitilas bagi Masyarakat. Studi \cite{saputra2025} menunjukan bahwa penggunakan QRIS pada platform donation-based crodfunding mampu meningkatkan kenyamanan pengguna dan mempercepat proses donasi, meskipun tantangan terkait literasi digital dan kepercayaan terhadap platform masih menjadi perhatian.
+
+Meskipun demikian, sejumlah penelitian mengindikasikan bahwa tantangan utama dalam donasi digital tidak hanya terletak paada aspek teknis pembayaran, tetapi juga ada Upaya membangun kepercayaan pengguna secara berkelanjutan. Inovasi fitur pada platform donasi dinilai dapat berkontirbusidalam meningkatkan partisipasi donator apabila mampu memberikan pengalaman pengguna yang transparan dan interaktif \cite{tarigan2023,zikrinawati2025}.
+
+Berdasarkan kondisi tersebut, alikasi Nyumbangin di kembangkan sebagai platform donasi digital berbasis web dan mengintegrasikan sistem pembayaran digital serta fitur pendukung seperti notifikasi real-time, leaderboard donator, dan media sharing. Fitur media sharing di rancang untuk mendorong keterlibatanan sosial dan meningkatkan kepercayaan pengguna melalu mekanisme berbagi aktivitas donasi, yang berdasarkan penelitian sebelumnya terbukti dapat mmepengaruhi partisipasi donator. Dengan pendekatan tersebut, aplikasi Nyumbangin di harapkan mampu memberikan pengalaman donasi digital yang transparan, interaktif, dan terpercaya.
+
+\section{Identifikasi Masalah}
+
+Meskipun platform donasi digital sudah banyak tersedia, sebagian besar memiliki kompleksitas fitur dan arsitektur yang cukup tinggi, sehingga kurang sesuai untuk dipelajari atau dijadikan dasar pengembangan mandiri. Selain itu, implementasi digital payment membutuhkan contoh sistem yang sederhana namun fungsional agar dapat dipahami dengan mudah.
+
+Berdasarkan kondisi tersebut, kebutuhan yang muncul adalah:
+
+\begin{enumerate}
+    \item Kebutuhan untuk memahami sekaligus mempraktikkan implementasi sistem Digital Payment melalui proyek nyata.
+    \item Kebutuhan akan platform donasi yang ringan dan sederhana, tanpa kompleksitas berlebih.
+    \item Kebutuhan akan sebuah media belajar dan inovasi, yang tetap memiliki potensi digunakan oleh publik.
+\end{enumerate}
+
+\section{Tujuan}
+
+Tujuan utama dari pengembangan platform Nyumbangin adalah membangun sistem donasi digital yang sederhana, fungsional, dan dapat menjadi dasar pengambangan lebih lanjut. Secara khusus, tujuan proyek ini adalah:
+
+\begin{enumerate}
+    \item Merancang dan mengimplementasikan platform donasi sederhana sebagai penerapan teknologi, termasuk Digital Payment.
+    \item Menyediakan alternatif platform donasi yang ringan, fleksibel, dan mudah dikembangkan sesuai kebutuhan.
+    \item Membangun pondasi produk digital yang dapat diekspansi menjadi sistem yang lebih kompleks di masa depan sekaligus menjadi sarana pembelajaran dan inovasi.
+\end{enumerate}
+
+\section{Ruang Lingkup}
+
+Ruang lingkup pengembangan ini difokuskan pada perancangan, pembangunan, dan evaluasi prototi Nyumbangin, yaitu platform web sederhana untuk penggalangan dukungan/donasi bagi kreator. Lingkup ini mencakup proses analisis kebutuhan, perancangan arsitektur dan model data, implementasi modul inti, serta pengujian fungsional dalam lingkungan pengembangan.
+
+\subsection{Cakupan Fungsional}
+
+Penilitian ini mencakup pengembangan fitur inti sebagai berikut:
+
+\begin{enumerate}
+    \item \textbf{Manajemen Kreator} \\
+    Meliputi registrasi, autentikasi, dan donasi otorisasi kreator menggunakan dua metode:
+    \begin{itemize}
+        \item JSON Web Token (JWT) untuk autentikasi berbasis username/password.
+        \item OAuth Google Sign-in sebagai metode login alternatif menggunakan akun Google.
+    \end{itemize}
+
+    \item \textbf{Pengelolaan Donasi} \\
+    Pencatatan transaksi donasi (nominal, waktu, dan identitas donor terbatas/anonym), penyimpanan data donasi, serta penyajian ringkasan donasi kepada kreator.
+
+    \item \textbf{Dashboard Kreator} \\
+    Penyajian metrik dasar seperti jumlah donasi, total nominal terkumpul, dan daftar 10 donatur terbaru.
+
+    \item \textbf{Leaderboard Global} \\
+    Agregasi donasi lintas kreator untuk menampilkan peringkat donasi secara global melalui endpoint contoh \texttt{GET /api/dashboard/leaderboard} dengan verifikasi JWT tipe creator.
+
+    \item \textbf{Antarmuka Pengguna Web} \\
+    Halaman publik untuk menampilkan profile kreator dan melakukan donasi, serta halaman privat untuk dashboard kreator.
+\end{enumerate}
+
+\subsection{Cakupan Teknis}
+
+Secara teknis, penilitian ini mencakup:
+
+\begin{enumerate}
+    \item \textbf{Arsitektur Aplikasi} \\
+    Pembangunan sistem berbasis Next.js dengan API Routes sebagai backend, Node.js runtime, dan NoSQL MongoDB menggunakan Mongoose.
+
+    \item \textbf{Keamanan Dasar Sistem} \\
+    Meliputi:
+    \begin{itemize}
+        \item Implementasi JWT untuk login tradisional
+        \item Integrasi OAuth 2.0 Google Sign-In
+        \item Validasi input dan sanitasi sederhana
+        \item Penanganan akses endpoint privat berdasarkan token
+    \end{itemize}
+
+    \item \textbf{Perancangan dan Pemodelan} \\
+    Meliputi use case diagram, flowchart proses (alur donasi, autentikasi, leaderboard), dan rancangan model data (Creator, Donation).
+
+    \item \textbf{Integrasi Modul Internal} \\
+    Modul koneksi database, middleware verifikasi token (JWT \& OAuth), utilitas hashing, serta pengelolaan data melalui shcema Creator dan Donation.
+\end{enumerate}
+
+\subsection{Cakupan Pengujian}
+
+Pengujian dilakukan meliputi:
+
+\begin{enumerate}
+    \item Uji fungsional terhadap endpoint inti seperti autentikasi kreator, pencatatan/pengambilan donasi, dan pemuatan data leaderboard.
+    \item Uji integritas sederhana untuk memastikan alur donasi hingga dashboard berjalan end-to-end menggunakan data simulasi.
+\end{enumerate}
+
+\subsection{Batasan Penilitian}
+
+Penilitian ini dibatasi pada aspek-aspek berikut:
+
+\begin{enumerate}
+    \item \textbf{Fokus Pada Alur Donasi Dasar} \\
+    Sistem hanya mencakup proses donasi sederhana tanpa fitur pendukung seperti manajemen kampanye, penjadwalan donasi, atau komisi.
+
+    \item \textbf{Integrasi Pembayaran Bersifat Simulasi} \\
+    Payment gateaway digunakan dalam mode sandbox untuk tujuan pembelajaran dan pengujian; tidak mencakup transaksi finansial nyata, KYC/AML, atau kepatuhan regulasi.
+
+    \item \textbf{Lingkup Pengembangan Berskala Proyek} \\
+    Optimasi performa produksi, skalabilitas tinggi, dan security hardering tingkat lanjut tidak menjadi fokus utama.
+\end{enumerate}
+
+\subsection{Luaran Penilitian}
+
+Luaran yang dihasilkan meliputi:
+
+\begin{enumerate}
+    \item Prototipe aplikasi web Nyumbangin yang dapat dijalankan pada lingkungan pengembangan.
+    \item Dokumen desain arsitektur, use case, flowchart, dan schema model data.
+    \item Spesifikasi endpoint inti, termasuk leaderboard global.
+    \item Hasil pengujian fungsional serta evaluasi ketercapaian kebutuhan.
+\end{enumerate}
+
+\section{Sistematika Penulisan}
+
+Sistematika penulisan analisis ini disusun dalam 5 bab dan bagian akhir terdapat daftar pustaka dan lampiran. Di mana pada setiap bab tersebut akan dibagi lagi menjadi sub-bab yang akan dibahas secara terperinci. Berikut merupakan sistematika penulisan dan keterangan singkatnya:
+
+\begin{enumerate}
+    \item \textbf{Bab I Pendahuluan} \\
+    Berisi latar belakang, identifikasi masalah, tujuan, ruang lingkup, batasan, dan sistematika penulisan. Bab ini juga menjelaskan alasan pemilihan teknologi seperti Next.js, Node.js, MongoDB, JWT, serta integrasi Oauth Google.
+
+    \item \textbf{Bab II Landasan Teori} \\
+    Menguraikan teori dan konsep pendukung seperti arsitektur web modern, SSR/SPA, autentikasi JWT, OAuth 2.0 dan OpenID Connect (Google), API REST, basis data NoSQL, serta UML.
+
+    \item \textbf{Bab III Metode Penelitian} \\
+    Menjelaskan metode analisis kebutuhan, perancangan, pemodelan, dan pengujian.
+
+    \item \textbf{Bab IV Hasil dan Pembahasan} \\
+    Menyajikan hasil implementasi prototipe, struktur proyek, model data, endpoint, antarmuka pengguna, hasil pengujian, serta evaluasi sesuai ruang lingkup.
+
+    \item \textbf{Bab V Kesimpulan dan Saran} \\
+    Berisi kesimpulan akhir dan rekomendasi pengembangan lebih lanjut.
+\end{enumerate}

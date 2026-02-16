@@ -1,0 +1,76 @@
+\chapter{Landasan Teori}
+
+\section{Platform Donasi Digital}
+
+Platform donasi digital merupakan pengembangan dari teknologi platform berbasis internet yang memfasilitasi interaksi antara berbagai pihak untuk tujuan sosial dan filantropi. Platform digital didefinisikan sebagai seperangkat komponen teknologi yang menyediakan fungsi inti bagi suatu sistem dan menjadi fondasi bagi pengembangan layanan pelengkap di atasnya \cite{shneor2020,zhou2025}. Secara konseptual, platform ini beroperasi sebagai \textit{two-sided market} yang mempertemukan kelompok pengguna berbeda namun saling bergantung, seperti donatur dan penerima manfaat, di mana nilai platform tercipta dari interaksi antar pengguna tersebut \cite{jullien2021}.
+
+Dalam konteks filantropi di Indonesia, platform digital digunakan sebagai alternatif lembaga amil konvensional dengan menawarkan kemudahan akses, transparansi, dan kecepatan distribusi dana untuk zakat, infaq, sedekah, dan wakaf \cite{febriandika2024,hidayatullah2022}. Perkembangan ini sejalan dengan meningkatnya kepercayaan masyarakat terhadap sistem donasi daring serta pergeseran perilaku filantropi ke media digital \cite{indriyani2024}.
+
+Dalam lingkup penggalangan dana massal, platform donation-based crowdfunding didefinisikan secara spesifik sebagai perantara teknologi yang digunakan oleh penggalang dana untuk mencocokkan donasi dengan tujuan para donatur. Tujuan yang dipertemukan dalam platform ini tidak bersifat moneter, melainkan pemenuhan kebutuhan psikologis donatur \cite{fadzirul2020}. Dalam ekosistem ini, penyedia situs web berperan menyediakan layanan web dan membangun sistem yang mendukung pemilik proyek untuk mempresentasikan kampanye mereka kepada calon pendukung guna menggalang donasi \cite{fadzirul2020,sirisawat2022}.
+
+\section{Arsitektur Aplikasi Web Modern}
+
+Bagian ini membahas konsep dasar arsitektur aplikasi web modern yang menjadi landasan dalam memahami cara kerja sistem berbasis web \cite{fraihat2022}. Pemahaman mengenai pola komunikasi serta pembagian lapisan dalam aplikasi diperlukan untuk menjelaskan bagaimana komponen penyusun sistem saling berinteraksi dan menjalankan fungsinya. Oleh karena itu, pembahasan berikut difokuskan pada model client--server dan arsitektur three-tier/N-tier sebagai struktur arsitektural yang umum digunakan dalam pengembangan aplikasi web masa kini.
+
+\subsection{Arsitektur Three-Tier/N-Tier}
+
+Arsitektur three-tier (tiga lapisan) atau N-tier merupakan sebuah model arsitektur perangkat lunak yang membagi fungsionalitas aplikasi menjadi tiga lapisan logis dan fisik yang berbeda untuk meningkatkan skalabilitas dan keandalan sistem \cite{maruf2020,prabu2025}. Tiga lapisan utama tersebut terdiri dari: lapisan presentasi (\textit{presentation tier}), yang berinteraksi langsung dengan pengguna; lapisan aplikasi (\textit{application tier} atau \textit{business logic tier}), yang menangani pemorosesan data dan logika bisnis inti; dan lapisan data (\textit{data tier}), yang bertanggung jawab atas penyimpanan dan manajemen basis data \cite{maruf2020}. Pemisahan fungsionalitas ini memungkinkan setiap lapisan dikelola dan dikembangkan secara \textit{independent}, menjadi arsitektur ini pilihan yang efektif untuk sistem yang memerlukan ketersediaan tinggi (\textit{high availabilitiy}), seperti pada kasus penerapan LMS Moodle \cite{ismail2023}.
+
+\subsection{Konsep Client-Server}
+
+Client-server merupakan model perangkat lunak yang memungkinkan sumber daya dan permintaan layanan dipenuhi melalui jaringan, di mana komputer klien akan meminta layanan dan server akan menerima, memproses, serta memberikan respons yang sesuai \cite{assistantprofessor2020,geofrey2020}. Komunikasi antara klien dan server difasilitasi melalui protokol standar seperti HTTP, FTP, dan SMTP \cite{nyabuto2023}.
+
+\section{REST API dan Protokol HTTP}
+
+REST \textit{API} dipahami sebagai pendekatan arsitektur web service yang memanfaatkan prinsip \textit{Representational State Transfer} \cite{ehsan2022,roziqin2023}. REST menekankan penggunaan URI standar untuk mengidentifikasi resource, komunikasi stateless, serta penerapan uniform interface. HTTP berperan sebagai protokol utama yang digunakan sebagai standar komunikasi dengan metode GET, POST, PUT, dan DELETE \cite{aprilliyani2020,roziqin2023}.
+
+\section{Autentikasi dan Otorisasi}
+
+Bagian ini membahas konsep dasar autentikasi dan otorisasi yang menjadi fondasi penting dalam pengamanan aplikasi berbasis web. Mekanisme pengenalan identitas pengguna dan pemberian hak akses harus dirancang secara tepat agar interaksi antar sistem tetap aman, terukur, dan sesuai dengan tingkat kewenangan yang dibutuhkan. Oleh karena itu, pembahasan berikut mencakup OAuth 2.0 sebagai protokol delegasi akses, OpenID Connect sebagai lapisan identitas, JSON Web Token (JWT) sebagai format token yang umum digunakan, skema Bearer Token yang banyak diadopsi dalam komunikasi API, serta prinsip-prinsip keamanan API yang memastikan perlindungan terhadap ancaman dan penyalahgunaan akses.
+
+\subsection{OAuth 2.0}
+
+\textit{OAuth} 2.0 didefinisikan sebagai framework otorisasi yang memungkinkan suatu aplikasi memperoleh akses terbatas ke resource yang dilindungi tanpa harus menyimpan kredensial pengguna secara langsung \cite{lodderstedt2025}. OAuth 2.0 menyediakan seperangkat authorization server \cite{philippaerts2022}. Framework ini dirancang untuk mendukung berbagai konteks-mulai dari aplikasi web, single-page apps, hingga aplikasi mobile-dengan cara memberikan fleksibilitas pada mekanisme autentikasi dan otorisasi yang aman di antara berbagai jenis klien\cite{singh2023}.
+
+\subsection{OpenID Connect}
+
+OpenID Connect (OIDC) merupakan sebuah protokol yang mapan yang digunakan secara luas dalam manajemen identitas terfederasi (federated identity management). Protokol ini berfungsi sebagai dasar bagi otentikasi dan sistem Masuk Tunggal (Single Sign-On atau SSO), yang memungkinkan klien untuk memverifikasi identitas pengguna akhir berdasarkan otentikasi yang dilakukan oleh Penyedia Identitas (Identity Provider)\cite{hammann2020,yasuda2022}. Dibangun di atas kerangka kerja otorisasi OAuth 2.0, kegunaan OIDC meluas hingga ke infrastruktur kompleks, seperti memfasilitasi akses Secure Shell (SSH) pada pengaturan terfederasi dengan menggunakan token akses OIDC untuk otentikasi pengguna pada server jarak jauh\cite{gudu2025}.
+
+\subsection{JWT}
+
+\textit{JSON Web Token} (\textit{JWT}) merupakan sebuah standar terbuka yang didasarkan pada RFC 7519, yang digunakan secara luas sebagai mekanisme standar untuk otentikasi dan otorisasi pengguna pada layanan web. Standar ini tidak hanya populer untuk mengamankan transmisi data dan otentikasi pada RESTful API, tetapi juga dapat diperluas untuk meningkatkan keamanan dengan menyimpan informasi historis perilaku pengguna, seperti konsistensi alamat IP dan jenis user agent \cite{bucko2023,rahman2020}. Sementara itu, JWT secara fundamental adalah format token yang memfasilitasi transmisi data yang ringkas dan aman antara pihak-pihak yang berkepentingan sebagai objek JSON, yang menjadikannya mekanisme otentikasi yang penting dalam implementasi berbagai aplikasi modern \cite{nashikhuddin2023}.
+
+\subsection{Skema Bearer Token}
+
+Skema Bearer Token merupakan mekanisme autentikasi pada OAuth 2.0 di mana klien cukup menyertakan token pada header (Authorization: Bearer <token>) untuk memperoleh akses ke resource yang dilindungi \cite{lodderstedt2025}. Karena token ini bersifat bearer, siapa pun yang memilikinya dapat menggunakannya tanpa verifikasi tambahan, sehingga membuat keamanan transport menjadi aspek kritis. Penelitian terbaru menyoroti bahwa risiko pencurian token dapat diminimalkan melalui penggunaan kalal terenskripsi, pembatasan masa hidup token, serta validasi ketat pada sisi server \cite{ball2020}. Selain itu, praktik modern juga menekankan pentingnya menghindari pengiriman token melalui URL dan memastikan proses otorisasi mengikuti pedoman keamanan OAuth 2.0 \cite{neelan2022}.
+
+\subsection{Keamanan API}
+
+Keamanan API merupakan aspek kritis karena API sering menjadi target serangan \cite{chandramouli2020}. Banyak celah keamanan muncul akibat pengelolaan aset API yang lemah, API lama yang tidak terinventarisasi, serta kerentanan pada alur data dan logika bisnis \cite{sun2022}. Selain itu, meningkatnya kompleksitas arsitektur RESTful dan GraphQL memperluas permukaan serangan, termasuk risiko seperti information leakage, unauthorized access, dan eksploitasi validasi input yang tidak memadai \cite{zhao2020}
+
+Untuk mengatasi ancaman tersebut, mekanisme keamanan API membutuhkan pendekatan berlapis yang mencakup autentikasi kuas berbasis OAuth/JWT, penggunaan HTTPS/TLS untuk mengamankan transmisi data, serta manjemen hak akses yang detail guna mencegah penyalahgunaan kredensial \cite{zhao2020}. Pentingnya teknik seperti asset discovery, traffic auditing, dan analisis alur data untuk mengidentifikasi API tersembunyi dan aktivitas mencurigakan \cite{sun2022}. Di samping itu, penggunaan API Gateaway dapat membantu menerapkan pembatasan trafik, filtrasi permintaan, dan perlindungan terhadap serangan seperti DDoS, sehingga API tetap terawasi dan terlindungi secara konsisten. 
+
+\section{Database NoSQL (MongoDB)}
+
+Basis data dokumen NoSQL (\textit{Not Only SQL}) muncul sebagai alternatif yang signifikan terhadap basis data relasional tradisional yang sering memiliki batasan ketat pada struktur data dan relasi, sehingga kurang efisien untuk menangani volume data yang sangat besar (\textit{huge database}) \cite{byali2022}. NoSQL document database mengatasi masalah ini dengan menyediakan kemampuan untuk menyimppan dan mengelola data dalam format dokumen, sehingga dapat menampung data yang tidak terstruktur, semi-struktur, maupun terstruktur \cite{carvalho2023}. Keunggulan utama NoSQL, khususnya jenis berorientasi dokumen seperti MongoDB, terletak pada fleksibilitas dan skalabilitas horizontal yang tinggi, menjadikannya pilihan esensial ketika skema data yang dinamis tidak sesuai dengan kebutuhan basis data realisonal \cite{byali2022}.
+
+Secara opsional, basis data dokumen NoSQL menyimpan dalam bentuk dokumen. Meskipun memiliki perbedaan dalam beberapa aspek, MongoDB, Couchbase, dan CouchDB adalah contoh utama dari basis data dokume yang terkenal \cite{carvalho2023}. Sebagai contoh MongoDB merupakan basis data berorientasi dokumen, crossplatform, yang menawarkan kinjera tinggi, ketersediaan tinggi, dan skalabilitas yang sederhana. Basis data ini menggunakan MongoDB Query Language (MQL) yang dirancang untuk kemudahan penggunaan oleh pengembang \cite{byali2022}. Oleh karena itu, basis data dokumen NoSQL menjadi solusi penting untuk aplikasi padat data, memastikan penyimpanan big data dan kinerja kueri yang baik.
+
+\section{Unified Modeling Language (UML)}
+
+Unified Modeling Language (UML) didefinisikan sebagai sebuah bahasa pemodelan standar yang digunakan untuk merancang dan mendokumentasikan sistem berorientasi objek. Sebagai bahasa standar, UML menyediakan seperangkat notasi grafis yang komprehensif untuk memvisualisasikan, memspesifikasikan, membangun, dan mendokumentasikan artefak dalam sistem perangkat. Tujuan utama penggunaan UML adalah untuk memperjelas model yang tidak konsisten dan mengurangi ambiguitas selama proses pengembangan perangkat lunak \cite{amani2024}. UML membantu memvisualkan, menspesifikasikan, dan mendokumentasikan desain sistem secara grafis \cite{siska2024}.
+
+Dengan menggunakan diagram-diagram yang berbeda, seperti Use Case Diagram dan Activity Diagram, UML membantu pengembang dalam memodelkan interaksi, struktur, dan perilaku sistem \cite{dabdawb2024}. Penerapan UML sangat krusial dalam siklus hidup pengembangan sistem (\textit{System Development Life Cycle} atau SDLC) karena membantu memastikan konsistensi model dan mempermudah komunikasi antara pihak-pihak yang terlibat dalam proyek \cite{marchezan2023}.
+
+\subsection{Use Case Diagram}
+Use Case adalah suatu diagram fundamental yang umum diajarkan dalam ilmu komputer dan rekayasa perangkat lunak. Diagram ini berfungsi sebagai representasi visual dari fungsionalitas sistem dari sudut pandang pengguna. Meskipun definisinya tampak sederhana, penilaian terhadap diagram use case sering kali menjadi hambatan dalam proses pembelajaran, terutama karena dua masalah utama: masalah interpersonal (tidak adanya standar penilaian di antara para pengajar) \cite{jebli2024} dan masalah intrapersonal (inkonsistensi seorang pengajar saat menilai banyak diagram) \cite{fauzan2021,abbott2025,wang2025}.
+
+\subsection{Activity Diagram}
+Activity Diagram adalah salah satu diagram perilaku yang tersedia dalam Unified Model Language (UML) yang digunakan untuk memodelkan alur kontrol dan alur data dalam suatu sistem \cite{sandfreni2021}. Diagram ini secara visual merepresentasikan Langkah-langkah, keputusan, dan urutan tindakan yang diperlukan untuk menyelesaikan suatu proses atau kegiatan bisnis tertentu \cite{siska2024}. Dalam konteks pemodelan sistem, Activity Diagram sangat berguna untuk memvisualisasikan bagaimana berbagai kegiatan saling terkait dan bergantung satu sama lain \cite{jha2023,ramdany2020}.
+
+\subsection{Sequence Diagram}
+Sequence Diagram adalah diagram UML yang paling umum kedua, digunakan untuk merepresentasikan interaksi objek dan pertukaran pesan antar objek tersebut seiring berjalannya waktu \cite{siska2024}. Diagram ini secara visual menunjukkan bagaimana peristiwa atau aktivitas yang ada dalam sebuah use case dipetakan menjadi operasi-operasi dari kelas objek yang ada pada Class Diagram \cite{alfedaghi2020}.
+
+\subsection{Class Diagram}
+Class Diagram merupakan salah satu diagram Unified Modeling Language (UML) yang paling umum digunakan dalam Pendidikan dan pengembangan perangkat lunak berorientasi objek \cite{siska2024}. Fungsi utama dari Class Diagram adalah untuk merepresentasikan kelas-kelas dalam sistem perangkat lunak dan hubungan yang terjalin antar kelas-kelas tersebut \cite{fauzan2021}.
+
