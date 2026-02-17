@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.2.17)  17 FEB 2026 12:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.2.17)  17 FEB 2026 13:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -442,24 +442,617 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring OFF on input line 21.
-(bukped.out) (bukped.out
-! I can't write on file `bukped.pdf'.
-(Press Enter to retry, or Control-C to exit; default file extension is `.pdf')
-Please type another file name for output
-! Emergency stop.
-\Hy@OutlineName ...utline goto name{#2}count#3{#4}
-                                                  
-l.1 ...6\377\000A\000B\000S\000T\000R\000A\000K}{}
-                                                  % 1
-*** (job aborted, file error in nonstop mode)
+(bukped.out) (bukped.out)
+\@outlinefile=\write3
+\openout3 = `bukped.out'.
 
- 
+\c@maskedRefs=\count316
+
+
+Package apacite Warning: No suitable language definition file (indonesian.apc) 
+found.
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: End \AtBeginDocument code.
+<images/ulbi.png, id=359, 341.1144pt x 120.45pt>
+File: images/ulbi.png Graphic file (type png)
+<use images/ulbi.png>
+Package pdftex.def Info: images/ulbi.png  used on input line 43.
+(pdftex.def)             Requested size: 239.00558pt x 84.39528pt.
+[1
+
+{C:/Users/Lenovo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./images/ul
+bi.png>]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 73.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 73.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 73.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.104 \end{titlepage}
+                      [1]
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.150 \end{center}
+                   [1]
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.197 \end{center}
+                   [1] (chapters/abstrak.tex)
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.209 \clearpage
+                 [1] (chapters/abstract.tex) [2
+
+] [3
+
+] (bukped.toc [4
+
+] [5])
+\tf@toc=\write4
+\openout4 = `bukped.toc'.
+
+
+[6] (bukped.lot)
+\tf@lot=\write5
+\openout5 = `bukped.lot'.
+
+ [7
+
+] (bukped.lof [8
+
+])
+\tf@lof=\write6
+\openout6 = `bukped.lof'.
+
+ [9] (chapters/bab1.tex [10
+
+]
+Bab 1.
+[11
+
+] [12]) [13] (chapters/bab2.tex [14]
+Bab 2.
+[15
+
+] [16]
+<images/usecase/usecase.png, id=698, 159.651pt x 90.3375pt>
+File: images/usecase/usecase.png Graphic file (type png)
+<use images/usecase/usecase.png>
+Package pdftex.def Info: images/usecase/usecase.png  used on input line 55.
+(pdftex.def)             Requested size: 71.13188pt x 40.24898pt.
+<images/usecase/actor.png, id=699, 54.2025pt x 106.14656pt>
+File: images/usecase/actor.png Graphic file (type png)
+<use images/usecase/actor.png>
+Package pdftex.def Info: images/usecase/actor.png  used on input line 58.
+(pdftex.def)             Requested size: 56.9055pt x 111.44583pt.
+<images/usecase/association.png, id=700, 159.651pt x 21.024pt>
+File: images/usecase/association.png Graphic file (type png)
+<use images/usecase/association.png>
+Package pdftex.def Info: images/usecase/association.png  used on input line 61.
+
+(pdftex.def)             Requested size: 85.35826pt x 11.2405pt.
+<images/usecase/association_arrow.png, id=701, 159.651pt x 32.193pt>
+File: images/usecase/association_arrow.png Graphic file (type png)
+<use images/usecase/association_arrow.png>
+Package pdftex.def Info: images/usecase/association_arrow.png  used on input li
+ne 64.
+(pdftex.def)             Requested size: 85.35826pt x 17.21202pt.
+<images/usecase/include.png, id=702, 159.651pt x 36.792pt>
+File: images/usecase/include.png Graphic file (type png)
+<use images/usecase/include.png>
+Package pdftex.def Info: images/usecase/include.png  used on input line 67.
+(pdftex.def)             Requested size: 85.35826pt x 19.67088pt.
+<images/usecase/extend.png, id=703, 159.651pt x 39.0915pt>
+File: images/usecase/extend.png Graphic file (type png)
+<use images/usecase/extend.png>
+Package pdftex.def Info: images/usecase/extend.png  used on input line 70.
+(pdftex.def)             Requested size: 85.35826pt x 20.90031pt.
+ [17]
+<images/activity_diagram/start.png, id=714, 35.1495pt x 83.439pt>
+File: images/activity_diagram/start.png Graphic file (type png)
+<use images/activity_diagram/start.png>
+Package pdftex.def Info: images/activity_diagram/start.png  used on input line 
+88.
+(pdftex.def)             Requested size: 42.67912pt x 101.31541pt.
+<images/activity_diagram/end.png, id=715, 60.1155pt x 60.1155pt>
+File: images/activity_diagram/end.png Graphic file (type png)
+<use images/activity_diagram/end.png>
+Package pdftex.def Info: images/activity_diagram/end.png  used on input line 91
+.
+(pdftex.def)             Requested size: 42.67912pt x 42.68045pt.
+<images/activity_diagram/activity.png, id=716, 100.8495pt x 43.6905pt>
+File: images/activity_diagram/activity.png Graphic file (type png)
+<use images/activity_diagram/activity.png>
+Package pdftex.def Info: images/activity_diagram/activity.png  used on input li
+ne 94.
+(pdftex.def)             Requested size: 85.35826pt x 36.98108pt.
+<images/activity_diagram/fork.png, id=717, 48.18pt x 4.818pt>
+File: images/activity_diagram/fork.png Graphic file (type png)
+<use images/activity_diagram/fork.png>
+Package pdftex.def Info: images/activity_diagram/fork.png  used on input line 9
+7.
+(pdftex.def)             Requested size: 85.35826pt x 8.53575pt.
+<images/activity_diagram/decision.png, id=718, 60.7725pt x 60.7725pt>
+File: images/activity_diagram/decision.png Graphic file (type png)
+<use images/activity_diagram/decision.png>
+Package pdftex.def Info: images/activity_diagram/decision.png  used on input li
+ne 100.
+(pdftex.def)             Requested size: 71.13188pt x 71.13968pt.
+<images/activity_diagram/lane.png, id=719, 117.9315pt x 101.835pt>
+File: images/activity_diagram/lane.png Graphic file (type png)
+<use images/activity_diagram/lane.png>
+Package pdftex.def Info: images/activity_diagram/lane.png  used on input line 1
+03.
+(pdftex.def)             Requested size: 85.35826pt x 73.70805pt.
+ [18 <./images/usecase/usecase.png> <./images/usecase/actor.png> <./images/usec
+ase/association.png> <./images/usecase/association_arrow.png> <./images/usecase
+/include.png> <./images/usecase/extend.png>]
+<images/sequence/entity.png, id=733, 65.3715pt x 65.3715pt>
+File: images/sequence/entity.png Graphic file (type png)
+<use images/sequence/entity.png>
+Package pdftex.def Info: images/sequence/entity.png  used on input line 121.
+(pdftex.def)             Requested size: 56.9055pt x 56.90564pt.
+<images/sequence/boundary.png, id=734, 68.6565pt x 58.8015pt>
+File: images/sequence/boundary.png Graphic file (type png)
+<use images/sequence/boundary.png>
+Package pdftex.def Info: images/sequence/boundary.png  used on input line 124.
+(pdftex.def)             Requested size: 56.9055pt x 48.73703pt.
+<images/sequence/control.png, id=735, 62.0865pt x 62.0865pt>
+File: images/sequence/control.png Graphic file (type png)
+<use images/sequence/control.png>
+Package pdftex.def Info: images/sequence/control.png  used on input line 127.
+(pdftex.def)             Requested size: 56.9055pt x 56.9052pt.
+<images/sequence/message.png, id=736, 120.5595pt x 46.647pt>
+File: images/sequence/message.png Graphic file (type png)
+<use images/sequence/message.png>
+Package pdftex.def Info: images/sequence/message.png  used on input line 130.
+(pdftex.def)             Requested size: 85.35826pt x 33.02777pt.
+<images/sequence/recursive.png, id=737, 60.1155pt x 80.811pt>
+File: images/sequence/recursive.png Graphic file (type png)
+<use images/sequence/recursive.png>
+Package pdftex.def Info: images/sequence/recursive.png  used on input line 133.
+
+(pdftex.def)             Requested size: 85.35826pt x 114.75487pt.
+<images/sequence/activation.png, id=738, 25.623pt x 83.439pt>
+File: images/sequence/activation.png Graphic file (type png)
+<use images/sequence/activation.png>
+Package pdftex.def Info: images/sequence/activation.png  used on input line 136
+.
+(pdftex.def)             Requested size: 56.9055pt x 185.32077pt.
+<images/sequence/lifeline.png, id=739, 75.2265pt x 196.1145pt>
+File: images/sequence/lifeline.png Graphic file (type png)
+<use images/sequence/lifeline.png>
+Package pdftex.def Info: images/sequence/lifeline.png  used on input line 139.
+(pdftex.def)             Requested size: 56.9055pt x 148.35728pt.
+ [19 <./images/activity_diagram/start.png> <./images/activity_diagram/end.png> 
+<./images/activity_diagram/activity.png> <./images/activity_diagram/fork.png> <
+./images/activity_diagram/decision.png> <./images/activity_diagram/lane.png>]
+Overfull \vbox (179.52258pt too high) has occurred while \output is active []
+
+
+[20 <./images/sequence/entity.png> <./images/sequence/boundary.png> <./images/s
+equence/control.png> <./images/sequence/message.png> <./images/sequence/recursi
+ve.png> <./images/sequence/activation.png> <./images/sequence/lifeline.png>]
+<images/deployment/component.png, id=763, 103.88812pt x 61.73062pt>
+File: images/deployment/component.png Graphic file (type png)
+<use images/deployment/component.png>
+Package pdftex.def Info: images/deployment/component.png  used on input line 15
+7.
+(pdftex.def)             Requested size: 85.35826pt x 50.72209pt.
+<images/deployment/module.png, id=764, 101.62968pt x 49.68562pt>
+File: images/deployment/module.png Graphic file (type png)
+<use images/deployment/module.png>
+Package pdftex.def Info: images/deployment/module.png  used on input line 160.
+(pdftex.def)             Requested size: 85.35826pt x 41.73184pt.
+<images/deployment/node.png, id=765, 103.88812pt x 77.53969pt>
+File: images/deployment/node.png Graphic file (type png)
+<use images/deployment/node.png>
+Package pdftex.def Info: images/deployment/node.png  used on input line 163.
+(pdftex.def)             Requested size: 85.35826pt x 63.7119pt.
+<images/deployment/package.png, id=766, 100.87688pt x 79.04532pt>
+File: images/deployment/package.png Graphic file (type png)
+<use images/deployment/package.png>
+Package pdftex.def Info: images/deployment/package.png  used on input line 166.
+
+(pdftex.def)             Requested size: 85.35826pt x 66.88608pt.
+<images/deployment/dependency.png, id=767, 112.92188pt x 26.34843pt>
+File: images/deployment/dependency.png Graphic file (type png)
+<use images/deployment/dependency.png>
+Package pdftex.def Info: images/deployment/dependency.png  used on input line 1
+69.
+(pdftex.def)             Requested size: 85.35826pt x 19.91806pt.
+
+Underfull \hbox (badness 1142) in paragraph at lines 170--170
+[]\OT1/cmr/m/n/12 Kebergantungan me-nun-jukk-an hu-bung-an an-tar
+ []
+
+<images/deployment/relation.png, id=768, 91.84312pt x 16.56187pt>
+File: images/deployment/relation.png Graphic file (type png)
+<use images/deployment/relation.png>
+Package pdftex.def Info: images/deployment/relation.png  used on input line 172
+.
+(pdftex.def)             Requested size: 85.35826pt x 15.39352pt.
+) [21 <./images/deployment/component.png> <./images/deployment/module.png> <./i
+mages/deployment/node.png> <./images/deployment/package.png> <./images/deployme
+nt/dependency.png> <./images/deployment/relation.png>] (chapters/bab3.tex
+[22]
+Bab 3.
+[23
+
+] [24]
+<images/bab3/usecase.png, id=802, 381.67593pt x 287.57437pt>
+File: images/bab3/usecase.png Graphic file (type png)
+<use images/bab3/usecase.png>
+Package pdftex.def Info: images/bab3/usecase.png  used on input line 69.
+(pdftex.def)             Requested size: 398.3386pt x 300.14096pt.
+ [25]
+<images/bab3/classdiagram.png, id=809, 342.5297pt x 318.43968pt>
+File: images/bab3/classdiagram.png Graphic file (type png)
+<use images/bab3/classdiagram.png>
+Package pdftex.def Info: images/bab3/classdiagram.png  used on input line 86.
+(pdftex.def)             Requested size: 398.3386pt x 370.35237pt.
+ [26 <./images/bab3/usecase.png>] [27 <./images/bab3/classdiagram.png>]
+<images/bab3/activity_tamu.png, id=822, 316.017pt x 159.651pt>
+File: images/bab3/activity_tamu.png Graphic file (type png)
+<use images/bab3/activity_tamu.png>
+Package pdftex.def Info: images/bab3/activity_tamu.png  used on input line 109.
+
+(pdftex.def)             Requested size: 358.50229pt x 181.12216pt.
+<images/bab3/activity_registrasi.png, id=824, 307.90031pt x 281.55188pt>
+File: images/bab3/activity_registrasi.png Graphic file (type png)
+<use images/bab3/activity_registrasi.png>
+Package pdftex.def Info: images/bab3/activity_registrasi.png  used on input lin
+e 119.
+(pdftex.def)             Requested size: 358.50229pt x 327.84627pt.
+ [28 <./images/bab3/activity_tamu.png>]
+<images/bab3/activity_login.png, id=831, 311.66437pt x 378.66469pt>
+File: images/bab3/activity_login.png Graphic file (type png)
+<use images/bab3/activity_login.png>
+Package pdftex.def Info: images/bab3/activity_login.png  used on input line 132
+.
+(pdftex.def)             Requested size: 358.50229pt x 435.57657pt.
+ [29 <./images/bab3/activity_registrasi.png>]
+<images/bab3/activity_peminjaman.png, id=838, 278.54062pt x 374.14781pt>
+File: images/bab3/activity_peminjaman.png Graphic file (type png)
+<use images/bab3/activity_peminjaman.png>
+Package pdftex.def Info: images/bab3/activity_peminjaman.png  used on input lin
+e 145.
+(pdftex.def)             Requested size: 358.50229pt x 481.56795pt.
+ [30 <./images/bab3/activity_login.png>] [31 <./images/bab3/activity_peminjaman
+.png>]
+<images/bab3/activity_donasi.png, id=850, 309.885pt x 403.398pt>
+File: images/bab3/activity_donasi.png Graphic file (type png)
+<use images/bab3/activity_donasi.png>
+Package pdftex.def Info: images/bab3/activity_donasi.png  used on input line 15
+7.
+(pdftex.def)             Requested size: 358.50229pt x 466.69861pt.
+ [32 <./images/bab3/activity_donasi.png>]
+<images/bab3/activity_riwayat_peminjaman.png, id=857, 316.93407pt x 205.5178pt>
+
+File: images/bab3/activity_riwayat_peminjaman.png Graphic file (type png)
+<use images/bab3/activity_riwayat_peminjaman.png>
+Package pdftex.def Info: images/bab3/activity_riwayat_peminjaman.png  used on i
+nput line 169.
+(pdftex.def)             Requested size: 358.50229pt x 232.49269pt.
+<images/bab3/activity_riwayat_donasi.png, id=859, 309.885pt x 204.108pt>
+File: images/bab3/activity_riwayat_donasi.png Graphic file (type png)
+<use images/bab3/activity_riwayat_donasi.png>
+Package pdftex.def Info: images/bab3/activity_riwayat_donasi.png  used on input
+ line 181.
+(pdftex.def)             Requested size: 358.50229pt x 236.13632pt.
+ [33 <./images/bab3/activity_riwayat_peminjaman.png>]
+<images/bab3/activity_notifikasi.png, id=867, 309.885pt x 204.108pt>
+File: images/bab3/activity_notifikasi.png Graphic file (type png)
+<use images/bab3/activity_notifikasi.png>
+Package pdftex.def Info: images/bab3/activity_notifikasi.png  used on input lin
+e 191.
+(pdftex.def)             Requested size: 358.50229pt x 236.13632pt.
+ [34 <./images/bab3/activity_riwayat_donasi.png>]
+<images/bab3/activity_kelola_akun.png, id=874, 362.85562pt x 347.79938pt>
+File: images/bab3/activity_kelola_akun.png Graphic file (type png)
+<use images/bab3/activity_kelola_akun.png>
+Package pdftex.def Info: images/bab3/activity_kelola_akun.png  used on input li
+ne 203.
+(pdftex.def)             Requested size: 358.50229pt x 343.63254pt.
+ [35 <./images/bab3/activity_notifikasi.png>]
+Overfull \hbox (0.76793pt too wide) in paragraph at lines 208--209
+\OT1/cmr/m/n/12 Gambar []3.11[] meng-gam-bark-an pro-ses pem-ba-ru-an da-ta pri
+-ba-di peng-gu-na. Peng-
+ []
+
+<images/bab3/activity_login_admin.png, id=881, 308.65312pt x 404.26031pt>
+File: images/bab3/activity_login_admin.png Graphic file (type png)
+<use images/bab3/activity_login_admin.png>
+Package pdftex.def Info: images/bab3/activity_login_admin.png  used on input li
+ne 213.
+(pdftex.def)             Requested size: 358.50229pt x 469.58998pt.
+[36 <./images/bab3/activity_kelola_akun.png>]
+<images/bab3/activity_kelola_peminjaman_admin.png, id=888, 264.23718pt x 426.09
+187pt>
+File: images/bab3/activity_kelola_peminjaman_admin.png Graphic file (type png)
+<use images/bab3/activity_kelola_peminjaman_admin.png>
+Package pdftex.def Info: images/bab3/activity_kelola_peminjaman_admin.png  used
+ on input line 225.
+(pdftex.def)             Requested size: 378.42044pt x 610.25598pt.
+ [37 <./images/bab3/activity_login_admin.png>] [38]
+Overfull \vbox (1.51358pt too high) has occurred while \output is active []
+
+
+[39 <./images/bab3/activity_kelola_peminjaman_admin.png>]
+<images/bab3/activity_kelola_inventaris.png, id=905, 275.52937pt x 356.83313pt>
+
+File: images/bab3/activity_kelola_inventaris.png Graphic file (type png)
+<use images/bab3/activity_kelola_inventaris.png>
+Package pdftex.def Info: images/bab3/activity_kelola_inventaris.png  used on in
+put line 237.
+(pdftex.def)             Requested size: 358.50229pt x 464.33492pt.
+ [40 <./images/bab3/activity_kelola_inventaris.png>]
+<images/bab3/activity_kelola_berita.png, id=912, 308.65312pt x 286.82156pt>
+File: images/bab3/activity_kelola_berita.png Graphic file (type png)
+<use images/bab3/activity_kelola_berita.png>
+Package pdftex.def Info: images/bab3/activity_kelola_berita.png  used on input 
+line 249.
+(pdftex.def)             Requested size: 358.50229pt x 333.17276pt.
+<images/bab3/activity_kelola_iklan.png, id=914, 308.65312pt x 280.04625pt>
+File: images/bab3/activity_kelola_iklan.png Graphic file (type png)
+<use images/bab3/activity_kelola_iklan.png>
+Package pdftex.def Info: images/bab3/activity_kelola_iklan.png  used on input l
+ine 259.
+(pdftex.def)             Requested size: 358.50229pt x 325.30254pt.
+ [41 <./images/bab3/activity_kelola_berita.png>]
+<images/bab3/activity_konfirmasi_donasi.png, id=921, 327.186pt x 363.759pt>
+File: images/bab3/activity_konfirmasi_donasi.png Graphic file (type png)
+<use images/bab3/activity_konfirmasi_donasi.png>
+Package pdftex.def Info: images/bab3/activity_konfirmasi_donasi.png  used on in
+put line 271.
+(pdftex.def)             Requested size: 378.42044pt x 420.75629pt.
+
+[42 <./images/bab3/activity_kelola_iklan.png>] [43 <./images/bab3/activity_konf
+irmasi_donasi.png>]
+<images/bab3/sequence_tamu.png, id=933, 340.27126pt x 176.15813pt>
+File: images/bab3/sequence_tamu.png Graphic file (type png)
+<use images/bab3/sequence_tamu.png>
+Package pdftex.def Info: images/bab3/sequence_tamu.png  used on input line 285.
+
+(pdftex.def)             Requested size: 398.3386pt x 206.2305pt.
+<images/bab3/sequence_login.png, id=935, 344.78813pt x 161.85469pt>
+File: images/bab3/sequence_login.png Graphic file (type png)
+<use images/bab3/sequence_login.png>
+Package pdftex.def Info: images/bab3/sequence_login.png  used on input line 295
+.
+(pdftex.def)             Requested size: 398.3386pt x 186.99582pt.
+ [44 <./images/bab3/sequence_tamu.png>]
+<images/bab3/sequence_peminjaman.png, id=942, 354.57469pt x 173.89969pt>
+File: images/bab3/sequence_peminjaman.png Graphic file (type png)
+<use images/bab3/sequence_peminjaman.png>
+Package pdftex.def Info: images/bab3/sequence_peminjaman.png  used on input lin
+e 307.
+(pdftex.def)             Requested size: 398.3386pt x 195.36864pt.
+ [45 <./images/bab3/sequence_login.png> <./images/bab3/sequence_peminjaman.png>
+]
+<images/bab3/sequence_donasi.png, id=951, 351.56343pt x 167.87718pt>
+File: images/bab3/sequence_donasi.png Graphic file (type png)
+<use images/bab3/sequence_donasi.png>
+Package pdftex.def Info: images/bab3/sequence_donasi.png  used on input line 31
+9.
+(pdftex.def)             Requested size: 398.3386pt x 190.21132pt.
+<images/bab3/sequence_riwayat_peminjaman.png, id=953, 352.31625pt x 157.33781pt
+>
+File: images/bab3/sequence_riwayat_peminjaman.png Graphic file (type png)
+<use images/bab3/sequence_riwayat_peminjaman.png>
+Package pdftex.def Info: images/bab3/sequence_riwayat_peminjaman.png  used on i
+nput line 329.
+(pdftex.def)             Requested size: 398.3386pt x 177.89047pt.
+ [46 <./images/bab3/sequence_donasi.png>]
+<images/bab3/sequence_riwayat_donasi.png, id=960, 349.305pt x 159.59625pt>
+File: images/bab3/sequence_riwayat_donasi.png Graphic file (type png)
+<use images/bab3/sequence_riwayat_donasi.png>
+Package pdftex.def Info: images/bab3/sequence_riwayat_donasi.png  used on input
+ line 341.
+(pdftex.def)             Requested size: 398.3386pt x 182.00978pt.
+<images/bab3/sequence_kelola_akun.png, id=962, 351.56343pt x 167.87718pt>
+File: images/bab3/sequence_kelola_akun.png Graphic file (type png)
+<use images/bab3/sequence_kelola_akun.png>
+Package pdftex.def Info: images/bab3/sequence_kelola_akun.png  used on input li
+ne 353.
+(pdftex.def)             Requested size: 398.3386pt x 190.21132pt.
+ [47 <./images/bab3/sequence_riwayat_peminjaman.png> <./images/bab3/sequence_ri
+wayat_donasi.png>]
+<images/bab3/sequence_notifikasi.png, id=970, 350.05782pt x 161.85469pt>
+File: images/bab3/sequence_notifikasi.png Graphic file (type png)
+<use images/bab3/sequence_notifikasi.png>
+Package pdftex.def Info: images/bab3/sequence_notifikasi.png  used on input lin
+e 363.
+(pdftex.def)             Requested size: 398.3386pt x 184.19025pt.
+<images/bab3/sequence_admin_peminjaman.png, id=972, 293.59688pt x 310.91156pt>
+File: images/bab3/sequence_admin_peminjaman.png Graphic file (type png)
+<use images/bab3/sequence_admin_peminjaman.png>
+Package pdftex.def Info: images/bab3/sequence_admin_peminjaman.png  used on inp
+ut line 375.
+(pdftex.def)             Requested size: 398.3386pt x 421.83308pt.
+ [48 <./images/bab3/sequence_kelola_akun.png> <./images/bab3/sequence_notifikas
+i.png>]
+<images/bab3/sequence_admin_inventaris.png, id=980, 302.63063pt x 280.04625pt>
+File: images/bab3/sequence_admin_inventaris.png Graphic file (type png)
+<use images/bab3/sequence_admin_inventaris.png>
+Package pdftex.def Info: images/bab3/sequence_admin_inventaris.png  used on inp
+ut line 387.
+(pdftex.def)             Requested size: 398.3386pt x 368.61525pt.
+ [49 <./images/bab3/sequence_admin_peminjaman.png>]
+<images/bab3/sequence_admin_berita.png, id=987, 300.3722pt x 216.81pt>
+File: images/bab3/sequence_admin_berita.png Graphic file (type png)
+<use images/bab3/sequence_admin_berita.png>
+Package pdftex.def Info: images/bab3/sequence_admin_berita.png  used on input l
+ine 397.
+(pdftex.def)             Requested size: 398.3386pt x 287.54645pt.
+ [50 <./images/bab3/sequence_admin_inventaris.png>]
+<images/bab3/sequence_admin_iklan.png, id=994, 304.88907pt x 196.48407pt>
+File: images/bab3/sequence_admin_iklan.png Graphic file (type png)
+<use images/bab3/sequence_admin_iklan.png>
+Package pdftex.def Info: images/bab3/sequence_admin_iklan.png  used on input li
+ne 409.
+(pdftex.def)             Requested size: 398.3386pt x 256.71544pt.
+ [51 <./images/bab3/sequence_admin_berita.png>]
+<images/bab3/sequence_admin_konfirmasi_donasi.png, id=1002, 286.06876pt x 261.2
+2594pt>
+File: images/bab3/sequence_admin_konfirmasi_donasi.png Graphic file (type png)
+<use images/bab3/sequence_admin_konfirmasi_donasi.png>
+Package pdftex.def Info: images/bab3/sequence_admin_konfirmasi_donasi.png  used
+ on input line 421.
+(pdftex.def)             Requested size: 398.3386pt x 363.75269pt.
+ [52 <./images/bab3/sequence_admin_iklan.png>]
+<images/bab3/deployment.png, id=1009, 351.495pt x 327.5145pt>
+File: images/bab3/deployment.png Graphic file (type png)
+<use images/bab3/deployment.png>
+Package pdftex.def Info: images/bab3/deployment.png  used on input line 431.
+(pdftex.def)             Requested size: 398.3386pt x 371.18651pt.
+ [53 <./images/bab3/sequence_admin_konfirmasi_donasi.png>]) [54 <./images/bab3/
+deployment.png>] (chapters/bab4.tex [55]
+Bab 4.
+<images/bab4/landing_page.png, id=1025, 385.659pt x 183.6315pt>
+File: images/bab4/landing_page.png Graphic file (type png)
+<use images/bab4/landing_page.png>
+Package pdftex.def Info: images/bab4/landing_page.png  used on input line 9.
+(pdftex.def)             Requested size: 398.3386pt x 189.66931pt.
+<images/bab4/login.png, id=1027, 292.0365pt x 181.332pt>
+File: images/bab4/login.png Graphic file (type png)
+<use images/bab4/login.png>
+Package pdftex.def Info: images/bab4/login.png  used on input line 19.
+(pdftex.def)             Requested size: 239.00558pt x 148.40543pt.
+[56
+
+ <./images/bab4/landing_page.png>]
+<images/bab4/register.png, id=1034, 312.41719pt x 210.7875pt>
+File: images/bab4/register.png Graphic file (type png)
+<use images/bab4/register.png>
+Package pdftex.def Info: images/bab4/register.png  used on input line 31.
+(pdftex.def)             Requested size: 239.00558pt x 161.26155pt.
+<images/bab4/dashboard.png, id=1036, 374.90062pt x 216.05719pt>
+File: images/bab4/dashboard.png Graphic file (type png)
+<use images/bab4/dashboard.png>
+Package pdftex.def Info: images/bab4/dashboard.png  used on input line 43.
+(pdftex.def)             Requested size: 398.3386pt x 229.57666pt.
+ [57 <./images/bab4/login.png> <./images/bab4/register.png>]
+<images/bab4/peminjaman.png, id=1045, 377.15906pt x 212.29312pt>
+File: images/bab4/peminjaman.png Graphic file (type png)
+<use images/bab4/peminjaman.png>
+Package pdftex.def Info: images/bab4/peminjaman.png  used on input line 53.
+(pdftex.def)             Requested size: 398.3386pt x 224.21332pt.
+ [58 <./images/bab4/dashboard.png>]
+<images/bab4/riwayat_peminjaman.png, id=1052, 377.15906pt x 212.29312pt>
+File: images/bab4/riwayat_peminjaman.png Graphic file (type png)
+<use images/bab4/riwayat_peminjaman.png>
+Package pdftex.def Info: images/bab4/riwayat_peminjaman.png  used on input line
+ 65.
+(pdftex.def)             Requested size: 398.3386pt x 224.21332pt.
+ [59 <./images/bab4/peminjaman.png>]
+<images/bab4/form_donasi.png, id=1059, 382.42876pt x 215.30438pt>
+File: images/bab4/form_donasi.png Graphic file (type png)
+<use images/bab4/form_donasi.png>
+Package pdftex.def Info: images/bab4/form_donasi.png  used on input line 77.
+(pdftex.def)             Requested size: 398.3386pt x 224.27264pt.
+ [60 <./images/bab4/riwayat_peminjaman.png>]
+<images/bab4/riwayat_donasi.png, id=1066, 374.14781pt x 210.03468pt>
+File: images/bab4/riwayat_donasi.png Graphic file (type png)
+<use images/bab4/riwayat_donasi.png>
+Package pdftex.def Info: images/bab4/riwayat_donasi.png  used on input line 87.
+
+(pdftex.def)             Requested size: 398.3386pt x 223.62599pt.
+ [61 <./images/bab4/form_donasi.png>]
+<images/bab4/profile_user.png, id=1073, 380.92313pt x 214.55156pt>
+File: images/bab4/profile_user.png Graphic file (type png)
+<use images/bab4/profile_user.png>
+Package pdftex.def Info: images/bab4/profile_user.png  used on input line 99.
+(pdftex.def)             Requested size: 398.3386pt x 224.36911pt.
+ [62 <./images/bab4/riwayat_donasi.png>]
+<images/bab4/dashboard_admin.png, id=1080, 374.90062pt x 210.7875pt>
+File: images/bab4/dashboard_admin.png Graphic file (type png)
+<use images/bab4/dashboard_admin.png>
+Package pdftex.def Info: images/bab4/dashboard_admin.png  used on input line 11
+1.
+(pdftex.def)             Requested size: 398.3386pt x 223.97725pt.
+ [63 <./images/bab4/profile_user.png>]
+<images/bab4/tambah_alat.png, id=1088, 375.65344pt x 210.7875pt>
+File: images/bab4/tambah_alat.png Graphic file (type png)
+<use images/bab4/tambah_alat.png>
+Package pdftex.def Info: images/bab4/tambah_alat.png  used on input line 121.
+(pdftex.def)             Requested size: 338.59023pt x 190.0029pt.
+ [64 <./images/bab4/dashboard_admin.png> <./images/bab4/tambah_alat.png>]
+<images/bab4/list_peminjaman.png, id=1096, 379.4175pt x 213.04594pt>
+File: images/bab4/list_peminjaman.png Graphic file (type png)
+<use images/bab4/list_peminjaman.png>
+Package pdftex.def Info: images/bab4/list_peminjaman.png  used on input line 13
+3.
+(pdftex.def)             Requested size: 398.3386pt x 223.67557pt.
+<images/bab4/manajemen_iklan.png, id=1098, 368.87813pt x 207.02344pt>
+File: images/bab4/manajemen_iklan.png Graphic file (type png)
+<use images/bab4/manajemen_iklan.png>
+Package pdftex.def Info: images/bab4/manajemen_iklan.png  used on input line 14
+5.
+(pdftex.def)             Requested size: 398.3386pt x 223.55669pt.
+ [65 <./images/bab4/list_peminjaman.png>]
+<images/bab4/manajemen_berita.png, id=1105, 380.17032pt x 213.79875pt>
+File: images/bab4/manajemen_berita.png Graphic file (type png)
+<use images/bab4/manajemen_berita.png>
+Package pdftex.def Info: images/bab4/manajemen_berita.png  used on input line 1
+55.
+(pdftex.def)             Requested size: 398.3386pt x 224.02226pt.
+ [66 <./images/bab4/manajemen_iklan.png>]
+<images/bab4/list_donatur_donasi.png, id=1112, 383.93437pt x 215.30438pt>
+File: images/bab4/list_donatur_donasi.png Graphic file (type png)
+<use images/bab4/list_donatur_donasi.png>
+Package pdftex.def Info: images/bab4/list_donatur_donasi.png  used on input lin
+e 163.
+(pdftex.def)             Requested size: 398.3386pt x 223.39548pt.
+ [67 <./images/bab4/manajemen_berita.png>]
+<images/bab4/lupa_password.png, id=1119, 385.44pt x 216.81pt>
+File: images/bab4/lupa_password.png Graphic file (type png)
+<use images/bab4/lupa_password.png>
+Package pdftex.def Info: images/bab4/lupa_password.png  used on input line 171.
+
+(pdftex.def)             Requested size: 239.00558pt x 134.44064pt.
+) [68 <./images/bab4/list_donatur_donasi.png> <./images/bab4/lupa_password.png>
+] (chapters/bab5.tex)
+(bukped.bbl [69]) [70
+
+] (bukped.aux)
+ ***********
+LaTeX2e <2025-11-01>
+L3 programming layer <2025-12-24>
+ ***********
+Package rerunfilecheck Info: File `bukped.out' has not changed.
+(rerunfilecheck)             Checksum: BF01FB78AE20F5861E52E607FA4FD48E;13759.
+ ) 
 Here is how much of TeX's memory you used:
- 12719 strings out of 467870
- 207258 string characters out of 5417871
- 641152 words of memory out of 5000000
- 41491 multiletter control sequences out of 15000+600000
- 628019 words of font info for 41 fonts, out of 8000000 for 9000
+ 13781 strings out of 467870
+ 236178 string characters out of 5417871
+ 657743 words of memory out of 5000000
+ 42258 multiletter control sequences out of 15000+600000
+ 633434 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,0n,79p,314b,162s stack positions out of 10000i,1000n,20000p,200000b,200000s
-!  ==> Fatal error occurred, no output PDF file produced!
+ 75i,12n,79p,1136b,589s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\Lenovo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcr
+m1200.pk><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
+onts/cm/cmbx12.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmr12.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/font
+s/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/Lenovo/AppData/Local/Programs/M
+iKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on bukped.pdf (74 pages, 2331984 bytes).
+PDF statistics:
+ 1220 PDF objects out of 1440 (max. 8388607)
+ 245 named destinations out of 1000 (max. 500000)
+ 1086 words of extra memory for PDF output out of 10000 (max. 10000000)
+

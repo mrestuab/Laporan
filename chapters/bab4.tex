@@ -12,3 +12,164 @@
 \end{figure}
 
 Gambar~\ref{fig:landing_page} merupakan halaman utama aplikasi MedisLink yang pertama kali ditampilkan kepada pengguna. Halaman ini berfungsi sebagai pengantar aplikasi dan menampilkan informasi singkat mengenai layanan peminjaman alat bantu medis. Pada bagian atas terdapat tombol \textit{Masuk/Daftar} yang digunakan untuk proses autentikasi pengguna. Selain itu, tersedia tombol \textit{Jelajahi Alat} untuk melihat daftar alat bantu medis serta tombol \textit{Hubungi Kami} untuk memperoleh informasi lebih lanjut mengenai layanan yang tersedia.
+\subsection{Login}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\textwidth]{images/bab4/login.png}
+    \caption{Halaman Login}
+    \label{fig:login}
+\end{figure}
+
+Gambar~\ref{fig:login} menampilkan halaman login yang digunakan pengguna untuk mengakses sistem MedisLink. Pengguna diminta memasukkan email dan password. Tersedia fitur \textit{Lupa Password} serta tautan menuju halaman pendaftaran bagi pengguna yang belum memiliki akun.
+
+
+\subsection{Register}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\textwidth]{images/bab4/register.png}
+    \caption{Halaman Register}
+    \label{fig:register}
+\end{figure}
+
+Gambar~\ref{fig:register} menunjukkan halaman pendaftaran akun baru. Pengguna mengisi data berupa nama lengkap, email, nomor telepon, password, dan konfirmasi password. Setelah data valid, akun dibuat dan pengguna dapat menggunakan layanan peminjaman alat medis.
+
+
+\subsection{Dashboard}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{images/bab4/dashboard.png}
+    \caption{Halaman Dashboard (Jelajahi Alat)}
+    \label{fig:dashboard}
+\end{figure}
+
+Gambar~\ref{fig:dashboard} menampilkan halaman dashboard yang berisi katalog alat medis yang tersedia. Pengguna dapat melihat detail alat, status kondisi, dan jumlah stok. Tersedia filter kategori untuk memudahkan pencarian alat serta tombol \textit{Pilih Alat} untuk memulai proses peminjaman.
+\subsection{Peminjaman Alat}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{images/bab4/peminjaman.png}
+    \caption{Halaman Peminjaman Alat}
+    \label{fig:peminjaman}
+\end{figure}
+
+Gambar~\ref{fig:peminjaman} menampilkan halaman detail alat medis yang dipilih pengguna. Halaman ini memuat gambar alat, spesifikasi teknis, serta deskripsi singkat. Pada sisi kanan terdapat formulir pengajuan peminjaman yang meliputi tanggal mulai pinjam, rencana pengembalian, kondisi medis, dan tujuan penggunaan. Setelah data diisi, pengguna dapat menekan tombol \textit{Ajukan Permintaan} untuk mengirim pengajuan.
+
+
+\subsection{Riwayat Peminjaman}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{images/bab4/riwayat_peminjaman.png}
+    \caption{Halaman Riwayat Peminjaman}
+    \label{fig:riwayat_peminjaman}
+\end{figure}
+
+Gambar~\ref{fig:riwayat_peminjaman} menunjukkan halaman riwayat peminjaman pengguna. Halaman ini menampilkan daftar alat yang pernah diajukan beserta tanggal peminjaman dan status terkini, seperti \textit{Siap Diambil di Klinik}, \textit{Ditolak}, atau \textit{Selesai}. Fitur ini membantu pengguna memantau perkembangan pengajuan mereka.
+
+
+\subsection{Form Donasi Alat}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{images/bab4/form_donasi.png}
+    \caption{Halaman Form Donasi Alat}
+    \label{fig:form_donasi}
+\end{figure}
+
+Gambar~\ref{fig:form_donasi} menampilkan formulir donasi alat medis. Pengguna diminta mengisi nama alat, kategori, deskripsi kondisi, jumlah unit, serta mengunggah foto alat. Selain itu, pengguna juga menentukan rencana tanggal penjemputan dan lokasi barang sebelum mengirimkan donasi.
+\subsection{Riwayat Donasi}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{images/bab4/riwayat_donasi.png}
+    \caption{Halaman Riwayat Donasi}
+    \label{fig:riwayat_donasi}
+\end{figure}
+
+Gambar~\ref{fig:riwayat_donasi} menampilkan halaman riwayat donasi pengguna. Pada kondisi belum terdapat data donasi, sistem menampilkan \textit{empty state} sebagai indikator bahwa pengguna belum pernah melakukan pengajuan donasi. Jika donasi telah dilakukan, halaman ini akan menampilkan daftar barang beserta status verifikasi dari admin.
+
+
+\subsection{Profile User}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{images/bab4/profile_user.png}
+    \caption{Halaman Profile User}
+    \label{fig:profile_user}
+\end{figure}
+
+Gambar~\ref{fig:profile_user} menunjukkan halaman profil pengguna yang memuat informasi identitas seperti nama, email, nomor WhatsApp, NIK, dan alamat domisili. Tersedia status verifikasi akun serta tombol untuk melengkapi data diri atau keluar dari sistem.
+
+
+\subsection{Dashboard Admin}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{images/bab4/dashboard_admin.png}
+    \caption{Halaman Dashboard Admin (Inventaris)}
+    \label{fig:dashboard_admin}
+\end{figure}
+
+Gambar~\ref{fig:dashboard_admin} menampilkan dashboard admin pada menu inventaris. Halaman ini digunakan untuk mengelola stok alat medis, menampilkan detail alat, jumlah stok, serta kondisi fisik. Admin dapat melakukan aksi tambah, edit, atau hapus data alat melalui fitur yang tersedia.
+\subsection{Tambah Alat Medis}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.85\textwidth]{images/bab4/tambah_alat.png}
+    \caption{Form Tambah Alat Medis (Admin)}
+    \label{fig:tambah_alat}
+\end{figure}
+
+Gambar~\ref{fig:tambah_alat} menunjukkan formulir penambahan alat medis yang digunakan oleh admin untuk menambahkan item baru ke dalam inventaris. Admin mengisi kategori alat, nama alat, spesifikasi teknis (tipe, ukuran, kapasitas), stok awal, deskripsi, kondisi alat, serta mengunggah foto sebelum menyimpan data.
+
+
+\subsection{List Peminjaman}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{images/bab4/list_peminjaman.png}
+    \caption{Halaman List Peminjaman}
+    \label{fig:list_peminjaman}
+\end{figure}
+
+Gambar~\ref{fig:list_peminjaman} menampilkan daftar seluruh pengajuan peminjaman yang masuk ke sistem. Admin dapat melihat informasi peminjam, detail alat, jumlah unit, serta status transaksi seperti \textit{COMPLETED}. Halaman ini digunakan untuk memantau dan mengelola proses peminjaman.
+
+
+\subsection{Manajemen Iklan}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{images/bab4/manajemen_iklan.png}
+    \caption{Halaman Manajemen Iklan}
+    \label{fig:manajemen_iklan}
+\end{figure}
+
+Gambar~\ref{fig:manajemen_iklan} menunjukkan halaman manajemen iklan yang digunakan admin untuk mengelola banner promosi pada aplikasi. Admin dapat memasukkan judul, link tujuan, deskripsi singkat, serta mengunggah gambar banner. Iklan yang berhasil disimpan akan ditampilkan pada slider halaman utama aplikasi.
+\subsection{Manajemen Berita}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{images/bab4/manajemen_berita.png}
+    \caption{Halaman Manajemen Berita Admin}
+    \label{fig:manajemen-berita}
+\end{figure}
+Gambar~\ref{fig:manajemen-berita} Halaman Manajemen Berita Fitur ini digunakan admin untuk mempublikasikan artikel atau pengumuman. Formulir menyediakan kolom untuk Judul Berita, Gambar Utama, dan Konten Berita. Di bawah formulir terdapat daftar berita yang sudah dipublikasikan.
+\subsection{List Data Donatur dan Donasi Alat}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{images/bab4/list_donatur_donasi.png}
+    \caption{Halaman List Data Donatur dan Donasi Alat}
+    \label{fig:list-donatur-donasi}
+\end{figure}
+Gambar~\ref{fig:list-donatur-donasi} Halaman List Data Donatur dan Donasi Alat Halaman ini dikhususkan bagi admin untuk memvalidasi barang donasi yang masuk dari pengguna. Pada gambar terlihat tabel kosong yang menandakan belum ada pengajuan donasi baru yang perlu diverifikasi saat ini. Jika ada, admin akan melihat data donatur dan barang untuk proses persetujuan.
+\subsection{Lupa Kata Sandi}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\textwidth]{images/bab4/lupa_password.png}
+    \caption{Halaman Lupa Kata Sandi}
+    \label{fig:lupa-password}
+\end{figure}
+Gambar~\ref{fig:lupa-password} Halaman Lupa Password Fitur ini digunakan ketika pengguna mengalami kendala saat masuk karena lupa kata sandi. Pengguna diminta memasukkan alamat email yang terdaftar, kemudian sistem akan mengirimkan kode OTP (One Time Password) ke email tersebut untuk proses pengaturan ulang (reset) kata sandi.
