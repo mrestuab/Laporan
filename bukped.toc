@@ -87,5 +87,6 @@
 \contentsline {subsection}{\numberline {4.1.14}Manajemen Berita}{67}{subsection.4.1.14}%
 \contentsline {subsection}{\numberline {4.1.15}List Data Donatur dan Donasi Alat}{68}{subsection.4.1.15}%
 \contentsline {subsection}{\numberline {4.1.16}Lupa Kata Sandi}{68}{subsection.4.1.16}%
-\contentsline {chapter}{BAB V KESIMPULAN DAN SARAN}{69}{figure.caption.51}%
-\contentsline {chapter}{Bibliografi}{70}{chapter*.52}%
+\contentsline {section}{\numberline {4.2}Pengujian dan Hasil Pengujian}{69}{section.4.2}%
+\contentsline {chapter}{BAB V KESIMPULAN DAN SARAN}{69}{figure.caption.52}%
+\contentsline {chapter}{Bibliografi}{70}{chapter*.53}%
