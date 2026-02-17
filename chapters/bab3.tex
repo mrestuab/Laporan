@@ -1,0 +1,436 @@
+\chapter{Analisis dan Perancangan}
+
+\section{Analisis Sistem pada Aplikasi}
+
+Dalam pengembangan aplikasi, analisis terhadap sistem yang berjalan diperlukan untuk memahami alur kerja secara menyeluruh sebagai dasar usulan pengembangan. Analisis dilakukan dengan merujuk pada alur bisnis atau urutan operasional sistem yang digambarkan melalui use case diagram, activity diagram, sequence diagram, dan deployment diagram. Pemahaman yang jelas terhadap alur bisnis akan mendukung pengembangan sistem yang lebih efektif.
+
+\subsection{Analisis Sistem yang Sedang Berjalan}
+
+Sistem pada aplikasi MedisLink dimulai ketika pengguna membutuhkan alat bantu medis. Pengguna melakukan registrasi dan login, kemudian memilih alat berdasarkan kategori yang tersedia. Sistem menampilkan informasi ketersediaan alat untuk menentukan apakah alat dapat dipinjam.
+
+Jika alat tidak tersedia, pengguna dapat menunggu atau memilih alternatif lain. Jika tersedia, pengguna mengisi data peminjaman sesuai ketentuan. Setelah peminjaman berhasil, alat digunakan selama periode tertentu. Sistem mengirimkan notifikasi pengingat sebelum batas waktu pengembalian.
+
+Apabila alat dikembalikan tepat waktu, proses dinyatakan selesai dan data dicatat. Jika terjadi keterlambatan, status diperbarui hingga alat dikembalikan. Proses berakhir ketika alat siap dipinjam kembali oleh pengguna lain.
+
+\section{Analisis Sistem yang Akan Dibangun}
+
+Sistem yang akan dibangun merupakan pengembangan dari sistem sebelumnya dengan penambahan fitur sesuai hasil analisis kebutuhan.
+
+\subsection{Alur Sistem yang Akan Dibangun}
+
+Sistem dimulai dengan registrasi dan login pengguna. Setelah berhasil masuk, pengguna diarahkan ke dashboard untuk melihat informasi akun dan daftar alat bantu medis. Pengguna dapat memilih alat berdasarkan kategori, melihat detail, dan mengajukan peminjaman secara online.
+
+Sistem memproses permintaan dengan memeriksa ketersediaan dan mencatat transaksi. Selama masa peminjaman, sistem mengirim notifikasi pengingat sesuai jadwal. Pengguna dapat melihat status serta riwayat peminjaman.
+
+Admin bertugas mengelola data pengguna, alat, kategori, serta memantau proses peminjaman dan pengembalian. Proses berakhir saat alat dikembalikan dan status dinyatakan selesai.
+
+\subsection{Kebutuhan Fungsional}
+
+Berikut kebutuhan fungsional sistem:
+
+\begin{enumerate}
+    \item Aplikasi berbasis website yang dapat diakses melalui internet.
+    \item Fitur pendaftaran dan login pengguna.
+    \item Menampilkan daftar alat bantu medis berdasarkan kategori.
+    \item Menampilkan detail alat sebelum peminjaman.
+    \item Pengajuan peminjaman secara online.
+    \item Pencatatan dan penyimpanan transaksi peminjaman.
+    \item Notifikasi pengingat pengembalian alat.
+    \item Riwayat peminjaman pengguna.
+    \item Fitur ulasan dan penilaian setelah peminjaman.
+    \item Admin dapat mengelola alat, kategori, serta memantau peminjaman dan pengembalian.
+\end{enumerate}
+
+\subsection{Kebutuhan Nonfungsional}
+
+\textbf{Perangkat Lunak:}
+\begin{itemize}
+    \item Sistem Operasi: Windows 11 atau Linux Ubuntu 20.04
+    \item Editor Kode: Visual Studio Code
+    \item Browser: Google Chrome atau Mozilla Firefox
+    \item Database: MongoDB
+    \item Backend: Golang dengan framework Fiber
+    \item Frontend: React.js
+    \item Autentikasi: JSON Web Token (JWT)
+\end{itemize}
+
+\textbf{Perangkat Keras:}
+\begin{itemize}
+    \item Prosesor: Intel Core i5 Gen-10 atau AMD Ryzen 5 5000 series
+    \item RAM: Minimal 8 GB
+    \item Penyimpanan: SSD 256 GB
+    \item Koneksi internet stabil
+\end{itemize}
+
+\section{Use Case Diagram}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{images/bab3/usecase.png}
+    \caption{Use Case Diagram Sistem MedisLink}
+    \label{fig:usecase_bab3}
+\end{figure}
+
+Gambar~\ref{fig:usecase_bab3} menggambarkan interaksi antara aktor dan sistem MedisLink dalam menjalankan seluruh fitur aplikasi. Terdapat tiga aktor utama, yaitu Tamu, Pengguna, dan Admin, yang masing-masing memiliki peran berbeda dalam sistem.
+
+Tamu hanya dapat melihat halaman \textit{landing page} tanpa perlu login. Pengguna memiliki akses untuk melakukan register, login, melihat riwayat donasi, mendonasikan alat, melakukan \textit{forgot password}, melihat notifikasi, melihat riwayat peminjaman, meminjam alat, serta mengelola akun.
+
+Admin bertanggung jawab mengelola inventaris, melakukan konfirmasi peminjaman dan donasi, serta mengelola berita dan iklan.
+
+Proses \textit{Login} menjadi use case utama karena hampir seluruh fitur lainnya memiliki relasi \textit{include} terhadap login, yang berarti autentikasi diperlukan sebelum fitur dapat diakses. Diagram ini menunjukkan sistem dirancang dengan kontrol akses yang terstruktur sesuai peran masing-masing aktor.
+
+\section{Class Diagram}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{images/bab3/classdiagram.png}
+    \caption{Class Diagram Sistem MedisLink}
+    \label{fig:class_bab3}
+\end{figure}
+
+Gambar~\ref{fig:class_bab3} menunjukkan struktur class utama beserta hubungan antar class dalam sistem MedisLink.
+
+Class \textit{User} berperan sebagai entitas utama yang dapat melakukan registrasi, login, melihat alat, mengajukan peminjaman, melakukan donasi, serta menerima notifikasi. Class \textit{Loan} merepresentasikan proses peminjaman alat medis yang menghubungkan User dengan class \textit{Tool}, yang menyimpan data alat seperti kategori, kondisi, stok, dan status.
+
+Class \textit{Donation} mencatat proses donasi alat medis yang dilakukan oleh user, termasuk informasi alat dan status donasi. Class \textit{Admin} bertanggung jawab dalam pengelolaan sistem seperti mengelola inventaris, menyetujui atau menolak peminjaman dan donasi, serta mengelola konten berita.
+
+Class \textit{Notification} digunakan untuk mengirim informasi terkait status peminjaman dan donasi kepada user, sedangkan class \textit{News} berfungsi untuk mengelola dan menampilkan informasi pada aplikasi.
+
+Relasi antar class menunjukkan bahwa satu user dapat memiliki banyak peminjaman, donasi, dan notifikasi, sementara admin berperan dalam validasi dan pengelolaan data sistem.
+
+\section{Activity Diagram}
+
+Activity diagram digunakan untuk memodelkan perilaku sistem dalam suatu alur proses. Diagram ini menggambarkan interaksi elemen dinamis serta jalur logis berdasarkan kondisi, percabangan, maupun proses paralel.
+
+\subsection{Tamu Melihat Landing Page}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{images/bab3/activity_tamu.png}
+    \caption{Activity Diagram Tamu Melihat Landing Page}
+    \label{fig:activity_tamu}
+\end{figure}
+
+Gambar~\ref{fig:activity_tamu} menunjukkan alur interaksi antara aktor Tamu dan sistem MedisLink. Proses dimulai ketika tamu membuka aplikasi tanpa melakukan login. Sistem kemudian menampilkan halaman \textit{landing page} sebagai halaman awal aplikasi. Proses berakhir setelah halaman berhasil ditampilkan tanpa akses ke fitur internal sistem.
+\subsection{Registrasi}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{images/bab3/activity_registrasi.png}
+    \caption{Activity Diagram Registrasi}
+    \label{fig:activity_registrasi}
+\end{figure}
+
+Gambar~\ref{fig:activity_registrasi} menggambarkan alur proses pendaftaran pengguna dalam sistem. Proses dimulai ketika pengguna membuka halaman registrasi yang ditampilkan oleh sistem, kemudian pengguna mengisi data yang diperlukan.
+
+Setelah data diinput, sistem melakukan validasi untuk memastikan kelengkapan dan kebenaran data. Jika data tidak valid, sistem menampilkan pesan kesalahan. Jika data valid, sistem mengarahkan pengguna ke halaman login. Diagram ini menunjukkan interaksi antara pengguna dan sistem berdasarkan kondisi yang terjadi.
+
+\subsection{Login User}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{images/bab3/activity_login.png}
+    \caption{Activity Diagram Login User}
+    \label{fig:activity_login}
+\end{figure}
+
+Gambar~\ref{fig:activity_login} menggambarkan proses autentikasi pengguna dalam sistem. Proses dimulai ketika sistem menampilkan form login dan pengguna menginput data yang diperlukan.
+
+Sistem kemudian melakukan validasi terhadap data login. Jika data valid, sistem menampilkan halaman dashboard. Jika data tidak valid, sistem menampilkan pesan kesalahan dan mengarahkan pengguna kembali ke halaman login. Diagram ini menunjukkan interaksi antara pengguna dan sistem berdasarkan hasil validasi.
+
+\subsection{Peminjaman Alat Bantu Medis}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{images/bab3/activity_peminjaman.png}
+    \caption{Activity Diagram Peminjaman Alat Bantu Medis}
+    \label{fig:activity_peminjaman}
+\end{figure}
+
+Gambar~\ref{fig:activity_peminjaman} menggambarkan alur proses pengajuan peminjaman alat oleh pengguna dalam sistem. Proses dimulai dari dashboard, di mana pengguna memilih opsi untuk menjelajahi inventaris dan memilih alat yang diinginkan.
+
+Sistem kemudian menampilkan form input peminjaman. Setelah pengguna mengisi data, sistem melakukan validasi untuk memastikan kesesuaian data. Jika data tidak sesuai, pengguna diminta untuk mengisi kembali. Jika data valid, sistem mengirimkan pengajuan kepada admin sebagai tahap akhir proses peminjaman.
+\subsection{Donasi Alat}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{images/bab3/activity_donasi.png}
+    \caption{Activity Diagram Donasi Alat}
+    \label{fig:activity_donasi}
+\end{figure}
+
+Gambar~\ref{fig:activity_donasi} menggambarkan proses donasi alat medis dalam sistem MedisLink. Proses dimulai ketika admin mengakses dashboard dan memilih menu donasi alat.
+
+Sistem kemudian menampilkan form input donasi yang harus diisi. Setelah data diinput, sistem melakukan validasi. Jika data belum sesuai, admin diminta memperbaiki input. Jika data valid, sistem memproses data dan status donasi menunggu konfirmasi hingga proses selesai.
+\subsection{Riwayat Peminjaman User}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{images/bab3/activity_riwayat_peminjaman.png}
+    \caption{Activity Diagram Riwayat Peminjaman}
+    \label{fig:activity_riwayat_peminjaman}
+\end{figure}
+
+Gambar~\ref{fig:activity_riwayat_peminjaman} menggambarkan proses melihat riwayat transaksi peminjaman. Pengguna memulai dari dashboard dan memilih menu riwayat pinjaman. Sistem kemudian menampilkan riwayat peminjaman yang telah dilakukan. Proses berakhir setelah data berhasil ditampilkan.
+
+
+\subsection{Riwayat Donasi User}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{images/bab3/activity_riwayat_donasi.png}
+    \caption{Activity Diagram Riwayat Donasi User}
+    \label{fig:activity_riwayat_donasi}
+\end{figure}
+
+Gambar~\ref{fig:activity_riwayat_donasi} menggambarkan alur aktivitas pengguna dalam melihat riwayat donasi. Pengguna memilih menu riwayat donasi pada dashboard, kemudian sistem menampilkan daftar riwayat donasi yang pernah dilakukan. Proses berakhir setelah riwayat berhasil ditampilkan.
+\subsection{User Melihat Notifikasi}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{images/bab3/activity_notifikasi.png}
+    \caption{Activity Diagram User Melihat Notifikasi}
+    \label{fig:activity_notifikasi}
+\end{figure}
+
+Gambar~\ref{fig:activity_notifikasi} menunjukkan proses ketika user berada di dashboard dan memilih menu notifikasi. Sistem kemudian menampilkan daftar notifikasi terkait aktivitas peminjaman atau donasi. Proses berakhir setelah notifikasi berhasil ditampilkan.
+
+
+\subsection{Mengelola Akun}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{images/bab3/activity_kelola_akun.png}
+    \caption{Activity Diagram Mengelola Akun}
+    \label{fig:activity_kelola_akun}
+\end{figure}
+
+Gambar~\ref{fig:activity_kelola_akun} menggambarkan proses pembaruan data pribadi pengguna. Pengguna memilih ikon akun, sistem menampilkan form detail data, kemudian pengguna memperbarui data. Sistem melakukan validasi; jika data tidak valid, pengguna diminta memperbaiki input. Jika valid, sistem menampilkan pesan sukses sebagai tanda pembaruan berhasil.
+\subsection{Login Admin}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{images/bab3/activity_login_admin.png}
+    \caption{Activity Diagram Login Admin}
+    \label{fig:activity_login_admin}
+\end{figure}
+
+Gambar~\ref{fig:activity_login_admin} menggambarkan proses login admin dalam aplikasi MedisLink. Admin menginput data login, kemudian sistem melakukan validasi. Jika data valid, sistem menampilkan halaman dashboard admin. Jika tidak valid, sistem menampilkan pesan kesalahan dan mengarahkan kembali ke halaman login.
+
+
+\subsection{Admin Mengelola Peminjaman}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.95\textwidth]{images/bab3/activity_kelola_peminjaman_admin.png}
+    \caption{Activity Diagram Admin Mengelola Peminjaman}
+    \label{fig:activity_kelola_peminjaman_admin}
+\end{figure}
+
+Gambar~\ref{fig:activity_kelola_peminjaman_admin} menggambarkan proses pengelolaan peminjaman oleh admin. Admin memilih menu manajemen peminjaman, kemudian sistem menampilkan daftar peminjaman untuk divalidasi.
+
+Admin dapat menyetujui atau menolak peminjaman, dan sistem mengirim notifikasi kepada pengguna sesuai keputusan tersebut. Jika disetujui, admin mengonfirmasi penyerahan barang dan pengembalian barang hingga sistem menampilkan status bahwa peminjaman telah selesai.
+\subsection{Admin Mengelola Inventaris}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{images/bab3/activity_kelola_inventaris.png}
+    \caption{Activity Diagram Admin Mengelola Inventaris}
+    \label{fig:activity_kelola_inventaris}
+\end{figure}
+
+Gambar~\ref{fig:activity_kelola_inventaris} menggambarkan proses penambahan data alat medis oleh admin. Admin memilih menu inventaris dan menekan tombol tambah alat, kemudian sistem menampilkan form input. Setelah data dimasukkan, sistem melakukan validasi. Jika data tidak sesuai, admin diminta memperbaiki input. Jika valid, sistem menyimpan data dan menampilkan notifikasi bahwa penambahan alat berhasil.
+
+
+\subsection{Admin Mengelola Berita}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{images/bab3/activity_kelola_berita.png}
+    \caption{Activity Diagram Admin Mengelola Berita}
+    \label{fig:activity_kelola_berita}
+\end{figure}
+
+Gambar~\ref{fig:activity_kelola_berita} menggambarkan proses pengelolaan berita oleh admin. Admin memilih menu manajemen berita, kemudian sistem menampilkan halaman pengelolaan. Admin mengisi data berita dan sistem menampilkan berita kepada pengguna setelah proses selesai.
+\subsection{Admin Mengelola Iklan}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{images/bab3/activity_kelola_iklan.png}
+    \caption{Activity Diagram Admin Mengelola Iklan}
+    \label{fig:activity_kelola_iklan}
+\end{figure}
+
+Gambar~\ref{fig:activity_kelola_iklan} menggambarkan proses pengelolaan iklan oleh admin. Admin memilih menu manajemen iklan pada dashboard, kemudian sistem menampilkan halaman pengelolaan iklan. Admin mengisi data iklan yang akan dipublikasikan dan sistem menampilkan iklan setelah proses selesai.
+
+
+\subsection{Admin Konfirmasi Donasi}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.95\textwidth]{images/bab3/activity_konfirmasi_donasi.png}
+    \caption{Activity Diagram Admin Konfirmasi Donasi}
+    \label{fig:activity_konfirmasi_donasi}
+\end{figure}
+
+Gambar~\ref{fig:activity_konfirmasi_donasi} menggambarkan proses admin dalam mengonfirmasi donasi alat medis. Admin memilih menu donasi, sistem menampilkan daftar donasi, kemudian admin dapat melihat detail barang sebelum melakukan konfirmasi. Setelah donasi dikonfirmasi, sistem menampilkan notifikasi bahwa donasi berhasil dan proses dinyatakan selesai.
+\section{Sequence Diagram}
+
+Sequence Diagram digunakan untuk menggambarkan interaksi antar objek dalam sistem berdasarkan urutan waktu eksekusi. Diagram ini menunjukkan komunikasi antar objek pada setiap use case yang dijalankan.
+
+\subsection{Tamu Melihat Landing Page}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{images/bab3/sequence_tamu.png}
+    \caption{Sequence Diagram Tamu Melihat Landing Page}
+    \label{fig:sequence_tamu}
+\end{figure}
+
+Gambar~\ref{fig:sequence_tamu} menggambarkan interaksi antara Tamu, Aplikasi, dan Sistem saat mengakses MedisLink. Proses dimulai ketika tamu membuka aplikasi, kemudian aplikasi meminta sistem untuk menampilkan halaman awal. Sistem merespons dengan mengirimkan halaman landing page yang kemudian ditampilkan kepada tamu. Proses berakhir setelah landing page berhasil ditampilkan.
+\subsection{Login}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{images/bab3/sequence_login.png}
+    \caption{Sequence Diagram Login}
+    \label{fig:sequence_login}
+\end{figure}
+
+Gambar~\ref{fig:sequence_login} menggambarkan proses autentikasi pengguna atau admin. Aktor memasukkan username dan password melalui aplikasi, kemudian sistem memverifikasi data ke database. Jika data tidak valid, sistem mengembalikan pesan kesalahan. Jika valid, sistem menampilkan halaman utama sesuai peran pengguna.
+
+
+\subsection{Peminjaman Alat Bantu Medis}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{images/bab3/sequence_peminjaman.png}
+    \caption{Sequence Diagram Peminjaman Alat Bantu Medis}
+    \label{fig:sequence_peminjaman}
+\end{figure}
+
+Gambar~\ref{fig:sequence_peminjaman} menggambarkan proses pengajuan peminjaman. User menginput data melalui aplikasi, kemudian sistem melakukan validasi. Jika gagal, sistem menampilkan pesan kesalahan. Jika berhasil, sistem menyimpan data ke database dan menampilkan pesan sukses kepada user.
+
+
+\subsection{User Donasi Alat}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{images/bab3/sequence_donasi.png}
+    \caption{Sequence Diagram User Donasi Alat}
+    \label{fig:sequence_donasi}
+\end{figure}
+
+Gambar~\ref{fig:sequence_donasi} menggambarkan proses donasi alat oleh user. Data donasi dikirim ke sistem untuk divalidasi. Jika tidak valid, sistem mengembalikan pesan kesalahan. Jika valid, data disimpan ke database dan sistem menampilkan pesan sukses.
+\subsection{Riwayat Peminjaman User}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{images/bab3/sequence_riwayat_peminjaman.png}
+    \caption{Sequence Diagram Riwayat Peminjaman User}
+    \label{fig:sequence_riwayat_peminjaman}
+\end{figure}
+
+Gambar~\ref{fig:sequence_riwayat_peminjaman} menggambarkan proses user dalam mengakses riwayat peminjaman. Aplikasi meminta data ke sistem, sistem mengambil data dari database, kemudian data dikirim kembali ke aplikasi untuk ditampilkan kepada user.
+
+
+\subsection{Riwayat Donasi User}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{images/bab3/sequence_riwayat_donasi.png}
+    \caption{Sequence Diagram Riwayat Donasi User}
+    \label{fig:sequence_riwayat_donasi}
+\end{figure}
+
+Gambar~\ref{fig:sequence_riwayat_donasi} menggambarkan proses user dalam melihat riwayat donasi. Sistem mengambil data dari database dan meneruskannya ke aplikasi untuk ditampilkan kepada user.
+
+
+\subsection{Mengelola Akun User}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{images/bab3/sequence_kelola_akun.png}
+    \caption{Sequence Diagram Mengelola Akun User}
+    \label{fig:sequence_kelola_akun}
+\end{figure}
+
+Gambar~\ref{fig:sequence_kelola_akun} menggambarkan proses pembaruan data pengguna. Data dikirim ke sistem untuk divalidasi. Jika gagal, sistem menampilkan pesan kesalahan. Jika berhasil, data disimpan ke database dan sistem menampilkan pesan sukses.
+\subsection{User Melihat Notifikasi}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{images/bab3/sequence_notifikasi.png}
+    \caption{Sequence Diagram User Melihat Notifikasi}
+    \label{fig:sequence_notifikasi}
+\end{figure}
+
+Gambar~\ref{fig:sequence_notifikasi} menggambarkan proses user dalam melihat notifikasi. Aplikasi meminta data notifikasi ke sistem, sistem mengambil data dari database, kemudian data dikirim kembali ke aplikasi untuk ditampilkan kepada user.
+
+
+\subsection{Admin Mengelola Peminjaman}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{images/bab3/sequence_admin_peminjaman.png}
+    \caption{Sequence Diagram Admin Mengelola Peminjaman}
+    \label{fig:sequence_admin_peminjaman}
+\end{figure}
+
+Gambar~\ref{fig:sequence_admin_peminjaman} menunjukkan proses validasi peminjaman oleh admin. Sistem mengambil daftar peminjaman dari database, admin menyetujui atau menolak, kemudian sistem memperbarui status dan mengirim notifikasi. Proses berlanjut hingga konfirmasi pengembalian dan status berubah menjadi selesai serta stok alat diperbarui.
+
+
+\subsection{Admin Mengelola Inventaris}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{images/bab3/sequence_admin_inventaris.png}
+    \caption{Sequence Diagram Admin Mengelola Inventaris}
+    \label{fig:sequence_admin_inventaris}
+\end{figure}
+
+Gambar~\ref{fig:sequence_admin_inventaris} menggambarkan proses penambahan alat oleh admin. Sistem menampilkan daftar alat, admin mengisi form tambah alat, kemudian sistem memvalidasi dan menyimpan data ke database. Setelah berhasil, sistem menampilkan notifikasi keberhasilan.
+\subsection{Admin Mengelola Berita}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{images/bab3/sequence_admin_berita.png}
+    \caption{Sequence Diagram Admin Mengelola Berita}
+    \label{fig:sequence_admin_berita}
+\end{figure}
+
+Gambar~\ref{fig:sequence_admin_berita} menunjukkan proses publikasi berita oleh admin. Sistem menampilkan daftar berita dari database, kemudian admin mengisi dan menyimpan berita baru. Setelah database mengonfirmasi penyimpanan berhasil, sistem menampilkan berita tersebut pada halaman manajemen.
+
+
+\subsection{Admin Mengelola Iklan}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{images/bab3/sequence_admin_iklan.png}
+    \caption{Sequence Diagram Admin Mengelola Iklan}
+    \label{fig:sequence_admin_iklan}
+\end{figure}
+
+Gambar~\ref{fig:sequence_admin_iklan} menggambarkan proses publikasi iklan oleh admin. Sistem menampilkan data iklan dari database, admin mengisi dan menyimpan data baru, kemudian sistem memperbarui tampilan setelah penyimpanan berhasil.
+
+
+\subsection{Admin Konfirmasi Donasi}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{images/bab3/sequence_admin_konfirmasi_donasi.png}
+    \caption{Sequence Diagram Admin Konfirmasi Donasi}
+    \label{fig:sequence_admin_konfirmasi_donasi}
+\end{figure}
+
+Gambar~\ref{fig:sequence_admin_konfirmasi_donasi} menunjukkan proses validasi donasi oleh admin. Sistem menampilkan daftar donasi pending dari database, admin meninjau detail dan melakukan konfirmasi. Sistem kemudian memperbarui status donasi menjadi disetujui serta menambahkan stok barang ke inventaris. Proses berakhir ketika notifikasi keberhasilan ditampilkan.
+\section{Deployment}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{images/bab3/deployment.png}
+    \caption{Deployment Diagram MedisLink}
+    \label{fig:deployment}
+\end{figure}
+
+Gambar~\ref{fig:deployment} menunjukkan arsitektur infrastruktur sistem MedisLink. Pengguna mengakses aplikasi melalui web browser pada perangkat PC atau HP. Aset frontend (React SPA) dihosting pada Vercel dan diakses melalui protokol HTTPS. Permintaan data dikirim melalui REST API ke backend MedisLink API yang berjalan pada Railway atau Render menggunakan protokol HTTPS. Backend terhubung secara aman melalui koneksi TCP/TLS ke MongoDB Atlas sebagai basis data utama. Selain itu, sistem juga terintegrasi dengan Cloudinary untuk penyimpanan dan pengelolaan aset gambar. Arsitektur ini memastikan keamanan komunikasi data serta pemisahan layanan frontend, backend, dan storage.

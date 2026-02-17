@@ -2,32 +2,75 @@
 \contentsline {chapter}{ABSTRAK}{1}{Item.6}%
 \contentsline {chapter}{ABSTRACT}{2}{Item.6}%
 \contentsline {chapter}{KATA PENGANTAR}{3}{Item.6}%
-\contentsline {chapter}{BAB I PENDAHULUAN}{8}{Item.6}%
-\contentsline {chapter}{\numberline {1}Pendahuluan}{9}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Latar Belakang}{9}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Deskripsi Aplikasi}{10}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Identifikasi Masalah}{10}{section.1.3}%
-\contentsline {section}{\numberline {1.4}Tujuan}{11}{section.1.4}%
-\contentsline {section}{\numberline {1.5}Ruang Lingkup}{11}{section.1.5}%
-\contentsline {subsection}{\numberline {1.5.1}Pengembangan Teknologi}{11}{subsection.1.5.1}%
-\contentsline {subsection}{\numberline {1.5.2}Peningkatan Akses dan Efisiensi Layanan}{11}{subsection.1.5.2}%
-\contentsline {chapter}{BAB II LANDASAN TEORI}{12}{subsection.1.5.2}%
-\contentsline {chapter}{\numberline {2}Tinjauan Pustaka}{13}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Landasan Teori}{13}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}API}{13}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}Node.js}{13}{subsection.2.1.2}%
-\contentsline {subsection}{\numberline {2.1.3}Go (Golang)}{14}{subsection.2.1.3}%
-\contentsline {subsection}{\numberline {2.1.4}React.js}{14}{subsection.2.1.4}%
-\contentsline {subsection}{\numberline {2.1.5}JavaScript}{14}{subsection.2.1.5}%
-\contentsline {subsection}{\numberline {2.1.6}MongoDB}{14}{subsection.2.1.6}%
-\contentsline {subsection}{\numberline {2.1.7}DaisyUI}{15}{subsection.2.1.7}%
-\contentsline {subsection}{\numberline {2.1.8}Axios}{15}{subsection.2.1.8}%
-\contentsline {subsection}{\numberline {2.1.9}UML}{15}{subsection.2.1.9}%
-\contentsline {section}{\numberline {2.2}Use Case Diagram}{15}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Diagram Aktivitas (Activity Diagram)}{16}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Diagram Urutan (Sequence Diagram)}{17}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Deployment Diagram}{19}{section.2.5}%
-\contentsline {chapter}{BAB III METODE PENELITIAN}{20}{table.caption.4}%
-\contentsline {chapter}{BAB IV HASIL DAN PEMBAHASAN}{20}{table.caption.4}%
-\contentsline {chapter}{BAB V KESIMPULAN DAN SARAN}{20}{table.caption.4}%
-\contentsline {chapter}{Bibliografi}{21}{chapter*.5}%
+\contentsline {chapter}{BAB I PENDAHULUAN}{10}{Item.6}%
+\contentsline {chapter}{\numberline {1}Pendahuluan}{11}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Latar Belakang}{11}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Deskripsi Aplikasi}{12}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Identifikasi Masalah}{12}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Tujuan}{13}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Ruang Lingkup}{13}{section.1.5}%
+\contentsline {subsection}{\numberline {1.5.1}Pengembangan Teknologi}{13}{subsection.1.5.1}%
+\contentsline {subsection}{\numberline {1.5.2}Peningkatan Akses dan Efisiensi Layanan}{13}{subsection.1.5.2}%
+\contentsline {chapter}{BAB II LANDASAN TEORI}{14}{subsection.1.5.2}%
+\contentsline {chapter}{\numberline {2}Tinjauan Pustaka}{15}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Landasan Teori}{15}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}API}{15}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Node.js}{15}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Go (Golang)}{16}{subsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.1.4}React.js}{16}{subsection.2.1.4}%
+\contentsline {subsection}{\numberline {2.1.5}JavaScript}{16}{subsection.2.1.5}%
+\contentsline {subsection}{\numberline {2.1.6}MongoDB}{16}{subsection.2.1.6}%
+\contentsline {subsection}{\numberline {2.1.7}DaisyUI}{17}{subsection.2.1.7}%
+\contentsline {subsection}{\numberline {2.1.8}Axios}{17}{subsection.2.1.8}%
+\contentsline {subsection}{\numberline {2.1.9}UML}{17}{subsection.2.1.9}%
+\contentsline {section}{\numberline {2.2}Use Case Diagram}{17}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Diagram Aktivitas (Activity Diagram)}{18}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Diagram Urutan (Sequence Diagram)}{19}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Deployment Diagram}{21}{section.2.5}%
+\contentsline {chapter}{BAB III METODE PENELITIAN}{22}{table.caption.4}%
+\contentsline {chapter}{\numberline {3}Analisis dan Perancangan}{23}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Analisis Sistem pada Aplikasi}{23}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Analisis Sistem yang Sedang Berjalan}{23}{subsection.3.1.1}%
+\contentsline {section}{\numberline {3.2}Analisis Sistem yang Akan Dibangun}{24}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Alur Sistem yang Akan Dibangun}{24}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Kebutuhan Fungsional}{24}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Kebutuhan Nonfungsional}{25}{subsection.3.2.3}%
+\contentsline {section}{\numberline {3.3}Use Case Diagram}{26}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Class Diagram}{27}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Activity Diagram}{28}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Tamu Melihat Landing Page}{28}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}Registrasi}{29}{subsection.3.5.2}%
+\contentsline {subsection}{\numberline {3.5.3}Login User}{30}{subsection.3.5.3}%
+\contentsline {subsection}{\numberline {3.5.4}Peminjaman Alat Bantu Medis}{31}{subsection.3.5.4}%
+\contentsline {subsection}{\numberline {3.5.5}Donasi Alat}{32}{subsection.3.5.5}%
+\contentsline {subsection}{\numberline {3.5.6}Riwayat Peminjaman User}{33}{subsection.3.5.6}%
+\contentsline {subsection}{\numberline {3.5.7}Riwayat Donasi User}{34}{subsection.3.5.7}%
+\contentsline {subsection}{\numberline {3.5.8}User Melihat Notifikasi}{35}{subsection.3.5.8}%
+\contentsline {subsection}{\numberline {3.5.9}Mengelola Akun}{36}{subsection.3.5.9}%
+\contentsline {subsection}{\numberline {3.5.10}Login Admin}{37}{subsection.3.5.10}%
+\contentsline {subsection}{\numberline {3.5.11}Admin Mengelola Peminjaman}{39}{subsection.3.5.11}%
+\contentsline {subsection}{\numberline {3.5.12}Admin Mengelola Inventaris}{40}{subsection.3.5.12}%
+\contentsline {subsection}{\numberline {3.5.13}Admin Mengelola Berita}{41}{subsection.3.5.13}%
+\contentsline {subsection}{\numberline {3.5.14}Admin Mengelola Iklan}{42}{subsection.3.5.14}%
+\contentsline {subsection}{\numberline {3.5.15}Admin Konfirmasi Donasi}{43}{subsection.3.5.15}%
+\contentsline {section}{\numberline {3.6}Sequence Diagram}{44}{section.3.6}%
+\contentsline {subsection}{\numberline {3.6.1}Tamu Melihat Landing Page}{44}{subsection.3.6.1}%
+\contentsline {subsection}{\numberline {3.6.2}Login}{45}{subsection.3.6.2}%
+\contentsline {subsection}{\numberline {3.6.3}Peminjaman Alat Bantu Medis}{45}{subsection.3.6.3}%
+\contentsline {subsection}{\numberline {3.6.4}User Donasi Alat}{46}{subsection.3.6.4}%
+\contentsline {subsection}{\numberline {3.6.5}Riwayat Peminjaman User}{47}{subsection.3.6.5}%
+\contentsline {subsection}{\numberline {3.6.6}Riwayat Donasi User}{47}{subsection.3.6.6}%
+\contentsline {subsection}{\numberline {3.6.7}Mengelola Akun User}{48}{subsection.3.6.7}%
+\contentsline {subsection}{\numberline {3.6.8}User Melihat Notifikasi}{48}{subsection.3.6.8}%
+\contentsline {subsection}{\numberline {3.6.9}Admin Mengelola Peminjaman}{49}{subsection.3.6.9}%
+\contentsline {subsection}{\numberline {3.6.10}Admin Mengelola Inventaris}{50}{subsection.3.6.10}%
+\contentsline {subsection}{\numberline {3.6.11}Admin Mengelola Berita}{51}{subsection.3.6.11}%
+\contentsline {subsection}{\numberline {3.6.12}Admin Mengelola Iklan}{52}{subsection.3.6.12}%
+\contentsline {subsection}{\numberline {3.6.13}Admin Konfirmasi Donasi}{53}{subsection.3.6.13}%
+\contentsline {section}{\numberline {3.7}Deployment}{54}{section.3.7}%
+\contentsline {chapter}{BAB IV HASIL DAN PEMBAHASAN}{55}{figure.caption.35}%
+\contentsline {chapter}{\numberline {4}IMPLEMENTASI DAN PENGUJIAN}{56}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Pembahasan Hasil Implementasi}{56}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Landing Page}{56}{subsection.4.1.1}%
+\contentsline {chapter}{BAB V KESIMPULAN DAN SARAN}{57}{figure.caption.36}%
+\contentsline {chapter}{Bibliografi}{58}{chapter*.37}%
