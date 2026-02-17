@@ -77,8 +77,8 @@
 \contentsline {subsection}{\numberline {4.1.10}Dashboard Admin}{61}{subsection.4.1.10}%
 \contentsline {subsection}{\numberline {4.1.11}Tambah Alat Medis}{61}{subsection.4.1.11}%
 \contentsline {subsection}{\numberline {4.1.12}List Peminjaman}{62}{subsection.4.1.12}%
-\contentsline {subsection}{\numberline {4.1.13}Manajemen Iklan}{63}{subsection.4.1.13}%
-\contentsline {subsection}{\numberline {4.1.14}Manajemen Berita}{64}{subsection.4.1.14}%
+\contentsline {subsection}{\numberline {4.1.13}Manajemen Berita}{63}{subsection.4.1.13}%
+\contentsline {subsection}{\numberline {4.1.14}Manajemen Iklan}{64}{subsection.4.1.14}%
 \contentsline {subsection}{\numberline {4.1.15}List Data Donatur dan Donasi Alat}{65}{subsection.4.1.15}%
 \contentsline {subsection}{\numberline {4.1.16}Lupa Kata Sandi}{66}{subsection.4.1.16}%
 \contentsline {section}{\numberline {4.2}Pengujian dan Hasil Pengujian}{67}{section.4.2}%

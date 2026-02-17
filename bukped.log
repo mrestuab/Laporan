@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.2.16)  17 FEB 2026 19:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.2.16)  17 FEB 2026 20:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -360,24 +360,24 @@ File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
 ) (bukped.aux)
 \openout1 = `bukped.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
 
 (C:\Users\mrest\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
@@ -438,7 +438,7 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 21.
+Package hyperref Info: Link coloring OFF on input line 24.
 (bukped.out) (bukped.out)
 \@outlinefile=\write3
 \openout3 = `bukped.out'.
@@ -455,42 +455,42 @@ Package caption Info: End \AtBeginDocument code.
 <images/ulbi.png, id=347, 341.1144pt x 120.45pt>
 File: images/ulbi.png Graphic file (type png)
 <use images/ulbi.png>
-Package pdftex.def Info: images/ulbi.png  used on input line 43.
+Package pdftex.def Info: images/ulbi.png  used on input line 46.
 (pdftex.def)             Requested size: 239.00558pt x 84.39528pt.
 [1
 
 {C:/Users/mrest/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./images/ulb
 i.png>]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 73.
+(Font)              <12> on input line 76.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 73.
+(Font)              <8> on input line 76.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 73.
+(Font)              <6> on input line 76.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.104 \end{titlepage}
+l.107 \end{titlepage}
                       [1]
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.150 \end{center}
+l.153 \end{center}
                    [1]
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.197 \end{center}
+l.200 \end{center}
                    [1] (chapters/abstrak.tex)
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.209 \clearpage
+l.212 \clearpage
                  [1] (chapters/abstract.tex) [2
 
 ] [3
@@ -987,38 +987,38 @@ File: images/bab4/list_peminjaman.png Graphic file (type png)
 Package pdftex.def Info: images/bab4/list_peminjaman.png  used on input line 13
 1.
 (pdftex.def)             Requested size: 398.3386pt x 223.67557pt.
-<images/bab4/manajemen_iklan.png, id=1072, 368.87813pt x 207.02344pt>
-File: images/bab4/manajemen_iklan.png Graphic file (type png)
-<use images/bab4/manajemen_iklan.png>
-Package pdftex.def Info: images/bab4/manajemen_iklan.png  used on input line 14
-3.
-(pdftex.def)             Requested size: 398.3386pt x 223.55669pt.
- [62 <./images/bab4/list_peminjaman.png>]
-<images/bab4/manajemen_berita.png, id=1079, 380.17032pt x 213.79875pt>
+<images/bab4/manajemen_berita.png, id=1072, 380.17032pt x 213.79875pt>
 File: images/bab4/manajemen_berita.png Graphic file (type png)
 <use images/bab4/manajemen_berita.png>
 Package pdftex.def Info: images/bab4/manajemen_berita.png  used on input line 1
-53.
+43.
 (pdftex.def)             Requested size: 398.3386pt x 224.02226pt.
- [63 <./images/bab4/manajemen_iklan.png>]
+ [62 <./images/bab4/list_peminjaman.png>]
+<images/bab4/manajemen_iklan.png, id=1079, 368.87813pt x 207.02344pt>
+File: images/bab4/manajemen_iklan.png Graphic file (type png)
+<use images/bab4/manajemen_iklan.png>
+Package pdftex.def Info: images/bab4/manajemen_iklan.png  used on input line 15
+3.
+(pdftex.def)             Requested size: 398.3386pt x 223.55669pt.
+ [63 <./images/bab4/manajemen_berita.png>]
 <images/bab4/list_donatur_donasi.png, id=1087, 383.93437pt x 215.30438pt>
 File: images/bab4/list_donatur_donasi.png Graphic file (type png)
 <use images/bab4/list_donatur_donasi.png>
 Package pdftex.def Info: images/bab4/list_donatur_donasi.png  used on input lin
-e 161.
+e 163.
 (pdftex.def)             Requested size: 398.3386pt x 223.39548pt.
- [64 <./images/bab4/manajemen_berita.png>]
+ [64 <./images/bab4/manajemen_iklan.png>]
 <images/bab4/lupa_password.png, id=1094, 385.44pt x 216.81pt>
 File: images/bab4/lupa_password.png Graphic file (type png)
 <use images/bab4/lupa_password.png>
-Package pdftex.def Info: images/bab4/lupa_password.png  used on input line 169.
+Package pdftex.def Info: images/bab4/lupa_password.png  used on input line 171.
 
 (pdftex.def)             Requested size: 398.3386pt x 224.06445pt.
  [65 <./images/bab4/list_donatur_donasi.png>]
 <images/bab4/hasil.png, id=1101, 379.4175pt x 190.2015pt>
 File: images/bab4/hasil.png Graphic file (type png)
 <use images/bab4/hasil.png>
-Package pdftex.def Info: images/bab4/hasil.png  used on input line 177.
+Package pdftex.def Info: images/bab4/hasil.png  used on input line 179.
 (pdftex.def)             Requested size: 398.3386pt x 199.69135pt.
 ) [66 <./images/bab4/lupa_password.png>] [67 <./images/bab4/hasil.png>] (chapte
 rs/bab5.tex [68
@@ -1032,12 +1032,12 @@ LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
  ***********
 Package rerunfilecheck Info: File `bukped.out' has not changed.
-(rerunfilecheck)             Checksum: 2A10D6176CF4EF0350067B4D9484DBD5;13070.
+(rerunfilecheck)             Checksum: D2218414F0EF89D2564EC65D3EF023BF;13070.
  ) 
 Here is how much of TeX's memory you used:
  13784 strings out of 467871
  235687 string characters out of 5418376
- 658810 words of memory out of 5000000
+ 658605 words of memory out of 5000000
  42262 multiletter control sequences out of 15000+600000
  633434 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1048,7 +1048,7 @@ ts/cm/cmbx12.pfb><C:/Users/mrest/AppData/Local/Programs/MiKTeX/fonts/type1/publ
 ic/amsfonts/cm/cmr12.pfb><C:/Users/mrest/AppData/Local/Programs/MiKTeX/fonts/ty
 pe1/public/amsfonts/cm/cmti12.pfb><C:/Users/mrest/AppData/Local/Programs/MiKTeX
 /fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on bukped.pdf (74 pages, 2624695 bytes).
+Output written on bukped.pdf (74 pages, 2624376 bytes).
 PDF statistics:
  1209 PDF objects out of 1440 (max. 8388607)
  243 named destinations out of 1000 (max. 500000)
