@@ -1,49 +1,49 @@
 \babel@toc {indonesian}{}\relax 
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Use Case Diagram Sistem MedisLink}}{22}{figure.caption.5}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Class Diagram Sistem MedisLink}}{24}{figure.caption.6}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Activity Diagram Tamu Melihat Landing Page}}{25}{figure.caption.7}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Activity Diagram Registrasi}}{26}{figure.caption.8}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Activity Diagram Login User}}{27}{figure.caption.9}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Activity Diagram Peminjaman Alat Bantu Medis}}{28}{figure.caption.10}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Activity Diagram Donasi Alat}}{29}{figure.caption.11}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Activity Diagram Riwayat Peminjaman}}{30}{figure.caption.12}%
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Activity Diagram Riwayat Donasi User}}{31}{figure.caption.13}%
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Activity Diagram User Melihat Notifikasi}}{32}{figure.caption.14}%
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Activity Diagram Mengelola Akun}}{33}{figure.caption.15}%
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Activity Diagram Login Admin}}{34}{figure.caption.16}%
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Activity Diagram Admin Mengelola Peminjaman}}{36}{figure.caption.17}%
-\contentsline {figure}{\numberline {3.14}{\ignorespaces Activity Diagram Admin Mengelola Inventaris}}{37}{figure.caption.18}%
-\contentsline {figure}{\numberline {3.15}{\ignorespaces Activity Diagram Admin Mengelola Berita}}{38}{figure.caption.19}%
-\contentsline {figure}{\numberline {3.16}{\ignorespaces Activity Diagram Admin Mengelola Iklan}}{39}{figure.caption.20}%
-\contentsline {figure}{\numberline {3.17}{\ignorespaces Activity Diagram Admin Konfirmasi Donasi}}{40}{figure.caption.21}%
-\contentsline {figure}{\numberline {3.18}{\ignorespaces Sequence Diagram Tamu Melihat Landing Page}}{41}{figure.caption.22}%
-\contentsline {figure}{\numberline {3.19}{\ignorespaces Sequence Diagram Login}}{42}{figure.caption.23}%
-\contentsline {figure}{\numberline {3.20}{\ignorespaces Sequence Diagram Peminjaman Alat Bantu Medis}}{42}{figure.caption.24}%
-\contentsline {figure}{\numberline {3.21}{\ignorespaces Sequence Diagram User Donasi Alat}}{43}{figure.caption.25}%
-\contentsline {figure}{\numberline {3.22}{\ignorespaces Sequence Diagram Riwayat Peminjaman User}}{44}{figure.caption.26}%
-\contentsline {figure}{\numberline {3.23}{\ignorespaces Sequence Diagram Riwayat Donasi User}}{44}{figure.caption.27}%
-\contentsline {figure}{\numberline {3.24}{\ignorespaces Sequence Diagram Mengelola Akun User}}{45}{figure.caption.28}%
-\contentsline {figure}{\numberline {3.25}{\ignorespaces Sequence Diagram User Melihat Notifikasi}}{45}{figure.caption.29}%
-\contentsline {figure}{\numberline {3.26}{\ignorespaces Sequence Diagram Admin Mengelola Peminjaman}}{46}{figure.caption.30}%
-\contentsline {figure}{\numberline {3.27}{\ignorespaces Sequence Diagram Admin Mengelola Inventaris}}{47}{figure.caption.31}%
-\contentsline {figure}{\numberline {3.28}{\ignorespaces Sequence Diagram Admin Mengelola Berita}}{48}{figure.caption.32}%
-\contentsline {figure}{\numberline {3.29}{\ignorespaces Sequence Diagram Admin Mengelola Iklan}}{49}{figure.caption.33}%
-\contentsline {figure}{\numberline {3.30}{\ignorespaces Sequence Diagram Admin Konfirmasi Donasi}}{50}{figure.caption.34}%
-\contentsline {figure}{\numberline {3.31}{\ignorespaces Deployment Diagram MedisLink}}{51}{figure.caption.35}%
-\contentsline {figure}{\numberline {4.32}{\ignorespaces Halaman Landing Page}}{52}{figure.caption.36}%
-\contentsline {figure}{\numberline {4.33}{\ignorespaces Halaman Login}}{53}{figure.caption.37}%
-\contentsline {figure}{\numberline {4.34}{\ignorespaces Halaman Register}}{53}{figure.caption.38}%
-\contentsline {figure}{\numberline {4.35}{\ignorespaces Halaman Dashboard (Jelajahi Alat)}}{54}{figure.caption.39}%
-\contentsline {figure}{\numberline {4.36}{\ignorespaces Halaman Peminjaman Alat}}{55}{figure.caption.40}%
-\contentsline {figure}{\numberline {4.37}{\ignorespaces Halaman Riwayat Peminjaman}}{56}{figure.caption.41}%
-\contentsline {figure}{\numberline {4.38}{\ignorespaces Halaman Form Donasi Alat}}{57}{figure.caption.42}%
-\contentsline {figure}{\numberline {4.39}{\ignorespaces Halaman Riwayat Donasi}}{58}{figure.caption.43}%
-\contentsline {figure}{\numberline {4.40}{\ignorespaces Halaman Profile User}}{59}{figure.caption.44}%
-\contentsline {figure}{\numberline {4.41}{\ignorespaces Halaman Dashboard Admin (Inventaris)}}{60}{figure.caption.45}%
-\contentsline {figure}{\numberline {4.42}{\ignorespaces Form Tambah Alat Medis (Admin)}}{60}{figure.caption.46}%
-\contentsline {figure}{\numberline {4.43}{\ignorespaces Halaman List Peminjaman}}{61}{figure.caption.47}%
-\contentsline {figure}{\numberline {4.44}{\ignorespaces Halaman Manajemen Iklan}}{62}{figure.caption.48}%
-\contentsline {figure}{\numberline {4.45}{\ignorespaces Halaman Manajemen Berita Admin}}{63}{figure.caption.49}%
-\contentsline {figure}{\numberline {4.46}{\ignorespaces Halaman List Data Donatur dan Donasi Alat}}{64}{figure.caption.50}%
-\contentsline {figure}{\numberline {4.47}{\ignorespaces Halaman Lupa Kata Sandi}}{64}{figure.caption.51}%
-\contentsline {figure}{\numberline {4.48}{\ignorespaces Hasil Pengujian Aplikasi}}{65}{figure.caption.52}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Use Case Diagram Sistem MedisLink}}{23}{figure.caption.5}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Class Diagram Sistem MedisLink}}{25}{figure.caption.6}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Activity Diagram Tamu Melihat Landing Page}}{26}{figure.caption.7}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Activity Diagram Registrasi}}{27}{figure.caption.8}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Activity Diagram Login User}}{28}{figure.caption.9}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Activity Diagram Peminjaman Alat Bantu Medis}}{29}{figure.caption.10}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Activity Diagram Donasi Alat}}{30}{figure.caption.11}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Activity Diagram Riwayat Peminjaman}}{31}{figure.caption.12}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Activity Diagram Riwayat Donasi User}}{32}{figure.caption.13}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Activity Diagram User Melihat Notifikasi}}{33}{figure.caption.14}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Activity Diagram Mengelola Akun}}{34}{figure.caption.15}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Activity Diagram Login Admin}}{35}{figure.caption.16}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Activity Diagram Admin Mengelola Peminjaman}}{37}{figure.caption.17}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Activity Diagram Admin Mengelola Inventaris}}{38}{figure.caption.18}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Activity Diagram Admin Mengelola Berita}}{39}{figure.caption.19}%
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Activity Diagram Admin Mengelola Iklan}}{40}{figure.caption.20}%
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Activity Diagram Admin Konfirmasi Donasi}}{41}{figure.caption.21}%
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Sequence Diagram Tamu Melihat Landing Page}}{42}{figure.caption.22}%
+\contentsline {figure}{\numberline {3.19}{\ignorespaces Sequence Diagram Login}}{43}{figure.caption.23}%
+\contentsline {figure}{\numberline {3.20}{\ignorespaces Sequence Diagram Peminjaman Alat Bantu Medis}}{43}{figure.caption.24}%
+\contentsline {figure}{\numberline {3.21}{\ignorespaces Sequence Diagram User Donasi Alat}}{44}{figure.caption.25}%
+\contentsline {figure}{\numberline {3.22}{\ignorespaces Sequence Diagram Riwayat Peminjaman User}}{45}{figure.caption.26}%
+\contentsline {figure}{\numberline {3.23}{\ignorespaces Sequence Diagram Riwayat Donasi User}}{45}{figure.caption.27}%
+\contentsline {figure}{\numberline {3.24}{\ignorespaces Sequence Diagram Mengelola Akun User}}{46}{figure.caption.28}%
+\contentsline {figure}{\numberline {3.25}{\ignorespaces Sequence Diagram User Melihat Notifikasi}}{46}{figure.caption.29}%
+\contentsline {figure}{\numberline {3.26}{\ignorespaces Sequence Diagram Admin Mengelola Peminjaman}}{47}{figure.caption.30}%
+\contentsline {figure}{\numberline {3.27}{\ignorespaces Sequence Diagram Admin Mengelola Inventaris}}{48}{figure.caption.31}%
+\contentsline {figure}{\numberline {3.28}{\ignorespaces Sequence Diagram Admin Mengelola Berita}}{49}{figure.caption.32}%
+\contentsline {figure}{\numberline {3.29}{\ignorespaces Sequence Diagram Admin Mengelola Iklan}}{50}{figure.caption.33}%
+\contentsline {figure}{\numberline {3.30}{\ignorespaces Sequence Diagram Admin Konfirmasi Donasi}}{51}{figure.caption.34}%
+\contentsline {figure}{\numberline {3.31}{\ignorespaces Deployment Diagram MedisLink}}{52}{figure.caption.35}%
+\contentsline {figure}{\numberline {4.32}{\ignorespaces Halaman Landing Page}}{53}{figure.caption.36}%
+\contentsline {figure}{\numberline {4.33}{\ignorespaces Halaman Login}}{54}{figure.caption.37}%
+\contentsline {figure}{\numberline {4.34}{\ignorespaces Halaman Register}}{54}{figure.caption.38}%
+\contentsline {figure}{\numberline {4.35}{\ignorespaces Halaman Dashboard (Jelajahi Alat)}}{55}{figure.caption.39}%
+\contentsline {figure}{\numberline {4.36}{\ignorespaces Halaman Peminjaman Alat}}{56}{figure.caption.40}%
+\contentsline {figure}{\numberline {4.37}{\ignorespaces Halaman Riwayat Peminjaman}}{57}{figure.caption.41}%
+\contentsline {figure}{\numberline {4.38}{\ignorespaces Halaman Form Donasi Alat}}{58}{figure.caption.42}%
+\contentsline {figure}{\numberline {4.39}{\ignorespaces Halaman Riwayat Donasi}}{59}{figure.caption.43}%
+\contentsline {figure}{\numberline {4.40}{\ignorespaces Halaman Profile User}}{60}{figure.caption.44}%
+\contentsline {figure}{\numberline {4.41}{\ignorespaces Halaman Dashboard Admin (Inventaris)}}{61}{figure.caption.45}%
+\contentsline {figure}{\numberline {4.42}{\ignorespaces Form Tambah Alat Medis (Admin)}}{61}{figure.caption.46}%
+\contentsline {figure}{\numberline {4.43}{\ignorespaces Halaman List Peminjaman}}{62}{figure.caption.47}%
+\contentsline {figure}{\numberline {4.44}{\ignorespaces Halaman Manajemen Iklan}}{63}{figure.caption.48}%
+\contentsline {figure}{\numberline {4.45}{\ignorespaces Halaman Manajemen Berita Admin}}{64}{figure.caption.49}%
+\contentsline {figure}{\numberline {4.46}{\ignorespaces Halaman List Data Donatur dan Donasi Alat}}{65}{figure.caption.50}%
+\contentsline {figure}{\numberline {4.47}{\ignorespaces Halaman Lupa Kata Sandi}}{65}{figure.caption.51}%
+\contentsline {figure}{\numberline {4.48}{\ignorespaces Hasil Pengujian Aplikasi}}{66}{figure.caption.52}%

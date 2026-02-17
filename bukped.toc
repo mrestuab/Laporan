@@ -8,81 +8,81 @@
 \contentsline {section}{\numberline {1.3}Identifikasi Masalah}{11}{section.1.3}%
 \contentsline {section}{\numberline {1.4}Tujuan}{12}{section.1.4}%
 \contentsline {section}{\numberline {1.5}Ruang Lingkup}{12}{section.1.5}%
-\contentsline {chapter}{BAB II LANDASAN TEORI}{13}{section.1.5}%
-\contentsline {section}{\numberline {2.6}Landasan Teori}{13}{section.2.6}%
-\contentsline {subsection}{\numberline {2.6.1}API}{13}{subsection.2.6.1}%
-\contentsline {subsection}{\numberline {2.6.2}Node.js}{13}{subsection.2.6.2}%
-\contentsline {subsection}{\numberline {2.6.3}Go (Golang)}{14}{subsection.2.6.3}%
-\contentsline {subsection}{\numberline {2.6.4}React.js}{14}{subsection.2.6.4}%
-\contentsline {subsection}{\numberline {2.6.5}JavaScript}{14}{subsection.2.6.5}%
-\contentsline {subsection}{\numberline {2.6.6}MongoDB}{14}{subsection.2.6.6}%
-\contentsline {subsection}{\numberline {2.6.7}DaisyUI}{15}{subsection.2.6.7}%
-\contentsline {subsection}{\numberline {2.6.8}Axios}{15}{subsection.2.6.8}%
-\contentsline {subsection}{\numberline {2.6.9}UML}{15}{subsection.2.6.9}%
-\contentsline {section}{\numberline {2.7}Use Case Diagram}{15}{section.2.7}%
-\contentsline {section}{\numberline {2.8}Diagram Aktivitas (Activity Diagram)}{16}{section.2.8}%
-\contentsline {section}{\numberline {2.9}Diagram Urutan (Sequence Diagram)}{17}{section.2.9}%
-\contentsline {section}{\numberline {2.10}Deployment Diagram}{19}{section.2.10}%
-\contentsline {chapter}{BAB III METODE PENELITIAN}{20}{table.caption.4}%
-\contentsline {section}{\numberline {3.11}Analisis Sistem pada Aplikasi}{20}{section.3.11}%
-\contentsline {subsection}{\numberline {3.11.1}Analisis Sistem yang Sedang Berjalan}{20}{subsection.3.11.1}%
-\contentsline {section}{\numberline {3.12}Analisis Sistem yang Akan Dibangun}{20}{section.3.12}%
-\contentsline {subsection}{\numberline {3.12.1}Alur Sistem yang Akan Dibangun}{21}{subsection.3.12.1}%
-\contentsline {subsection}{\numberline {3.12.2}Kebutuhan Fungsional}{21}{subsection.3.12.2}%
-\contentsline {subsection}{\numberline {3.12.3}Kebutuhan Nonfungsional}{21}{subsection.3.12.3}%
-\contentsline {section}{\numberline {3.13}Use Case Diagram}{22}{section.3.13}%
-\contentsline {section}{\numberline {3.14}Class Diagram}{24}{section.3.14}%
-\contentsline {section}{\numberline {3.15}Activity Diagram}{25}{section.3.15}%
-\contentsline {subsection}{\numberline {3.15.1}Tamu Melihat Landing Page}{25}{subsection.3.15.1}%
-\contentsline {subsection}{\numberline {3.15.2}Registrasi}{26}{subsection.3.15.2}%
-\contentsline {subsection}{\numberline {3.15.3}Login User}{27}{subsection.3.15.3}%
-\contentsline {subsection}{\numberline {3.15.4}Peminjaman Alat Bantu Medis}{28}{subsection.3.15.4}%
-\contentsline {subsection}{\numberline {3.15.5}Donasi Alat}{29}{subsection.3.15.5}%
-\contentsline {subsection}{\numberline {3.15.6}Riwayat Peminjaman User}{30}{subsection.3.15.6}%
-\contentsline {subsection}{\numberline {3.15.7}Riwayat Donasi User}{31}{subsection.3.15.7}%
-\contentsline {subsection}{\numberline {3.15.8}User Melihat Notifikasi}{32}{subsection.3.15.8}%
-\contentsline {subsection}{\numberline {3.15.9}Mengelola Akun}{33}{subsection.3.15.9}%
-\contentsline {subsection}{\numberline {3.15.10}Login Admin}{34}{subsection.3.15.10}%
-\contentsline {subsection}{\numberline {3.15.11}Admin Mengelola Peminjaman}{36}{subsection.3.15.11}%
-\contentsline {subsection}{\numberline {3.15.12}Admin Mengelola Inventaris}{37}{subsection.3.15.12}%
-\contentsline {subsection}{\numberline {3.15.13}Admin Mengelola Berita}{38}{subsection.3.15.13}%
-\contentsline {subsection}{\numberline {3.15.14}Admin Mengelola Iklan}{39}{subsection.3.15.14}%
-\contentsline {subsection}{\numberline {3.15.15}Admin Konfirmasi Donasi}{40}{subsection.3.15.15}%
-\contentsline {section}{\numberline {3.16}Sequence Diagram}{41}{section.3.16}%
-\contentsline {subsection}{\numberline {3.16.1}Tamu Melihat Landing Page}{41}{subsection.3.16.1}%
-\contentsline {subsection}{\numberline {3.16.2}Login}{42}{subsection.3.16.2}%
-\contentsline {subsection}{\numberline {3.16.3}Peminjaman Alat Bantu Medis}{42}{subsection.3.16.3}%
-\contentsline {subsection}{\numberline {3.16.4}User Donasi Alat}{43}{subsection.3.16.4}%
-\contentsline {subsection}{\numberline {3.16.5}Riwayat Peminjaman User}{44}{subsection.3.16.5}%
-\contentsline {subsection}{\numberline {3.16.6}Riwayat Donasi User}{44}{subsection.3.16.6}%
-\contentsline {subsection}{\numberline {3.16.7}Mengelola Akun User}{45}{subsection.3.16.7}%
-\contentsline {subsection}{\numberline {3.16.8}User Melihat Notifikasi}{45}{subsection.3.16.8}%
-\contentsline {subsection}{\numberline {3.16.9}Admin Mengelola Peminjaman}{46}{subsection.3.16.9}%
-\contentsline {subsection}{\numberline {3.16.10}Admin Mengelola Inventaris}{47}{subsection.3.16.10}%
-\contentsline {subsection}{\numberline {3.16.11}Admin Mengelola Berita}{48}{subsection.3.16.11}%
-\contentsline {subsection}{\numberline {3.16.12}Admin Mengelola Iklan}{49}{subsection.3.16.12}%
-\contentsline {subsection}{\numberline {3.16.13}Admin Konfirmasi Donasi}{50}{subsection.3.16.13}%
-\contentsline {section}{\numberline {3.17}Deployment}{51}{section.3.17}%
-\contentsline {chapter}{BAB IV HASIL DAN PEMBAHASAN}{52}{figure.caption.35}%
-\contentsline {section}{\numberline {4.18}Pembahasan Hasil Implementasi}{52}{section.4.18}%
-\contentsline {subsection}{\numberline {4.18.1}Landing Page}{52}{subsection.4.18.1}%
-\contentsline {subsection}{\numberline {4.18.2}Login}{53}{subsection.4.18.2}%
-\contentsline {subsection}{\numberline {4.18.3}Register}{53}{subsection.4.18.3}%
-\contentsline {subsection}{\numberline {4.18.4}Dashboard}{54}{subsection.4.18.4}%
-\contentsline {subsection}{\numberline {4.18.5}Peminjaman Alat}{55}{subsection.4.18.5}%
-\contentsline {subsection}{\numberline {4.18.6}Riwayat Peminjaman}{56}{subsection.4.18.6}%
-\contentsline {subsection}{\numberline {4.18.7}Form Donasi Alat}{57}{subsection.4.18.7}%
-\contentsline {subsection}{\numberline {4.18.8}Riwayat Donasi}{58}{subsection.4.18.8}%
-\contentsline {subsection}{\numberline {4.18.9}Profile User}{59}{subsection.4.18.9}%
-\contentsline {subsection}{\numberline {4.18.10}Dashboard Admin}{60}{subsection.4.18.10}%
-\contentsline {subsection}{\numberline {4.18.11}Tambah Alat Medis}{60}{subsection.4.18.11}%
-\contentsline {subsection}{\numberline {4.18.12}List Peminjaman}{61}{subsection.4.18.12}%
-\contentsline {subsection}{\numberline {4.18.13}Manajemen Iklan}{62}{subsection.4.18.13}%
-\contentsline {subsection}{\numberline {4.18.14}Manajemen Berita}{63}{subsection.4.18.14}%
-\contentsline {subsection}{\numberline {4.18.15}List Data Donatur dan Donasi Alat}{64}{subsection.4.18.15}%
-\contentsline {subsection}{\numberline {4.18.16}Lupa Kata Sandi}{64}{subsection.4.18.16}%
-\contentsline {section}{\numberline {4.19}Pengujian dan Hasil Pengujian}{65}{section.4.19}%
-\contentsline {chapter}{BAB V KESIMPULAN DAN SARAN}{65}{figure.caption.52}%
-\contentsline {section}{\numberline {5.20}Kesimpulan}{65}{section.5.20}%
-\contentsline {section}{\numberline {5.21}Saran}{66}{section.5.21}%
-\contentsline {chapter}{Bibliografi}{67}{chapter*.53}%
+\contentsline {chapter}{BAB II LANDASAN TEORI}{14}{section.1.5}%
+\contentsline {section}{\numberline {2.6}Landasan Teori}{14}{section.2.6}%
+\contentsline {subsection}{\numberline {2.6.1}API}{14}{subsection.2.6.1}%
+\contentsline {subsection}{\numberline {2.6.2}Node.js}{14}{subsection.2.6.2}%
+\contentsline {subsection}{\numberline {2.6.3}Go (Golang)}{15}{subsection.2.6.3}%
+\contentsline {subsection}{\numberline {2.6.4}React.js}{15}{subsection.2.6.4}%
+\contentsline {subsection}{\numberline {2.6.5}JavaScript}{15}{subsection.2.6.5}%
+\contentsline {subsection}{\numberline {2.6.6}MongoDB}{15}{subsection.2.6.6}%
+\contentsline {subsection}{\numberline {2.6.7}DaisyUI}{16}{subsection.2.6.7}%
+\contentsline {subsection}{\numberline {2.6.8}Axios}{16}{subsection.2.6.8}%
+\contentsline {subsection}{\numberline {2.6.9}UML}{16}{subsection.2.6.9}%
+\contentsline {section}{\numberline {2.7}Use Case Diagram}{16}{section.2.7}%
+\contentsline {section}{\numberline {2.8}Diagram Aktivitas (Activity Diagram)}{17}{section.2.8}%
+\contentsline {section}{\numberline {2.9}Diagram Urutan (Sequence Diagram)}{18}{section.2.9}%
+\contentsline {section}{\numberline {2.10}Deployment Diagram}{20}{section.2.10}%
+\contentsline {chapter}{BAB III METODE PENELITIAN}{21}{table.caption.4}%
+\contentsline {section}{\numberline {3.11}Analisis Sistem pada Aplikasi}{21}{section.3.11}%
+\contentsline {subsection}{\numberline {3.11.1}Analisis Sistem yang Sedang Berjalan}{21}{subsection.3.11.1}%
+\contentsline {section}{\numberline {3.12}Analisis Sistem yang Akan Dibangun}{21}{section.3.12}%
+\contentsline {subsection}{\numberline {3.12.1}Alur Sistem yang Akan Dibangun}{22}{subsection.3.12.1}%
+\contentsline {subsection}{\numberline {3.12.2}Kebutuhan Fungsional}{22}{subsection.3.12.2}%
+\contentsline {subsection}{\numberline {3.12.3}Kebutuhan Nonfungsional}{22}{subsection.3.12.3}%
+\contentsline {section}{\numberline {3.13}Use Case Diagram}{23}{section.3.13}%
+\contentsline {section}{\numberline {3.14}Class Diagram}{25}{section.3.14}%
+\contentsline {section}{\numberline {3.15}Activity Diagram}{26}{section.3.15}%
+\contentsline {subsection}{\numberline {3.15.1}Tamu Melihat Landing Page}{26}{subsection.3.15.1}%
+\contentsline {subsection}{\numberline {3.15.2}Registrasi}{27}{subsection.3.15.2}%
+\contentsline {subsection}{\numberline {3.15.3}Login User}{28}{subsection.3.15.3}%
+\contentsline {subsection}{\numberline {3.15.4}Peminjaman Alat Bantu Medis}{29}{subsection.3.15.4}%
+\contentsline {subsection}{\numberline {3.15.5}Donasi Alat}{30}{subsection.3.15.5}%
+\contentsline {subsection}{\numberline {3.15.6}Riwayat Peminjaman User}{31}{subsection.3.15.6}%
+\contentsline {subsection}{\numberline {3.15.7}Riwayat Donasi User}{32}{subsection.3.15.7}%
+\contentsline {subsection}{\numberline {3.15.8}User Melihat Notifikasi}{33}{subsection.3.15.8}%
+\contentsline {subsection}{\numberline {3.15.9}Mengelola Akun}{34}{subsection.3.15.9}%
+\contentsline {subsection}{\numberline {3.15.10}Login Admin}{35}{subsection.3.15.10}%
+\contentsline {subsection}{\numberline {3.15.11}Admin Mengelola Peminjaman}{37}{subsection.3.15.11}%
+\contentsline {subsection}{\numberline {3.15.12}Admin Mengelola Inventaris}{38}{subsection.3.15.12}%
+\contentsline {subsection}{\numberline {3.15.13}Admin Mengelola Berita}{39}{subsection.3.15.13}%
+\contentsline {subsection}{\numberline {3.15.14}Admin Mengelola Iklan}{40}{subsection.3.15.14}%
+\contentsline {subsection}{\numberline {3.15.15}Admin Konfirmasi Donasi}{41}{subsection.3.15.15}%
+\contentsline {section}{\numberline {3.16}Sequence Diagram}{42}{section.3.16}%
+\contentsline {subsection}{\numberline {3.16.1}Tamu Melihat Landing Page}{42}{subsection.3.16.1}%
+\contentsline {subsection}{\numberline {3.16.2}Login}{43}{subsection.3.16.2}%
+\contentsline {subsection}{\numberline {3.16.3}Peminjaman Alat Bantu Medis}{43}{subsection.3.16.3}%
+\contentsline {subsection}{\numberline {3.16.4}User Donasi Alat}{44}{subsection.3.16.4}%
+\contentsline {subsection}{\numberline {3.16.5}Riwayat Peminjaman User}{45}{subsection.3.16.5}%
+\contentsline {subsection}{\numberline {3.16.6}Riwayat Donasi User}{45}{subsection.3.16.6}%
+\contentsline {subsection}{\numberline {3.16.7}Mengelola Akun User}{46}{subsection.3.16.7}%
+\contentsline {subsection}{\numberline {3.16.8}User Melihat Notifikasi}{46}{subsection.3.16.8}%
+\contentsline {subsection}{\numberline {3.16.9}Admin Mengelola Peminjaman}{47}{subsection.3.16.9}%
+\contentsline {subsection}{\numberline {3.16.10}Admin Mengelola Inventaris}{48}{subsection.3.16.10}%
+\contentsline {subsection}{\numberline {3.16.11}Admin Mengelola Berita}{49}{subsection.3.16.11}%
+\contentsline {subsection}{\numberline {3.16.12}Admin Mengelola Iklan}{50}{subsection.3.16.12}%
+\contentsline {subsection}{\numberline {3.16.13}Admin Konfirmasi Donasi}{51}{subsection.3.16.13}%
+\contentsline {section}{\numberline {3.17}Deployment}{52}{section.3.17}%
+\contentsline {chapter}{BAB IV HASIL DAN PEMBAHASAN}{53}{figure.caption.35}%
+\contentsline {section}{\numberline {4.18}Pembahasan Hasil Implementasi}{53}{section.4.18}%
+\contentsline {subsection}{\numberline {4.18.1}Landing Page}{53}{subsection.4.18.1}%
+\contentsline {subsection}{\numberline {4.18.2}Login}{54}{subsection.4.18.2}%
+\contentsline {subsection}{\numberline {4.18.3}Register}{54}{subsection.4.18.3}%
+\contentsline {subsection}{\numberline {4.18.4}Dashboard}{55}{subsection.4.18.4}%
+\contentsline {subsection}{\numberline {4.18.5}Peminjaman Alat}{56}{subsection.4.18.5}%
+\contentsline {subsection}{\numberline {4.18.6}Riwayat Peminjaman}{57}{subsection.4.18.6}%
+\contentsline {subsection}{\numberline {4.18.7}Form Donasi Alat}{58}{subsection.4.18.7}%
+\contentsline {subsection}{\numberline {4.18.8}Riwayat Donasi}{59}{subsection.4.18.8}%
+\contentsline {subsection}{\numberline {4.18.9}Profile User}{60}{subsection.4.18.9}%
+\contentsline {subsection}{\numberline {4.18.10}Dashboard Admin}{61}{subsection.4.18.10}%
+\contentsline {subsection}{\numberline {4.18.11}Tambah Alat Medis}{61}{subsection.4.18.11}%
+\contentsline {subsection}{\numberline {4.18.12}List Peminjaman}{62}{subsection.4.18.12}%
+\contentsline {subsection}{\numberline {4.18.13}Manajemen Iklan}{63}{subsection.4.18.13}%
+\contentsline {subsection}{\numberline {4.18.14}Manajemen Berita}{64}{subsection.4.18.14}%
+\contentsline {subsection}{\numberline {4.18.15}List Data Donatur dan Donasi Alat}{65}{subsection.4.18.15}%
+\contentsline {subsection}{\numberline {4.18.16}Lupa Kata Sandi}{65}{subsection.4.18.16}%
+\contentsline {section}{\numberline {4.19}Pengujian dan Hasil Pengujian}{66}{section.4.19}%
+\contentsline {chapter}{BAB V KESIMPULAN DAN SARAN}{67}{figure.caption.52}%
+\contentsline {section}{\numberline {5.20}Kesimpulan}{67}{section.5.20}%
+\contentsline {section}{\numberline {5.21}Saran}{67}{section.5.21}%
+\contentsline {chapter}{Bibliografi}{69}{chapter*.53}%
