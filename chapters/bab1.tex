@@ -1,90 +1,86 @@
-\chapter{Pendahuluan}
-
 \section{Latar Belakang}
 
-Perkembangan teknologi digital telah membawa perubahan yang signifikan dalam praktik penggalangan dana, khususnya melalui platform donasi digital berbasis crowdfunding. Secara global, donation-based crowdfunding berkembang pesat karena mampu menghubungkan donatur dan penerima manfaat secara efisien tanpa batasan geografis. Penelitian menunjukkan bahwa platform donasi digital berperan pentong dalm meningkatkan akases pendanaan sosial serta mendonrong partisipasi masyarakat melaluli pemanfaatan teknologi informai \cite{halim2024}.
+Keterbatasan akses terhadap alat bantu medis di Indonesia masih menjadi masalah kesehatan masyarakat yang signifikan. Banyak penyandang disabilitas dan pasien dengan kebutuhan medis khusus mengalami kesulitan mendapatkan alat bantu seperti kursi roda, tongkat oksigen, dan alat rehabilitasi lainnya karena faktor ekonomi dan ketersediaan alat di fasilitas kesehatan yang terbatas. Akses yang terbatas ini tidak hanya memperburuk kondisi kesehatan pengguna tetapi juga berdampak pada tingkat kemandirian dan risiko kemalangan akibat tidak tersedianya kebutuhan dasar medis.
 
-Dalam konteks donasi digital, berbagai studi menekankan bahwa factor kepercayaan (\textit{trust}) dan inovasi teknologi merupakan determinan utama dalam Keputusan berdonasi. Inovasi platform crowdfunding serta Tingkat kepercayaan pengguna berpengaruh positif terhadap Keputusan donasi online \cite{tarigan2023}. Selain itu, persepsi transparansi da keamanan system turut membentuk keyakinan donator dalam menggunakan olatform donasi digital. Temuan ini di perkuat oleh penelitian \cite{zikrinawati2025} yang menunjukan bahwa kepercayaan dan persepsi risiko memiliki pengaruh signifikan terhadap Keputusan donasi online, khususnya pada platform berbasis web.
+Banyak fasilitas kesehatan, terutama rumah sakit umum, sering kali kekurangan stok alat bantu medis yang dibutuhkan oleh pasien, sementara kemampuan masyarakat untuk membeli alat tersebut secara mandiri masih rendah. Hal ini memperlihatkan kebutuhan untuk solusi alternatif agar alat bantu medis dapat diakses oleh masyarakat yang membutuhkan tanpa harus membeli dengan harga tinggi.
 
-Di Indonesia, perkemangan donasi digital sejalan dengan meningkatnya adopsi teknologi finansial. Integrasi system pembayaran digital, seperti QRIS, pada platform donasi terbukti mempermudah proses transaksi serta meningkatkan efisiensi dan aksesibitilas bagi Masyarakat. Studi \cite{saputra2025} menunjukan bahwa penggunakan QRIS pada platform donation-based crodfunding mampu meningkatkan kenyamanan pengguna dan mempercepat proses donasi, meskipun tantangan terkait literasi digital dan kepercayaan terhadap platform masih menjadi perhatian.
+Dalam konteks tersebut, pengembangan sistem peminjaman alat bantu medis menjadi solusi inovatif yang dapat membantu mengatasi masalah keterbatasan akses ini. Sistem ini akan memungkinkan masyarakat memperoleh alat bantu medis secara temporal melalui peminjaman, terutama bagi mereka yang tidak mampu membeli alat tersebut dan ketika stok alat di rumah sakit habis. Dengan adanya sistem ini, diharapkan dapat meningkatkan ketersediaan alat bantu medis bagi masyarakat yang membutuhkan dan mengurangi risiko komplikasi kesehatan yang dapat timbul akibat tidak tersedianya alat bantu yang penting.
 
-Meskipun demikian, sejumlah penelitian mengindikasikan bahwa tantangan utama dalam donasi digital tidak hanya terletak paada aspek teknis pembayaran, tetapi juga ada Upaya membangun kepercayaan pengguna secara berkelanjutan. Inovasi fitur pada platform donasi dinilai dapat berkontirbusidalam meningkatkan partisipasi donator apabila mampu memberikan pengalaman pengguna yang transparan dan interaktif \cite{tarigan2023,zikrinawati2025}.
-
-Berdasarkan kondisi tersebut, alikasi Nyumbangin di kembangkan sebagai platform donasi digital berbasis web dan mengintegrasikan sistem pembayaran digital serta fitur pendukung seperti notifikasi real-time, leaderboard donator, dan media sharing. Fitur media sharing di rancang untuk mendorong keterlibatanan sosial dan meningkatkan kepercayaan pengguna melalu mekanisme berbagi aktivitas donasi, yang berdasarkan penelitian sebelumnya terbukti dapat mmepengaruhi partisipasi donator. Dengan pendekatan tersebut, aplikasi Nyumbangin di harapkan mampu memberikan pengalaman donasi digital yang transparan, interaktif, dan terpercaya.
+Berdasarkan kondisi tersebut, aplikasi \textit{MedisLink} dikembangkan sebagai sistem informasi berbasis \textit{web} yang menghubungkan peminjaman dan donasi alat medis. Sistem ini mengintegrasikan teknologi modern seperti \textit{React.js} di sisi depan, \textit{Golang} (\textit{Fiber}) di sisi \textit{backend}, dan \textit{MongoDB} sebagai basis data non-relasional. \textit{MedisLink} dirancang untuk memberikan pengalaman pengguna yang transparan, efisien, dan terpercaya dalam mengakses alat bantu medis.
 
 \section{Identifikasi Masalah}
 
-Meskipun platform donasi digital sudah banyak tersedia, sebagian besar memiliki kompleksitas fitur dan arsitektur yang cukup tinggi, sehingga kurang sesuai untuk dipelajari atau dijadikan dasar pengembangan mandiri. Selain itu, implementasi digital payment membutuhkan contoh sistem yang sederhana namun fungsional agar dapat dipahami dengan mudah.
+Meskipun kebutuhan alat bantu medis sangat tinggi di masyarakat, sistem peminjaman alat medis yang terorganisir dan mudah diakses masih terbatas. Sebagian besar fasilitas kesehatan belum memiliki sistem yang dapat memfasilitasi peminjaman alat medis kepada masyarakat umum secara efisien.
 
 Berdasarkan kondisi tersebut, kebutuhan yang muncul adalah:
 
 \begin{enumerate}
-    \item Kebutuhan untuk memahami sekaligus mempraktikkan implementasi sistem Digital Payment melalui proyek nyata.
-    \item Kebutuhan akan platform donasi yang ringan dan sederhana, tanpa kompleksitas berlebih.
-    \item Kebutuhan akan sebuah media belajar dan inovasi, yang tetap memiliki potensi digunakan oleh publik.
+    \item Kebutuhan untuk memahami sekaligus mempraktikkan implementasi sistem informasi berbasis \textit{web} untuk sektor kesehatan melalui proyek nyata.
+    \item Kebutuhan akan platform peminjaman alat medis yang mudah diakses dan sederhana, tanpa kompleksitas berlebih.
+    \item Kebutuhan akan sebuah media inovasi teknologi di bidang kesehatan yang tetap memiliki potensi digunakan oleh publik.
 \end{enumerate}
 
 \section{Tujuan}
 
-Tujuan utama dari pengembangan platform Nyumbangin adalah membangun sistem donasi digital yang sederhana, fungsional, dan dapat menjadi dasar pengambangan lebih lanjut. Secara khusus, tujuan proyek ini adalah:
+Tujuan utama dari pengembangan sistem \textit{MedisLink} adalah membangun platform peminjaman alat bantu medis yang sederhana, fungsional, dan dapat menjadi dasar pengembangan lebih lanjut. Secara khusus, tujuan proyek ini adalah:
 
 \begin{enumerate}
-    \item Merancang dan mengimplementasikan platform donasi sederhana sebagai penerapan teknologi, termasuk Digital Payment.
-    \item Menyediakan alternatif platform donasi yang ringan, fleksibel, dan mudah dikembangkan sesuai kebutuhan.
-    \item Membangun pondasi produk digital yang dapat diekspansi menjadi sistem yang lebih kompleks di masa depan sekaligus menjadi sarana pembelajaran dan inovasi.
+    \item Merancang dan mengimplementasikan sistem peminjaman alat medis berbasis \textit{web} sebagai penerapan teknologi informasi di bidang kesehatan.
+    \item Menyediakan alternatif sistem peminjaman alat medis yang mudah diakses, fleksibel, dan mudah dikembangkan sesuai kebutuhan.
+    \item Membangun pondasi produk digital yang dapat diekspansi menjadi sistem yang lebih kompleks di masa depan sekaligus menjadi sarana pembelajaran dan inovasi di bidang teknologi kesehatan.
 \end{enumerate}
 
 \section{Ruang Lingkup}
 
-Ruang lingkup pengembangan ini difokuskan pada perancangan, pembangunan, dan evaluasi prototi Nyumbangin, yaitu platform web sederhana untuk penggalangan dukungan/donasi bagi kreator. Lingkup ini mencakup proses analisis kebutuhan, perancangan arsitektur dan model data, implementasi modul inti, serta pengujian fungsional dalam lingkungan pengembangan.
+Ruang lingkup pengembangan ini difokuskan pada perancangan, pembangunan, dan evaluasi prototipe \textit{MedisLink}, yaitu sistem informasi \textit{web} untuk peminjaman alat bantu medis. Lingkup ini mencakup proses analisis kebutuhan, perancangan arsitektur dan model data, implementasi modul inti, serta pengujian fungsional dalam lingkungan pengembangan.
 
 \subsection{Cakupan Fungsional}
 
-Penilitian ini mencakup pengembangan fitur inti sebagai berikut:
+Penelitian ini mencakup pengembangan fitur inti sebagai berikut:
 
 \begin{enumerate}
-    \item \textbf{Manajemen Kreator} \\
-    Meliputi registrasi, autentikasi, dan donasi otorisasi kreator menggunakan dua metode:
+    \item \textbf{Manajemen Pengguna} \\
+    Meliputi registrasi, autentikasi, dan otorisasi pengguna menggunakan dua metode:
     \begin{itemize}
-        \item JSON Web Token (JWT) untuk autentikasi berbasis username/password.
-        \item OAuth Google Sign-in sebagai metode login alternatif menggunakan akun Google.
+        \item \textit{JSON Web Token} (\textit{JWT}) untuk autentikasi berbasis \textit{username/password}.
+        \item Sistem verifikasi identitas untuk memastikan keamanan peminjaman alat medis.
     \end{itemize}
 
-    \item \textbf{Pengelolaan Donasi} \\
-    Pencatatan transaksi donasi (nominal, waktu, dan identitas donor terbatas/anonym), penyimpanan data donasi, serta penyajian ringkasan donasi kepada kreator.
+    \item \textbf{Pengelolaan Inventaris Alat Medis} \\
+    Pencatatan alat medis yang tersedia (nama, kondisi, ketersediaan), penyimpanan data inventaris, serta penyajian informasi ketersediaan alat kepada pengguna.
 
-    \item \textbf{Dashboard Kreator} \\
-    Penyajian metrik dasar seperti jumlah donasi, total nominal terkumpul, dan daftar 10 donatur terbaru.
+    \item \textbf{Sistem Peminjaman} \\
+    Proses peminjaman alat medis dengan pencatatan identitas peminjam, durasi peminjaman, dan status pengembalian alat.
 
-    \item \textbf{Leaderboard Global} \\
-    Agregasi donasi lintas kreator untuk menampilkan peringkat donasi secara global melalui endpoint contoh \texttt{GET /api/dashboard/leaderboard} dengan verifikasi JWT tipe creator.
+    \item \textbf{Notifikasi Otomatis} \\
+    Sistem notifikasi pengembalian alat otomatis menggunakan mekanisme \textit{Cron Job} dengan interval waktu harian untuk memastikan waktu distribusi inventaris yang tepat.
 
-    \item \textbf{Antarmuka Pengguna Web} \\
-    Halaman publik untuk menampilkan profile kreator dan melakukan donasi, serta halaman privat untuk dashboard kreator.
+    \item \textbf{Antarmuka Pengguna \textit{Web}} \\
+    Halaman publik untuk menampilkan katalog alat medis dan melakukan proses peminjaman, serta halaman \textit{admin} untuk pengelolaan inventaris.
 \end{enumerate}
 
 \subsection{Cakupan Teknis}
 
-Secara teknis, penilitian ini mencakup:
+Secara teknis, penelitian ini mencakup:
 
 \begin{enumerate}
     \item \textbf{Arsitektur Aplikasi} \\
-    Pembangunan sistem berbasis Next.js dengan API Routes sebagai backend, Node.js runtime, dan NoSQL MongoDB menggunakan Mongoose.
+    Pembangunan sistem dengan arsitektur terpisah menggunakan \textit{React.js} di sisi \textit{frontend}, \textit{Golang} (\textit{Fiber}) di sisi \textit{backend}, dan \textit{MongoDB} sebagai basis data non-relasional.
 
     \item \textbf{Keamanan Dasar Sistem} \\
     Meliputi:
     \begin{itemize}
-        \item Implementasi JWT untuk login tradisional
-        \item Integrasi OAuth 2.0 Google Sign-In
-        \item Validasi input dan sanitasi sederhana
-        \item Penanganan akses endpoint privat berdasarkan token
+        \item Implementasi \textit{JWT} untuk autentikasi pengguna
+        \item Validasi input dan sanitasi untuk keamanan data
+        \item Penanganan akses \textit{endpoint} privat berdasarkan \textit{token}
+        \item Verifikasi identitas untuk peminjaman alat medis
     \end{itemize}
 
     \item \textbf{Perancangan dan Pemodelan} \\
-    Meliputi use case diagram, flowchart proses (alur donasi, autentikasi, leaderboard), dan rancangan model data (Creator, Donation).
+    Meliputi \textit{use case diagram}, \textit{flowchart} proses (alur peminjaman, autentikasi, inventaris), dan rancangan model data (User, Equipment, Transaction).
 
     \item \textbf{Integrasi Modul Internal} \\
-    Modul koneksi database, middleware verifikasi token (JWT \& OAuth), utilitas hashing, serta pengelolaan data melalui shcema Creator dan Donation.
+    Modul koneksi basis data, \textit{middleware} verifikasi \textit{token}, utilitas \textit{hashing}, serta pengelolaan data melalui \textit{schema} User dan Equipment.
 \end{enumerate}
 
 \subsection{Cakupan Pengujian}
@@ -92,33 +88,33 @@ Secara teknis, penilitian ini mencakup:
 Pengujian dilakukan meliputi:
 
 \begin{enumerate}
-    \item Uji fungsional terhadap endpoint inti seperti autentikasi kreator, pencatatan/pengambilan donasi, dan pemuatan data leaderboard.
-    \item Uji integritas sederhana untuk memastikan alur donasi hingga dashboard berjalan end-to-end menggunakan data simulasi.
+    \item Uji fungsional terhadap \textit{endpoint} inti seperti autentikasi pengguna, pencatatan/pengambilan data peminjaman, dan pemuatan data inventaris.
+    \item Uji integritas sederhana untuk memastikan alur peminjaman hingga pengembalian berjalan \textit{end-to-end} menggunakan data simulasi.
 \end{enumerate}
 
-\subsection{Batasan Penilitian}
+\subsection{Batasan Penelitian}
 
-Penilitian ini dibatasi pada aspek-aspek berikut:
+Penelitian ini dibatasi pada aspek-aspek berikut:
 
 \begin{enumerate}
-    \item \textbf{Fokus Pada Alur Donasi Dasar} \\
-    Sistem hanya mencakup proses donasi sederhana tanpa fitur pendukung seperti manajemen kampanye, penjadwalan donasi, atau komisi.
-
-    \item \textbf{Integrasi Pembayaran Bersifat Simulasi} \\
-    Payment gateaway digunakan dalam mode sandbox untuk tujuan pembelajaran dan pengujian; tidak mencakup transaksi finansial nyata, KYC/AML, atau kepatuhan regulasi.
+    \item \textbf{Fokus Pada Alur Peminjaman Dasar} \\
+    Sistem hanya mencakup proses peminjaman sederhana tanpa fitur pendukung seperti manajemen \textit{maintenance} alat, penjadwalan peminjaman lanjutan, atau sistem rating.
 
     \item \textbf{Lingkup Pengembangan Berskala Proyek} \\
-    Optimasi performa produksi, skalabilitas tinggi, dan security hardering tingkat lanjut tidak menjadi fokus utama.
+    Optimasi performa produksi, skalabilitas tinggi, dan \textit{security hardening} tingkat lanjut tidak menjadi fokus utama.
+
+    \item \textbf{Integrasi Sistem Kesehatan} \\
+    Sistem tidak terintegrasi dengan sistem informasi rumah sakit atau fasilitas kesehatan lainnya; beroperasi sebagai sistem mandiri untuk tujuan pembelajaran dan pengujian konsep.
 \end{enumerate}
 
-\subsection{Luaran Penilitian}
+\subsection{Luaran Penelitian}
 
 Luaran yang dihasilkan meliputi:
 
 \begin{enumerate}
-    \item Prototipe aplikasi web Nyumbangin yang dapat dijalankan pada lingkungan pengembangan.
-    \item Dokumen desain arsitektur, use case, flowchart, dan schema model data.
-    \item Spesifikasi endpoint inti, termasuk leaderboard global.
+    \item Prototipe aplikasi \textit{web} \textit{MedisLink} yang dapat dijalankan pada lingkungan pengembangan.
+    \item Dokumen desain arsitektur, \textit{use case}, \textit{flowchart}, dan \textit{schema} model data.
+    \item Spesifikasi \textit{endpoint API} inti, termasuk manajemen inventaris dan sistem notifikasi.
     \item Hasil pengujian fungsional serta evaluasi ketercapaian kebutuhan.
 \end{enumerate}
 
@@ -128,17 +124,17 @@ Sistematika penulisan analisis ini disusun dalam 5 bab dan bagian akhir terdapat
 
 \begin{enumerate}
     \item \textbf{Bab I Pendahuluan} \\
-    Berisi latar belakang, identifikasi masalah, tujuan, ruang lingkup, batasan, dan sistematika penulisan. Bab ini juga menjelaskan alasan pemilihan teknologi seperti Next.js, Node.js, MongoDB, JWT, serta integrasi Oauth Google.
+    Berisi latar belakang, identifikasi masalah, tujuan, ruang lingkup, batasan, dan sistematika penulisan. Bab ini juga menjelaskan alasan pemilihan teknologi seperti \textit{React.js}, \textit{Golang} (\textit{Fiber}), \textit{MongoDB}, dan \textit{JWT}.
 
     \item \textbf{Bab II Landasan Teori} \\
-    Menguraikan teori dan konsep pendukung seperti arsitektur web modern, SSR/SPA, autentikasi JWT, OAuth 2.0 dan OpenID Connect (Google), API REST, basis data NoSQL, serta UML.
+    Menguraikan teori dan konsep pendukung seperti arsitektur \textit{web} modern, sistem informasi kesehatan, autentikasi \textit{JWT}, \textit{API REST}, basis data \textit{NoSQL}, serta \textit{UML}.
 
     \item \textbf{Bab III Metode Penelitian} \\
-    Menjelaskan metode analisis kebutuhan, perancangan, pemodelan, dan pengujian.
+    Menjelaskan metode analisis kebutuhan, perancangan, pemodelan, dan pengujian untuk sistem peminjaman alat medis.
 
     \item \textbf{Bab IV Hasil dan Pembahasan} \\
-    Menyajikan hasil implementasi prototipe, struktur proyek, model data, endpoint, antarmuka pengguna, hasil pengujian, serta evaluasi sesuai ruang lingkup.
+    Menyajikan hasil implementasi prototipe, struktur proyek, model data, \textit{endpoint}, antarmuka pengguna, hasil pengujian, serta evaluasi sesuai ruang lingkup.
 
     \item \textbf{Bab V Kesimpulan dan Saran} \\
-    Berisi kesimpulan akhir dan rekomendasi pengembangan lebih lanjut.
+    Berisi kesimpulan akhir dan rekomendasi pengembangan lebih lanjut sistem \textit{MedisLink}.
 \end{enumerate}

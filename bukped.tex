@@ -11,6 +11,8 @@
 \usepackage{hyperref}
 \usepackage{apacite}
 \usepackage{caption}
+\usepackage{float}
+\usepackage{enumitem}
 
 \geometry{left=4cm, right=3cm, top=3cm, bottom=3cm}
 \onehalfspacing
@@ -37,6 +39,9 @@ Program Studi DIV Teknik Informatika
 Moch Restu Agis Burhanudin (714230059)\\
 Aghni Hasna Mufida (714230069)
 
+% University logo (centered & proportionate)
+\includegraphics[width=0.6\textwidth,keepaspectratio]{images/ulbi.png}\\[0.9cm]
+
 \vfill
 
 PROGRAM STUDI DIV TEKNIK INFORMATIKA\\
@@ -47,157 +52,273 @@ BANDUNG\\
 \end{titlepage}
 
 % ================== LEMBAR PENGESAHAN ==================
-\chapter*{LEMBAR PENGESAHAN}
-\addcontentsline{toc}{chapter}{LEMBAR PENGESAHAN}
+\begin{titlepage}
+\thispagestyle{empty}
+\begin{center}
 
-Laporan Proyek III ini telah diperiksa, disetujui dan disidangkan di Bandung, .... / .... / 2026.
-
-\vspace{1cm}
-
-Penguji Pendamping \hfill Penguji Utama\\
-Rolly Maulana Awangga, S.T., M.T \hfill Nisa Hanum Harani, S.Kom., M.T.
+\textbf{\Large LEMBAR PENGESAHAN}
 
 \vspace{1cm}
 
-Pembimbing \hfill Koordinator Proyek II\\
-Nisa Hanum Harani, S.Kom., M.T. \hfill Roni Habibi, S.Kom., M.T., SFPC
+Laporan Proyek III ini telah diperiksa, disetujui dan disidangkan\\
+di Bandung, ....../....../2026
 
 \vspace{1cm}
 
-Mengetahui,\\
-Ketua Program Studi D-IV Teknik Informatika\\
-Roni Andarsyah, S.T., M.Kom.
+\textbf{Oleh:}
 
-\clearpage
+\vspace{0.5cm}
+
+\begin{center}
+\begin{tabular}{cc}
+Penguji Pendamping, & Penguji Utama, \\[2cm]
+\underline{Rolly Maulana Awangga, S.T., M.T.} & \underline{Nisa Hanum Harani, S.Kom., M.T.} \\
+NIK : 117.86.219 & NIK : 117.89.223 \\
+\end{tabular}
+\end{center}
+
+\vspace{1cm}
+
+\begin{center}
+\begin{tabular}{cc}
+Pembimbing, & Koordinator Proyek II \\[2cm]
+\underline{Nisa Hanum Harani, S.Kom., M.T.} & \underline{Roni Habibi, S.Kom., M.T., SFPC} \\
+NIK : 117.89.223 & NIK : 103.78069 \\
+\end{tabular}
+\end{center}
+
+\vspace{0.8cm}
+
+Menyetujui,\\
+Ketua Program Studi D-IV\\
+Teknik Informatika
+
+\vspace{1.8cm}
+
+\underline{Roni Andarsyah, S.T., M.Kom.}\\
+NIK : 115.88.193
+
+\vfill
+
+\end{center}
+\end{titlepage}
+
+% ================== SURAT PERNYATAAN ==================
+\begin{titlepage}
+\thispagestyle{empty}
+\begin{center}
+
+\textbf{\Large SURAT PERNYATAAN TIDAK MELAKUKAN PLAGIARISME}
+
+\vspace{1.5cm}
+
+\begin{flushleft}
+\begin{tabular}{ll}
+Nama & : Moch Restu Agis Burhanudin \\
+NPM & : 714230059 \\
+Program Studi & : D-IV Teknik Informatika \\
+Judul & : Sistem Pengembangan dan Rental Media Berbasis Web \\
+& \quad Menggunakan React.js dan GO \\
+\end{tabular}
+\end{flushleft}
+
+\vspace{1cm}
+
+Menyatakan bahwa:
+
+\begin{enumerate}
+\item Proyek Pengembangan Aplikasi (Proyek 3) yang saya susun merupakan karya asli yang dibuat secara mandiri dan belum pernah dipublikasi sebagai syarat kelulusan pada Program Studi D-IV Teknik Informatika, Politeknik Logistik dan Bisnis Internasional seyogyanya di persyaratan tinggi lainnya. Proyek ini berkenaan dengan sistem, perangkat, dan teknologi yang terkini dan lainnya sesuai dengan aturnat dan dosen pembimbing sesuai ketentuan yang berlaku.
+
+\item Seluruh isi dalam proyek ini tidak sepenuhnya karya saya sendiri melainkan hasil kerja pengembangan seminar secara jujur. Setiap rujukan terhadap karya ilmiah atau pendapat orang lain belum didokumentasikan secara tertulis dan dalam rangka membatilkan sama penggunaan yang didekumsikan ke dalam daftar pustaka sesuai kaidah penulisan ilmiah.
+
+\item Pernyataan ini saya buat dengan sebetnar-benarnya. Apabila di kemudian hari terbukti pernyataan saya tidak benar, maka saya bersedia menerima sanksi terbulat yang berlaku di lingkungan persyaratan tinggi.
+\end{enumerate}
+\vspace{0.5cm}
+
+\begin{flushright}
+BANDUNG, 2026\\
+Yang membuat pernyataan,
+
+\vspace{2cm}
+
+Moch Restu Agis Burhanudin\\
+NPM : 714230059
+\end{flushright}
+
+\vspace{1cm}
+
+\end{center}
+\end{titlepage}
+
+% ================== SURAT PERNYATAAN ==================
+\begin{titlepage}
+\thispagestyle{empty}
+\begin{center}
+
+\textbf{\Large SURAT PERNYATAAN TIDAK MELAKUKAN PLAGIARISME}
+
+\vspace{1.5cm}
+
+\begin{flushleft}
+\begin{tabular}{ll}
+Nama & : Aghni Hasna Mufida \\
+NPM & : 714230069 \\
+Program Studi & : D-IV Teknik Informatika \\
+Judul & : Sistem Pengembangan dan Rental Media Berbasis Web \\
+& \quad Menggunakan React.js dan GO \\
+\end{tabular}
+\end{flushleft}
+
+\vspace{1cm}
+
+Menyatakan bahwa:
+
+\begin{enumerate}
+\item Proyek Pengembangan Aplikasi (Proyek 3) yang saya susun merupakan karya asli yang dibuat secara mandiri dan belum pernah dipublikasi sebagai syarat kelulusan pada Program Studi D-IV Teknik Informatika, Politeknik Logistik dan Bisnis Internasional seyogyanya di persyaratan tinggi lainnya. Proyek ini berkenaan dengan sistem, perangkat, dan teknologi yang terkini dan lainnya sesuai dengan aturnat dan dosen pembimbing sesuai ketentuan yang berlaku.
+
+\item Seluruh isi dalam proyek ini tidak sepenuhnya karya saya sendiri melainkan hasil kerja pengembangan seminar secara jujur. Setiap rujukan terhadap karya ilmiah atau pendapat orang lain belum didokumentasikan secara tertulis dan dalam rangka membatilkan sama penggunaan yang didekumsikan ke dalam daftar pustaka sesuai kaidah penulisan ilmiah.
+
+\item Pernyataan ini saya buat dengan sebetnar-benarnya. Apabila di kemudian hari terbukti pernyataan saya tidak benar, maka saya bersedia menerima sanksi terbulat yang berlaku di lingkungan persyaratan tinggi.
+\end{enumerate}
+\vspace{0.5cm}
+
+\begin{flushright}
+BANDUNG, 2026\\
+Yang membuat pernyataan,
+
+\vspace{2cm}
+
+Aghni Hasna Mufida\\
+NPM : 714230069
+\end{flushright}
+
+\vspace{1cm}
+
+\end{center}
+\end{titlepage}
 
 % ================== ABSTRAK ==================
-\chapter*{ABSTRAK}
+\thispagestyle{empty}
+\begin{center}
+\vspace*{2cm}
+\textbf{\Large ABSTRAK}
+\end{center}
 \addcontentsline{toc}{chapter}{ABSTRAK}
-
-Sebagian besar masyarakat menghadapi masalah aksesibilitas alat bantu medis...
-(isi lengkap abstrak Anda di sini)
-
-\textbf{Kata Kunci:} MedisLink, React.js, Go (Fiber), MongoDB, JWT, Cron Job.
-
+\vspace{1cm}
+\input{chapters/abstrak}
 \clearpage
 
 % ================== ABSTRACT ==================
-\chapter*{ABSTRACT}
+\thispagestyle{empty}
+\begin{center}
+\vspace*{2cm}
+\textbf{\Large ABSTRACT}
+\end{center}
 \addcontentsline{toc}{chapter}{ABSTRACT}
-
-Most people face accessibility issues for medical devices...
-(isi lengkap abstract Anda di sini)
-
-\textbf{Keywords:} MedisLink, React.js, Go (Fiber), MongoDB, JWT, Cron Job.
-
+\vspace{1cm}
+\input{chapters/abstract}
 \clearpage
 
 % ================== KATA PENGANTAR ==================
-\chapter*{KATA PENGANTAR}
+\thispagestyle{empty}
+\begin{center}
+\vspace*{2cm}
+\textbf{\Large KATA PENGANTAR}
+\end{center}
 \addcontentsline{toc}{chapter}{KATA PENGANTAR}
+\vspace{1cm}
 
-Puji syukur kami panjatkan kehadirat Tuhan Yang Maha Esa...
-(isi lengkap kata pengantar)
+Puji syukur kami panjatkan kehadirat Tuhan Yang Maha Esa atas rahmat dan karunia-Nya sehingga kami dapat menyelesaikan Proyek III ini. Penulisan proyek ini merupakan bagian dari upaya saya menuju gelar Sarjana Terapan Program Studi Teknik Informatika Universitas Logistik \& Bisnis Internasional Bandung. Kami menyadari bahwa hasil ini merupakan hasil dukungan dan bimbingan yang kami terima dari semua pihak mulai dari masa perkuliahan hingga penyusunan proyek III ini. Oleh karena itu, kami mengucapkan terima kasih kepada semua pihak yang telah mendukung dan membimbing kami.
 
 \clearpage
 
 % ================== DAFTAR ISI ==================
+\thispagestyle{empty}
+\begin{center}
+\vspace*{2cm}
+\textbf{\Large DAFTAR ISI}
+\end{center}
+\vspace{1cm}
 \tableofcontents
+\clearpage
+
+% ================== DAFTAR TABEL ==================
+\thispagestyle{empty}
+\begin{center}
+\vspace*{2cm}
+\textbf{\Large DAFTAR TABEL}
+\end{center}
+\vspace{1cm}
 \listoftables
+\clearpage
+
+% ================== DAFTAR GAMBAR ==================
+\thispagestyle{empty}
+\begin{center}
+\vspace*{2cm}
+\textbf{\Large DAFTAR GAMBAR}
+\end{center}
+\vspace{1cm}
 \listoffigures
 \clearpage
 
 % ================== BAB I ==================
-\chapter{PENDAHULUAN}
-
-\section{Latar Belakang}
-Keterbatasan akses terhadap alat bantu medis di Indonesia masih menjadi masalah...
-
-\section{Deskripsi Aplikasi}
-Aplikasi MedisLink adalah platform berbasis web...
-
-\section{Identifikasi Masalah}
-\begin{enumerate}
-\item Bagaimana membangun sistem peminjaman alat bantu medis...
-\item Bagaimana sistem ini membantu keterbatasan stok...
-\item Bagaimana memfasilitasi donasi alat medis...
-\end{enumerate}
-
-\section{Tujuan}
-\begin{enumerate}
-\item Merancang dan membangun platform peminjaman alat bantu medis...
-\item Membangun sistem manajemen inventaris...
-\item Menyediakan fitur donasi...
-\end{enumerate}
-
-\section{Ruang Lingkup}
-Pengembangan sistem menggunakan Golang (Fiber), React.js, MongoDB...
+\thispagestyle{empty}
+\begin{center}
+\vspace*{2cm}
+\textbf{\Large BAB I}\\[0.5cm]
+\textbf{\Large PENDAHULUAN}
+\end{center}
+\addcontentsline{toc}{chapter}{BAB I PENDAHULUAN}
+\vspace{1cm}
+\input{chapters/bab1}
 
 % ================== BAB II ==================
-\chapter{TINJAUAN PUSTAKA}
-
-\section{Landasan Teori}
-\subsection{API}
-REST API adalah kerangka kerja...
-
-\subsection{Node.js}
-Node.js adalah runtime JavaScript...
-
-\subsection{Go}
-Go adalah bahasa pemrograman open-source...
-
-\subsection{React JS}
-React.js adalah pustaka JavaScript...
-
-\subsection{MongoDB}
-MongoDB adalah database NoSQL berbasis dokumen...
-
-\subsection{UML}
-Unified Modeling Language (UML) merupakan bahasa pemodelan...
+\thispagestyle{empty}
+\begin{center}
+\vspace*{2cm}
+\textbf{\Large BAB II}\\[0.5cm]
+\textbf{\Large LANDASAN TEORI}
+\end{center}
+\addcontentsline{toc}{chapter}{BAB II LANDASAN TEORI}
+\vspace{1cm}
+\input{chapters/bab2}
 
 % ================== BAB III ==================
-\chapter{ANALISIS DAN PERANCANGAN}
-
-\section{Analisis Sistem}
-Sistem berjalan dimulai ketika pengguna melakukan registrasi...
-
-\section{Kebutuhan Fungsional}
-\begin{itemize}
-\item Sistem berbasis web
-\item Fitur login dan registrasi
-\item Peminjaman alat
-\item Notifikasi pengembalian
-\item Manajemen inventaris
-\end{itemize}
-
-\section{Kebutuhan Nonfungsional}
-\begin{itemize}
-\item OS: Windows 11 / Ubuntu
-\item Backend: Golang Fiber
-\item Frontend: React.js
-\item Database: MongoDB
-\end{itemize}
+\thispagestyle{empty}
+\begin{center}
+\vspace*{2cm}
+\textbf{\Large BAB III}\\[0.5cm]
+\textbf{\Large METODE PENELITIAN}
+\end{center}
+\addcontentsline{toc}{chapter}{BAB III METODE PENELITIAN}
+\vspace{1cm}
+\input{chapters/bab3}
 
 % ================== BAB IV ==================
-\chapter{IMPLEMENTASI DAN PENGUJIAN}
-
-\section{Implementasi}
-Landing page, login, register, dashboard, peminjaman alat...
-
-\section{Pengujian}
-Pengujian dilakukan dengan metode blackbox testing...
+\thispagestyle{empty}
+\begin{center}
+\vspace*{2cm}
+\textbf{\Large BAB IV}\\[0.5cm]
+\textbf{\Large HASIL DAN PEMBAHASAN}
+\end{center}
+\addcontentsline{toc}{chapter}{BAB IV HASIL DAN PEMBAHASAN}
+\vspace{1cm}
+\input{chapters/bab4}
 
 % ================== BAB V ==================
-\chapter{KESIMPULAN DAN SARAN}
-
-\section{Kesimpulan}
-Sistem MedisLink mampu menghubungkan pasien dan donatur...
-
-\section{Saran}
-Pengembangan selanjutnya dapat berupa integrasi WhatsApp Gateway...
+\thispagestyle{empty}
+\begin{center}
+\vspace*{2cm}
+\textbf{\Large BAB V}\\[0.5cm]
+\textbf{\Large KESIMPULAN DAN SARAN}
+\end{center}
+\addcontentsline{toc}{chapter}{BAB V KESIMPULAN DAN SARAN}
+\vspace{1cm}
+\input{chapters/bab5}
 
 % ================== DAFTAR PUSTAKA ==================
 \bibliographystyle{apacite}
-\bibliography{referensi}
+\bibliography{references}
 
 \end{document}

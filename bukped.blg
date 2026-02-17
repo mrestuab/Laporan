@@ -1,58 +1,106 @@
 This is BibTeX, Version 0.99e
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: bukped.aux
-Reallocating 'name_of_file' (item size: 1) to 26 items.
-A level-1 auxiliary file: chapters/introduction.aux
-Reallocating 'name_of_file' (item size: 1) to 31 items.
-A level-1 auxiliary file: chapters/literature_review.aux
-Reallocating 'name_of_file' (item size: 1) to 25 items.
-A level-1 auxiliary file: chapters/methodology.aux
-Reallocating 'name_of_file' (item size: 1) to 21 items.
-A level-1 auxiliary file: chapters/results.aux
-Reallocating 'name_of_file' (item size: 1) to 24 items.
-A level-1 auxiliary file: chapters/conclusion.aux
-Reallocating 'name_of_file' (item size: 1) to 6 items.
-The style file: plain.bst
+Reallocating 'name_of_file' (item size: 1) to 8 items.
+The style file: apacite.bst
 Reallocating 'name_of_file' (item size: 1) to 11 items.
+Reallocating 'glb_str_end' (item size: 4) to 20 items.
+Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
+Reallocating 'global_strs' (item size: 1) to 4000000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 9000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
 Database file #1: references.bib
-You've used 62 entries,
-            2118 wiz_defined-function locations,
-            791 strings with 13180 characters,
-and the built_in function-call counts, 18588 in all, are:
-= -- 1801
-> -- 1012
-< -- 4
-+ -- 406
-- -- 336
-* -- 1289
-:= -- 3305
-add.period$ -- 187
-call.type$ -- 62
-change.case$ -- 347
+Warning--I didn't find a database entry for "shneor2020"
+Warning--I didn't find a database entry for "zhou2025"
+Warning--I didn't find a database entry for "jullien2021"
+Warning--I didn't find a database entry for "febriandika2024"
+Warning--I didn't find a database entry for "hidayatullah2022"
+Warning--I didn't find a database entry for "indriyani2024"
+Warning--I didn't find a database entry for "fadzirul2020"
+Warning--I didn't find a database entry for "sirisawat2022"
+Warning--I didn't find a database entry for "fraihat2022"
+Warning--I didn't find a database entry for "maruf2020"
+Warning--I didn't find a database entry for "prabu2025"
+Warning--I didn't find a database entry for "ismail2023"
+Warning--I didn't find a database entry for "assistantprofessor2020"
+Warning--I didn't find a database entry for "geofrey2020"
+Warning--I didn't find a database entry for "nyabuto2023"
+Warning--I didn't find a database entry for "ehsan2022"
+Warning--I didn't find a database entry for "roziqin2023"
+Warning--I didn't find a database entry for "aprilliyani2020"
+Warning--I didn't find a database entry for "lodderstedt2025"
+Warning--I didn't find a database entry for "philippaerts2022"
+Warning--I didn't find a database entry for "singh2023"
+Warning--I didn't find a database entry for "hammann2020"
+Warning--I didn't find a database entry for "yasuda2022"
+Warning--I didn't find a database entry for "gudu2025"
+Warning--I didn't find a database entry for "bucko2023"
+Warning--I didn't find a database entry for "rahman2020"
+Warning--I didn't find a database entry for "nashikhuddin2023"
+Warning--I didn't find a database entry for "ball2020"
+Warning--I didn't find a database entry for "neelan2022"
+Warning--I didn't find a database entry for "chandramouli2020"
+Warning--I didn't find a database entry for "sun2022"
+Warning--I didn't find a database entry for "zhao2020"
+Warning--I didn't find a database entry for "byali2022"
+Warning--I didn't find a database entry for "carvalho2023"
+Warning--I didn't find a database entry for "amani2024"
+Warning--I didn't find a database entry for "siska2024"
+Warning--I didn't find a database entry for "dabdawb2024"
+Warning--I didn't find a database entry for "marchezan2023"
+Warning--I didn't find a database entry for "jebli2024"
+Warning--I didn't find a database entry for "fauzan2021"
+Warning--I didn't find a database entry for "abbott2025"
+Warning--I didn't find a database entry for "wang2025"
+Warning--I didn't find a database entry for "sandfreni2021"
+Warning--I didn't find a database entry for "jha2023"
+Warning--I didn't find a database entry for "ramdany2020"
+Warning--I didn't find a database entry for "alfedaghi2020"
+Warning--I didn't find a database entry for "ariesta2020"
+apacite.bst [2013/07/21 v6.03 APA bibliography style]
+You've used 0 entries,
+            6951 wiz_defined-function locations,
+            1315 strings with 11172 characters,
+and the built_in function-call counts, 43 in all, are:
+= -- 0
+> -- 0
+< -- 0
++ -- 0
+- -- 0
+* -- 1
+:= -- 32
+add.period$ -- 0
+call.type$ -- 0
+change.case$ -- 0
 chr.to.int$ -- 0
-cite$ -- 62
-duplicate$ -- 681
-empty$ -- 1312
-format.name$ -- 336
-if$ -- 3733
+cite$ -- 0
+duplicate$ -- 0
+empty$ -- 1
+format.name$ -- 0
+if$ -- 1
 int.to.chr$ -- 0
-int.to.str$ -- 62
-missing$ -- 62
-newline$ -- 314
-num.names$ -- 124
-pop$ -- 282
+int.to.str$ -- 0
+missing$ -- 0
+newline$ -- 3
+num.names$ -- 0
+pop$ -- 0
 preamble$ -- 1
-purify$ -- 285
+purify$ -- 0
 quote$ -- 0
-skip$ -- 520
+skip$ -- 1
 stack$ -- 0
-substring$ -- 820
-swap$ -- 96
-text.length$ -- 4
+substring$ -- 0
+swap$ -- 0
+text.length$ -- 0
 text.prefix$ -- 0
-top$ -- 0
-type$ -- 244
+top$ -- 1
+type$ -- 0
 warning$ -- 0
-while$ -- 169
-width$ -- 64
-write$ -- 668
+while$ -- 0
+width$ -- 0
+write$ -- 2
+(There were 47 warnings)
