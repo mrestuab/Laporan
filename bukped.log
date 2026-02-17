@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.2.16)  17 FEB 2026 08:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.2.17)  17 FEB 2026 11:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6,9 +6,9 @@ entering extended mode
 (bukped.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
-(C:\Users\mrest\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
+(C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
 Document Class: report 2025/01/22 v1.4n Standard LaTeX document class
-(C:\Users\mrest\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
+(C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
 File: size12.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count275
@@ -24,12 +24,12 @@ File: size12.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
 \belowcaptionskip=\skip50
 \bibindent=\dimen148
 )
-(C:\Users\mrest\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+(C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
 Package: inputenc 2024/02/08 v1.3d Input encoding file
 \inpenc@prehook=\toks17
 \inpenc@posthook=\toks18
 )
-(C:\Users\mrest\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+(C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
 Package: babel 2025/12/11 v25.17 The multilingual framework for LuaLaTeX, pdfLa
 TeX and XeLaTeX
 \babel@savecnt=\count284
@@ -50,7 +50,7 @@ on input line 2101.
 \U@D=\dimen149
 \l@unhyphenated=\language79
 
-(C:\Users\mrest\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+(C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
 \bbl@readstream=\read2
 \bbl@dirlevel=\count285
 Package babel Info: Configuration files are deprecated, as
@@ -60,55 +60,55 @@ Package babel Info: Configuration files are deprecated, as
 *************************************
 * Local config file bblopts.cfg used
 *
-(C:\Users\mrest\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+(C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-(C:\Users\mrest\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/id\babel
--indonesian.tex)
+(C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/id\babe
+l-indonesian.tex)
 Package babel Info: Importing font and identification data for indonesian
 (babel)             from babel-id.ini. Reported on input line 4320.
 
-(C:\Users\mrest\AppData\Local\Programs\MiKTeX\tex/latex/babel-indonesian\indone
-sian.ldf
+(C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/latex/babel-indonesian\indon
+esian.ldf
 Language: indonesian 2025/06/01 v1.0n Bahasa Indonesia support from the babel s
 ystem
 ))
-(C:\Users\mrest\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+(C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
 
-(C:\Users\mrest\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+(C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks19
 )
-(C:\Users\mrest\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+(C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
 Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
 
-(C:\Users\mrest\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+(C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
 )
-(C:\Users\mrest\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
-fg
+(C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.
+cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 106.
 
-(C:\Users\mrest\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+(C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.de
+f
 File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen150
 \Gin@req@width=\dimen151
 )
-(C:\Users\mrest\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
+(C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
 Package: setspace 2022/12/04 v6.7b set line spacing
-)
-(C:\Users\mrest\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+) (C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.st
+y
 Package: geometry 2020/01/02 v5.9 Page Geometry
-
-(C:\Users\mrest\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+(C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 
-(C:\Users\mrest\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+(C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2024/12/12 v1.0g TeX engine tests
 ))
 \Gm@cnth=\count286
@@ -124,8 +124,9 @@ Package: iftex 2024/12/12 v1.0g TeX engine tests
 \Gm@layoutvoffset=\dimen159
 \Gm@dimlist=\toks20
 
-(C:\Users\mrest\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
-(C:\Users\mrest\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
+(C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)
+)
+(C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
 Package: titlesec 2025/01/04 v2.17 Sectioning titles
 \ttl@box=\box53
 \beforetitleunit=\skip51
@@ -136,8 +137,7 @@ Package: titlesec 2025/01/04 v2.17 Sectioning titles
 \titlewidth=\dimen162
 \titlewidthlast=\dimen163
 \titlewidthfirst=\dimen164
-)
-(C:\Users\mrest\AppData\Local\Programs\MiKTeX\tex/latex/tocloft\tocloft.sty
+) (C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/latex/tocloft\tocloft.sty
 Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
 Package tocloft Info: The document has chapter divisions on input line 51.
 \cftparskip=\skip53
@@ -177,75 +177,79 @@ Package tocloft Info: The document has chapter divisions on input line 51.
 \cfttabindent=\skip85
 \cfttabnumwidth=\skip86
 )
-(C:\Users\mrest\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+(C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
 Package: hyperref 2025-07-12 v7.01o Hypertext links for LaTeX
 
-(C:\Users\mrest\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+(C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.st
+y
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 )
-(C:\Users\mrest\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefine
-keys.sty
+(C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefin
+ekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 )
-(C:\Users\mrest\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.s
-ty
+(C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.
+sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
 
-(C:\Users\mrest\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+(C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
 Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
 )
-(C:\Users\mrest\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
-.sty
+(C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmd
+s.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(C:\Users\mrest\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
-ty
+(C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.
+sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 ))
-(C:\Users\mrest\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+(C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 )
-(C:\Users\mrest\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+(C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2025-06-21 v2.57 Cross-referencing by name of section
 
-(C:\Users\mrest\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+(C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 )
-(C:\Users\mrest\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettit
-lestring.sty
+(C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\getti
+tlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 
-(C:\Users\mrest\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+(C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.st
+y
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
 \c@section@level=\count291
 )
-(C:\Users\mrest\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+(C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count292
 )
-(C:\Users\mrest\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.s
-ty
+(C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.
+sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
 \@linkdim=\dimen165
 \Hy@linkcounter=\count293
 \Hy@pagecounter=\count294
- (C:\Users\mrest\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+
+(C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2025-07-12 v7.01o Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
-) (C:\Users\mrest\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+)
+(C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
 \Hy@SavedSpaceFactor=\count295
- (C:\Users\mrest\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+(C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
 File: puenc.def 2025-07-12 v7.01o Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
@@ -259,18 +263,18 @@ Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4462.
 \c@Hy@tempcnt=\count296
 
-(C:\Users\mrest\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+(C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4801.
 \XeTeXLinkMargin=\dimen166
 
-(C:\Users\mrest\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+(C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 
-(C:\Users\mrest\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc
-.sty
+(C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcal
+c.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
@@ -290,17 +294,17 @@ Package hyperref Info: PDF/A mode OFF on input line 6108.
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
-(C:\Users\mrest\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+(C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
 File: hpdftex.def 2025-07-12 v7.01o Hyperref driver for pdfTeX
 \Fld@listcount=\count301
 \c@bookmark@seq@number=\count302
 
-(C:\Users\mrest\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfil
-echeck.sty
+(C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfi
+lecheck.sty
 Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
 
-(C:\Users\mrest\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquec
-ounter.sty
+(C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\unique
+counter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
@@ -308,7 +312,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip87
 )
-(C:\Users\mrest\AppData\Local\Programs\MiKTeX\tex/latex/apacite\apacite.sty
+(C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/latex/apacite\apacite.sty
 Package: apacite 2013/07/21 v6.03 APA citation
 \c@BibCnt=\count303
 \bibleftmargin=\skip88
@@ -317,10 +321,10 @@ Package: apacite 2013/07/21 v6.03 APA citation
 \bibitemsep=\skip91
 \biblabelsep=\skip92
 )
-(C:\Users\mrest\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+(C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
 
-(C:\Users\mrest\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+(C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 \caption@tempdima=\dimen169
 \captionmargin=\dimen170
@@ -335,8 +339,7 @@ Package caption Info: Standard document class detected.
 \c@caption@flags=\count304
 \c@continuedfloat=\count305
 Package caption Info: hyperref package is loaded.
-)
-(C:\Users\mrest\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+) (C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count306
 \float@exts=\toks22
@@ -344,7 +347,7 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks23
 \@floatcapt=\box55
 )
-(C:\Users\mrest\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
+(C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
 Package: enumitem 2025/02/06 v3.11 Customized lists
 \labelindent=\skip93
 \enit@outerparindent=\dimen177
@@ -353,8 +356,8 @@ Package: enumitem 2025/02/06 v3.11 Customized lists
 \enit@count@id=\count307
 \enitdp@description=\count308
 )
-(C:\Users\mrest\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
-tex.def
+(C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pd
+ftex.def
 File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count309
 ) (bukped.aux)
@@ -379,8 +382,8 @@ LaTeX Font Info:    ... okay on input line 21.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 21.
 LaTeX Font Info:    ... okay on input line 21.
 
-(C:\Users\mrest\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
-ii
+(C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.m
+kii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count310
 \scratchdimen=\dimen178
@@ -394,14 +397,14 @@ ii
 \makeMPintoPDFobject=\count315
 \everyMPtoPDFconversion=\toks26
 )
-(C:\Users\mrest\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
-ase.sty
+(C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-
+base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 
-(C:\Users\mrest\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
-fg
+(C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.
+cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 *geometry* driver: auto-detecting
@@ -452,15 +455,15 @@ found.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
-<images/ulbi.png, id=374, 341.1144pt x 120.45pt>
+<images/ulbi.png, id=125, 341.1144pt x 120.45pt>
 File: images/ulbi.png Graphic file (type png)
 <use images/ulbi.png>
 Package pdftex.def Info: images/ulbi.png  used on input line 43.
 (pdftex.def)             Requested size: 239.00558pt x 84.39528pt.
 [1
 
-{C:/Users/mrest/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./images/ulb
-i.png>]
+{C:/Users/Lenovo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./images/ul
+bi.png>]
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 73.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -497,653 +500,220 @@ l.209 \clearpage
 
 ] (bukped.toc [4
 
-] [5])
+])
 \tf@toc=\write4
 \openout4 = `bukped.toc'.
 
-
-[6] [7] (bukped.lot)
+ [5]
+(bukped.lot)
 \tf@lot=\write5
 \openout5 = `bukped.lot'.
 
- [8
+ [6
 
-] (bukped.lof [9
-
-])
+] (bukped.lof)
 \tf@lof=\write6
 \openout6 = `bukped.lof'.
 
- [10] (chapters/bab1.tex [11
-
-] [12]
-Overfull \hbox (28.4005pt too wide) in paragraph at lines 45--46
-[]\OT1/cmr/m/it/12 JSON Web To-ken \OT1/cmr/m/n/12 (\OT1/cmr/m/it/12 JWT\OT1/cm
-r/m/n/12 ) un-tuk au-ten-ti-ka-si ber-ba-sis \OT1/cmr/m/it/12 user-na-me/passwo
-rd\OT1/cmr/m/n/12 . 
- []
-
-[13] [14] [15]) (chapters/bab2.tex
-
-LaTeX Warning: Citation `shneor2020' undefined on input line 3.
-
-
-LaTeX Warning: Citation `zhou2025' undefined on input line 3.
-
-
-LaTeX Warning: Citation `jullien2021' undefined on input line 3.
-
-
-LaTeX Warning: Citation `febriandika2024' undefined on input line 5.
-
-
-LaTeX Warning: Citation `hidayatullah2022' undefined on input line 5.
-
-
-LaTeX Warning: Citation `indriyani2024' undefined on input line 5.
-
-
-LaTeX Warning: Citation `fadzirul2020' undefined on input line 7.
-
-
-LaTeX Warning: Citation `sirisawat2022' undefined on input line 7.
-
-[16]
-
-LaTeX Warning: Citation `fraihat2022' undefined on input line 11.
-
-
-LaTeX Warning: Citation `maruf2020' undefined on input line 15.
-
-
-LaTeX Warning: Citation `prabu2025' undefined on input line 15.
-
-
-LaTeX Warning: Citation `ismail2023' undefined on input line 15.
-
-
-LaTeX Warning: Citation `assistantprofessor2020' undefined on input line 19.
-
-
-LaTeX Warning: Citation `geofrey2020' undefined on input line 19.
-
-
-LaTeX Warning: Citation `nyabuto2023' undefined on input line 19.
-
-[17]
-
-LaTeX Warning: Citation `ehsan2022' undefined on input line 23.
-
-
-LaTeX Warning: Citation `roziqin2023' undefined on input line 23.
-
-
-LaTeX Warning: Citation `aprilliyani2020' undefined on input line 23.
-
-
-LaTeX Warning: Citation `lodderstedt2025' undefined on input line 31.
-
-
-LaTeX Warning: Citation `philippaerts2022' undefined on input line 31.
-
-
-LaTeX Warning: Citation `singh2023' undefined on input line 31.
-
-[18]
-
-LaTeX Warning: Citation `hammann2020' undefined on input line 35.
-
-
-LaTeX Warning: Citation `yasuda2022' undefined on input line 35.
-
-
-LaTeX Warning: Citation `gudu2025' undefined on input line 35.
-
-
-LaTeX Warning: Citation `bucko2023' undefined on input line 39.
-
-
-LaTeX Warning: Citation `rahman2020' undefined on input line 39.
-
-
-LaTeX Warning: Citation `nashikhuddin2023' undefined on input line 39.
-
-
-LaTeX Warning: Citation `ball2020' undefined on input line 43.
-
-
-LaTeX Warning: Citation `neelan2022' undefined on input line 43.
-
-[19]
-
-LaTeX Warning: Citation `chandramouli2020' undefined on input line 47.
-
-
-LaTeX Warning: Citation `sun2022' undefined on input line 47.
-
-
-LaTeX Warning: Citation `zhao2020' undefined on input line 47.
-
-
-LaTeX Warning: Citation `byali2022' undefined on input line 53.
-
-
-LaTeX Warning: Citation `carvalho2023' undefined on input line 53.
-
-[20]
-
-LaTeX Warning: Citation `amani2024' undefined on input line 59.
-
-
-LaTeX Warning: Citation `siska2024' undefined on input line 59.
-
-
-LaTeX Warning: Citation `dabdawb2024' undefined on input line 61.
-
-
-LaTeX Warning: Citation `marchezan2023' undefined on input line 61.
-
-
-LaTeX Warning: Citation `jebli2024' undefined on input line 64.
-
-
-LaTeX Warning: Citation `fauzan2021' undefined on input line 64.
-
-
-LaTeX Warning: Citation `abbott2025' undefined on input line 64.
-
-
-LaTeX Warning: Citation `wang2025' undefined on input line 64.
-
-
-LaTeX Warning: Citation `sandfreni2021' undefined on input line 67.
-
-
-LaTeX Warning: Citation `jha2023' undefined on input line 67.
-
-
-LaTeX Warning: Citation `ramdany2020' undefined on input line 67.
-
-[21]
-
-LaTeX Warning: Citation `alfedaghi2020' undefined on input line 70.
-
-) (chapters/bab3.tex [22]
-
-LaTeX Warning: Citation `ariesta2020' undefined on input line 9.
-
-[23]
-Overfull \hbox (0.98366pt too wide) in paragraph at lines 35--36
-\OT1/cmr/m/n/12 Penerapan pen-de-kat-an Agi-le pa-da pro-yek Nyum-ba-ngin di-la
--kuk-an de-ngan mem-
- []
-
-
-Overfull \hbox (0.53505pt too wide) in paragraph at lines 37--38
-[]\OT1/cmr/m/n/12 Pada se-ti-ap ite-ra-si, fi-tur yang te-lah di-im-ple-men-ta-
-sik-an lang-sung di-u-ji meng-
- []
-
-[24] [25] [26]
-<images/arsitektur.png, id=869, 1027.84pt x 1027.84pt>
-File: images/arsitektur.png Graphic file (type png)
-<use images/arsitektur.png>
-Package pdftex.def Info: images/arsitektur.png  used on input line 115.
-(pdftex.def)             Requested size: 398.3386pt x 398.34662pt.
- [27 <./images/arsitektur.png (PNG copy)>]
-<images/use-case-diagram.png, id=875, 553.31718pt x 469.00218pt>
-File: images/use-case-diagram.png Graphic file (type png)
-<use images/use-case-diagram.png>
-Package pdftex.def Info: images/use-case-diagram.png  used on input line 145.
-(pdftex.def)             Requested size: 398.3386pt x 337.63837pt.
- [28]
-<images/activity-diagram-donasi.png, id=886, 585.68813pt x 507.39563pt>
-File: images/activity-diagram-donasi.png Graphic file (type png)
-<use images/activity-diagram-donasi.png>
-Package pdftex.def Info: images/activity-diagram-donasi.png  used on input line
- 160.
-(pdftex.def)             Requested size: 398.3386pt x 345.10188pt.
- [29 <./images/use-case-diagram.png>]
-<images/activity-diagram-payout.png, id=892, 380.1402pt x 279.444pt>
-File: images/activity-diagram-payout.png Graphic file (type png)
-<use images/activity-diagram-payout.png>
-Package pdftex.def Info: images/activity-diagram-payout.png  used on input line
- 171.
-(pdftex.def)             Requested size: 398.3386pt x 292.83217pt.
- [30 <./images/activity-diagram-donasi.png>]
-<images/activity-diagram-feedback.png, id=899, 398.4486pt x 393.6306pt>
-File: images/activity-diagram-feedback.png Graphic file (type png)
-<use images/activity-diagram-feedback.png>
-Package pdftex.def Info: images/activity-diagram-feedback.png  used on input li
-ne 182.
-(pdftex.def)             Requested size: 398.3386pt x 393.52753pt.
- [31 <./images/activity-diagram-payout.png>]
-<images/activity-diagram-login.png, id=905, 349.7868pt x 271.7352pt>
-File: images/activity-diagram-login.png Graphic file (type png)
-<use images/activity-diagram-login.png>
-Package pdftex.def Info: images/activity-diagram-login.png  used on input line 
-193.
-(pdftex.def)             Requested size: 398.3386pt x 309.45375pt.
- [32 <./images/activity-diagram-feedback.png>]
-<images/activity-diagram-kelola-overlay.png, id=911, 344.9688pt x 343.5234pt>
-File: images/activity-diagram-kelola-overlay.png Graphic file (type png)
-<use images/activity-diagram-kelola-overlay.png>
-Package pdftex.def Info: images/activity-diagram-kelola-overlay.png  used on in
-put line 204.
-(pdftex.def)             Requested size: 398.3386pt x 396.69998pt.
-
-[33 <./images/activity-diagram-login.png>]
-<images/activity-diagram-kelola-profil.png, id=918, 369.0588pt x 418.2024pt>
-File: images/activity-diagram-kelola-profil.png Graphic file (type png)
-<use images/activity-diagram-kelola-profil.png>
-Package pdftex.def Info: images/activity-diagram-kelola-profil.png  used on inp
-ut line 215.
-(pdftex.def)             Requested size: 398.3386pt x 451.40936pt.
- [34 <./images/activity-diagram-kelola-overlay.png>]
-<images/activity-diagram-request-payout.png, id=924, 362.3136pt x 278.9622pt>
-File: images/activity-diagram-request-payout.png Graphic file (type png)
-<use images/activity-diagram-request-payout.png>
-Package pdftex.def Info: images/activity-diagram-request-payout.png  used on in
-put line 226.
-(pdftex.def)             Requested size: 398.3386pt x 306.69762pt.
- [35 <./images/activity-diagram-kelola-profil.png>]
-<images/activity-diagram-riwayat-donasi.png, id=930, 354.6048pt x 349.305pt>
-File: images/activity-diagram-riwayat-donasi.png Graphic file (type png)
-<use images/activity-diagram-riwayat-donasi.png>
-Package pdftex.def Info: images/activity-diagram-riwayat-donasi.png  used on in
-put line 237.
-(pdftex.def)             Requested size: 398.3386pt x 392.39151pt.
- [36 <./images/activity-diagram-request-payout.png>]
-<images/sequence-diagram-donasi.png, id=936, 398.4486pt x 263.5446pt>
-File: images/sequence-diagram-donasi.png Graphic file (type png)
-<use images/sequence-diagram-donasi.png>
-Package pdftex.def Info: images/sequence-diagram-donasi.png  used on input line
- 250.
-(pdftex.def)             Requested size: 398.3386pt x 263.47557pt.
- [37 <./images/activity-diagram-riwayat-donasi.png>]
-<images/sequence-diagram-leaderboard.png, id=942, 377.7312pt x 235.1184pt>
-File: images/sequence-diagram-leaderboard.png Graphic file (type png)
-<use images/sequence-diagram-leaderboard.png>
-Package pdftex.def Info: images/sequence-diagram-leaderboard.png  used on input
- line 261.
-(pdftex.def)             Requested size: 398.3386pt x 247.95068pt.
- [38 <./images/sequence-diagram-donasi.png>]
-<images/sequence-diagram-login.png, id=949, 363.2772pt x 205.7286pt>
-File: images/sequence-diagram-login.png Graphic file (type png)
-<use images/sequence-diagram-login.png>
-Package pdftex.def Info: images/sequence-diagram-login.png  used on input line 
-272.
-(pdftex.def)             Requested size: 398.3386pt x 225.59897pt.
- [39 <./images/sequence-diagram-leaderboard.png>]
-<images/sequence-diagram-feedback.png, id=957, 357.4956pt x 234.6366pt>
-File: images/sequence-diagram-feedback.png Graphic file (type png)
-<use images/sequence-diagram-feedback.png>
-Package pdftex.def Info: images/sequence-diagram-feedback.png  used on input li
-ne 283.
-(pdftex.def)             Requested size: 398.3386pt x 261.45934pt.
- [40 <./images/sequence-diagram-login.png>]
-<images/sequence-diagram-kelola-profil.png, id=964, 398.4486pt x 177.7842pt>
-File: images/sequence-diagram-kelola-profil.png Graphic file (type png)
-<use images/sequence-diagram-kelola-profil.png>
-Package pdftex.def Info: images/sequence-diagram-kelola-profil.png  used on inp
-ut line 294.
-(pdftex.def)             Requested size: 398.3386pt x 177.73761pt.
- [41 <./images/sequence-diagram-feedback.png>]
-<images/sequence-diagram-riwayat-donasi.png, id=971, 360.8682pt x 397.485pt>
-File: images/sequence-diagram-riwayat-donasi.png Graphic file (type png)
-<use images/sequence-diagram-riwayat-donasi.png>
-Package pdftex.def Info: images/sequence-diagram-riwayat-donasi.png  used on in
-put line 305.
-(pdftex.def)             Requested size: 398.3386pt x 438.78145pt.
- [42 <./images/sequence-diagram-kelola-profil.png>]
-<images/sequence-diagram-request-payout.png, id=978, 337.26pt x 366.6498pt>
-File: images/sequence-diagram-request-payout.png Graphic file (type png)
-<use images/sequence-diagram-request-payout.png>
-Package pdftex.def Info: images/sequence-diagram-request-payout.png  used on in
-put line 316.
-(pdftex.def)             Requested size: 398.3386pt x 433.06258pt.
- [43 <./images/sequence-diagram-riwayat-donasi.png>] [44 <./images/sequence-dia
-gram-request-payout.png>] [45]
-Overfull \hbox (13.61766pt too wide) in paragraph at lines 364--364
-|[]\OT1/cmr/bx/n/14.4 Perancangan Me-ka-nis-me Ma-cro-dro-id Trig-ger We-
- []
-
-<images/macrodroid.jpg, id=996, 126.144pt x 280.539pt>
-File: images/macrodroid.jpg Graphic file (type jpg)
-<use images/macrodroid.jpg>
-Package pdftex.def Info: images/macrodroid.jpg  used on input line 370.
-(pdftex.def)             Requested size: 242.60176pt x 539.53624pt.
-[46] [47 <./images/macrodroid.jpg>]
-Overfull \hbox (59.95192pt too wide) in paragraph at lines 385--386
-\OT1/cmr/m/n/12 yang se-ring di-gu-nak-an da-lam ku-e-ri, se-per-ti \OT1/cmtt/m
-/n/12 createdAt\OT1/cmr/m/n/12 , \OT1/cmtt/m/n/12 creatorId\OT1/cmr/m/n/12 , da
-n \OT1/cmtt/m/n/12 creatorUsername\OT1/cmr/m/n/12 .
- []
-
-[48] [49] [50] [51] [52]) (chapters/bab4.tex
-<images/halaman-login.png, id=1041, 357.0138pt x 270.7716pt>
-File: images/halaman-login.png Graphic file (type png)
-<use images/halaman-login.png>
-Package pdftex.def Info: images/halaman-login.png  used on input line 5.
-(pdftex.def)             Requested size: 398.3386pt x 302.12178pt.
- [53]
-<images/form-donasi.png, id=1048, 311.7246pt x 261.1356pt>
-File: images/form-donasi.png Graphic file (type png)
-<use images/form-donasi.png>
-Package pdftex.def Info: images/form-donasi.png  used on input line 18.
-(pdftex.def)             Requested size: 398.3386pt x 333.69855pt.
- [54 <./images/halaman-login.png>]
-<images/qris-gopay.png, id=1054, 526.96875pt x 571.38469pt>
-File: images/qris-gopay.png Graphic file (type png)
-<use images/qris-gopay.png>
-Package pdftex.def Info: images/qris-gopay.png  used on input line 29.
-(pdftex.def)             Requested size: 398.3386pt x 431.929pt.
- [55 <./images/form-donasi.png>] [56 <./images/qris-gopay.png>]
-<images/halaman-pembayaran-midtrans.png, id=1065, 312.6882pt x 294.3798pt>
-File: images/halaman-pembayaran-midtrans.png Graphic file (type png)
-<use images/halaman-pembayaran-midtrans.png>
-Package pdftex.def Info: images/halaman-pembayaran-midtrans.png  used on input 
-line 40.
-(pdftex.def)             Requested size: 398.3386pt x 375.04852pt.
-<images/sharelink-donasi.png, id=1066, 334.413pt x 268.056pt>
-File: images/sharelink-donasi.png Graphic file (type png)
-<use images/sharelink-donasi.png>
-Package pdftex.def Info: images/sharelink-donasi.png  used on input line 51.
-(pdftex.def)             Requested size: 398.3386pt x 319.30145pt.
- [57 <./images/halaman-pembayaran-midtrans.png>]
-<images/dashboard-kreator.png, id=1073, 401.8212pt x 187.4202pt>
-File: images/dashboard-kreator.png Graphic file (type png)
-<use images/dashboard-kreator.png>
-Package pdftex.def Info: images/dashboard-kreator.png  used on input line 62.
-(pdftex.def)             Requested size: 398.3386pt x 185.79823pt.
- [58 <./images/sharelink-donasi.png>]
-<images/halaman-payout.png, id=1079, 398.4486pt x 185.0112pt>
-File: images/halaman-payout.png Graphic file (type png)
-<use images/halaman-payout.png>
-Package pdftex.def Info: images/halaman-payout.png  used on input line 73.
-(pdftex.def)             Requested size: 398.3386pt x 184.96274pt.
-
-[59 <./images/dashboard-kreator.png> <./images/halaman-payout.png>]
-<images/overlay-notifikasi-donasi.png, id=1086, 340.6326pt x 146.949pt>
-File: images/overlay-notifikasi-donasi.png Graphic file (type png)
-<use images/overlay-notifikasi-donasi.png>
-Package pdftex.def Info: images/overlay-notifikasi-donasi.png  used on input li
-ne 88.
-(pdftex.def)             Requested size: 398.3386pt x 171.84666pt.
-<images/overlay-media-share.png, id=1087, 377.7312pt x 185.493pt>
-File: images/overlay-media-share.png Graphic file (type png)
-<use images/overlay-media-share.png>
-Package pdftex.def Info: images/overlay-media-share.png  used on input line 99.
-
-(pdftex.def)             Requested size: 398.3386pt x 195.61684pt.
- [60 <./images/overlay-notifikasi-donasi.png>]
-<images/overlay-qr-donasi.png, id=1093, 278.4804pt x 230.7822pt>
-File: images/overlay-qr-donasi.png Graphic file (type png)
-<use images/overlay-qr-donasi.png>
-Package pdftex.def Info: images/overlay-qr-donasi.png  used on input line 110.
-(pdftex.def)             Requested size: 398.3386pt x 330.12167pt.
- [61 <./images/overlay-media-share.png>]
-<images/overlay-leaderboard-donatur.png, id=1099, 324.2514pt x 210.0648pt>
-File: images/overlay-leaderboard-donatur.png Graphic file (type png)
-<use images/overlay-leaderboard-donatur.png>
-Package pdftex.def Info: images/overlay-leaderboard-donatur.png  used on input 
-line 121.
-(pdftex.def)             Requested size: 398.3386pt x 258.06084pt.
-
-[62 <./images/overlay-qr-donasi.png>]
-<images/dashboard-admin.png, id=1105, 1429.59094pt x 662.475pt>
-File: images/dashboard-admin.png Graphic file (type png)
-<use images/dashboard-admin.png>
-Package pdftex.def Info: images/dashboard-admin.png  used on input line 136.
-(pdftex.def)             Requested size: 398.3386pt x 184.59207pt.
- [63 <./images/overlay-leaderboard-donatur.png>]
-<images/daftar-creator-admin.png, id=1112, 1426.57968pt x 663.22781pt>
-File: images/daftar-creator-admin.png Graphic file (type png)
-<use images/daftar-creator-admin.png>
-Package pdftex.def Info: images/daftar-creator-admin.png  used on input line 14
-7.
-(pdftex.def)             Requested size: 398.3386pt x 185.1864pt.
- [64 <./images/dashboard-admin.png> <./images/daftar-creator-admin.png>]
-<images/halaman-payout-admin.png, id=1119, 1428.08531pt x 660.96938pt>
-File: images/halaman-payout-admin.png Graphic file (type png)
-<use images/halaman-payout-admin.png>
-Package pdftex.def Info: images/halaman-payout-admin.png  used on input line 15
-8.
-(pdftex.def)             Requested size: 398.3386pt x 184.36417pt.
-<images/struktur-basis-data.png, id=1120, 357.9774pt x 270.2898pt>
-File: images/struktur-basis-data.png Graphic file (type png)
-<use images/struktur-basis-data.png>
-Package pdftex.def Info: images/struktur-basis-data.png  used on input line 169
+ [7
+
+] (chapters/bab1.tex [8
+
+]
+Bab 1.
+[9
+
+] [10]) [11] (chapters/bab2.tex [12]
+Bab 2.
+[13
+
+] [14]
+<images/usecase/usecase.png, id=305, 159.651pt x 90.3375pt>
+File: images/usecase/usecase.png Graphic file (type png)
+<use images/usecase/usecase.png>
+Package pdftex.def Info: images/usecase/usecase.png  used on input line 55.
+(pdftex.def)             Requested size: 71.13188pt x 40.24898pt.
+<images/usecase/actor.png, id=306, 54.2025pt x 106.14656pt>
+File: images/usecase/actor.png Graphic file (type png)
+<use images/usecase/actor.png>
+Package pdftex.def Info: images/usecase/actor.png  used on input line 58.
+(pdftex.def)             Requested size: 56.9055pt x 111.44583pt.
+<images/usecase/association.png, id=307, 159.651pt x 21.024pt>
+File: images/usecase/association.png Graphic file (type png)
+<use images/usecase/association.png>
+Package pdftex.def Info: images/usecase/association.png  used on input line 61.
+
+(pdftex.def)             Requested size: 85.35826pt x 11.2405pt.
+<images/usecase/association_arrow.png, id=308, 159.651pt x 32.193pt>
+File: images/usecase/association_arrow.png Graphic file (type png)
+<use images/usecase/association_arrow.png>
+Package pdftex.def Info: images/usecase/association_arrow.png  used on input li
+ne 64.
+(pdftex.def)             Requested size: 85.35826pt x 17.21202pt.
+<images/usecase/include.png, id=309, 159.651pt x 36.792pt>
+File: images/usecase/include.png Graphic file (type png)
+<use images/usecase/include.png>
+Package pdftex.def Info: images/usecase/include.png  used on input line 67.
+(pdftex.def)             Requested size: 85.35826pt x 19.67088pt.
+<images/usecase/extend.png, id=310, 159.651pt x 39.0915pt>
+File: images/usecase/extend.png Graphic file (type png)
+<use images/usecase/extend.png>
+Package pdftex.def Info: images/usecase/extend.png  used on input line 70.
+(pdftex.def)             Requested size: 85.35826pt x 20.90031pt.
+ [15]
+<images/activity_diagram/start.png, id=322, 35.1495pt x 83.439pt>
+File: images/activity_diagram/start.png Graphic file (type png)
+<use images/activity_diagram/start.png>
+Package pdftex.def Info: images/activity_diagram/start.png  used on input line 
+88.
+(pdftex.def)             Requested size: 42.67912pt x 101.31541pt.
+<images/activity_diagram/end.png, id=323, 60.1155pt x 60.1155pt>
+File: images/activity_diagram/end.png Graphic file (type png)
+<use images/activity_diagram/end.png>
+Package pdftex.def Info: images/activity_diagram/end.png  used on input line 91
 .
-(pdftex.def)             Requested size: 398.3386pt x 300.7676pt.
+(pdftex.def)             Requested size: 42.67912pt x 42.68045pt.
+<images/activity_diagram/activity.png, id=324, 100.8495pt x 43.6905pt>
+File: images/activity_diagram/activity.png Graphic file (type png)
+<use images/activity_diagram/activity.png>
+Package pdftex.def Info: images/activity_diagram/activity.png  used on input li
+ne 94.
+(pdftex.def)             Requested size: 85.35826pt x 36.98108pt.
+<images/activity_diagram/fork.png, id=325, 48.18pt x 4.818pt>
+File: images/activity_diagram/fork.png Graphic file (type png)
+<use images/activity_diagram/fork.png>
+Package pdftex.def Info: images/activity_diagram/fork.png  used on input line 9
+7.
+(pdftex.def)             Requested size: 85.35826pt x 8.53575pt.
+<images/activity_diagram/decision.png, id=326, 60.7725pt x 60.7725pt>
+File: images/activity_diagram/decision.png Graphic file (type png)
+<use images/activity_diagram/decision.png>
+Package pdftex.def Info: images/activity_diagram/decision.png  used on input li
+ne 100.
+(pdftex.def)             Requested size: 71.13188pt x 71.13968pt.
+<images/activity_diagram/lane.png, id=327, 117.9315pt x 101.835pt>
+File: images/activity_diagram/lane.png Graphic file (type png)
+<use images/activity_diagram/lane.png>
+Package pdftex.def Info: images/activity_diagram/lane.png  used on input line 1
+03.
+(pdftex.def)             Requested size: 85.35826pt x 73.70805pt.
+ [16 <./images/usecase/usecase.png> <./images/usecase/actor.png> <./images/usec
+ase/association.png> <./images/usecase/association_arrow.png> <./images/usecase
+/include.png> <./images/usecase/extend.png>]
+<images/sequence/entity.png, id=341, 65.3715pt x 65.3715pt>
+File: images/sequence/entity.png Graphic file (type png)
+<use images/sequence/entity.png>
+Package pdftex.def Info: images/sequence/entity.png  used on input line 121.
+(pdftex.def)             Requested size: 56.9055pt x 56.90564pt.
+<images/sequence/boundary.png, id=342, 68.6565pt x 58.8015pt>
+File: images/sequence/boundary.png Graphic file (type png)
+<use images/sequence/boundary.png>
+Package pdftex.def Info: images/sequence/boundary.png  used on input line 124.
+(pdftex.def)             Requested size: 56.9055pt x 48.73703pt.
+<images/sequence/control.png, id=343, 62.0865pt x 62.0865pt>
+File: images/sequence/control.png Graphic file (type png)
+<use images/sequence/control.png>
+Package pdftex.def Info: images/sequence/control.png  used on input line 127.
+(pdftex.def)             Requested size: 56.9055pt x 56.9052pt.
+<images/sequence/message.png, id=344, 120.5595pt x 46.647pt>
+File: images/sequence/message.png Graphic file (type png)
+<use images/sequence/message.png>
+Package pdftex.def Info: images/sequence/message.png  used on input line 130.
+(pdftex.def)             Requested size: 85.35826pt x 33.02777pt.
+<images/sequence/recursive.png, id=345, 60.1155pt x 80.811pt>
+File: images/sequence/recursive.png Graphic file (type png)
+<use images/sequence/recursive.png>
+Package pdftex.def Info: images/sequence/recursive.png  used on input line 133.
 
-[65 <./images/halaman-payout-admin.png>] [66 <./images/struktur-basis-data.png>
-]) (chapters/bab5.tex [67]) (bukped.bbl [68]
+(pdftex.def)             Requested size: 85.35826pt x 114.75487pt.
+<images/sequence/activation.png, id=346, 25.623pt x 83.439pt>
+File: images/sequence/activation.png Graphic file (type png)
+<use images/sequence/activation.png>
+Package pdftex.def Info: images/sequence/activation.png  used on input line 136
+.
+(pdftex.def)             Requested size: 56.9055pt x 185.32077pt.
+<images/sequence/lifeline.png, id=347, 75.2265pt x 196.1145pt>
+File: images/sequence/lifeline.png Graphic file (type png)
+<use images/sequence/lifeline.png>
+Package pdftex.def Info: images/sequence/lifeline.png  used on input line 139.
+(pdftex.def)             Requested size: 56.9055pt x 148.35728pt.
+ [17 <./images/activity_diagram/start.png> <./images/activity_diagram/end.png> 
+<./images/activity_diagram/activity.png> <./images/activity_diagram/fork.png> <
+./images/activity_diagram/decision.png> <./images/activity_diagram/lane.png>]
+Overfull \vbox (179.52258pt too high) has occurred while \output is active []
 
-LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
-) [69
+[18 <./images/sequence/entity.png> <./images/sequence/boundary.png> <./images/s
+equence/control.png> <./images/sequence/message.png> <./images/sequence/recursi
+ve.png> <./images/sequence/activation.png> <./images/sequence/lifeline.png>]
+<images/deployment/component.png, id=371, 103.88812pt x 61.73062pt>
+File: images/deployment/component.png Graphic file (type png)
+<use images/deployment/component.png>
+Package pdftex.def Info: images/deployment/component.png  used on input line 15
+7.
+(pdftex.def)             Requested size: 85.35826pt x 50.72209pt.
+<images/deployment/module.png, id=372, 101.62968pt x 49.68562pt>
+File: images/deployment/module.png Graphic file (type png)
+<use images/deployment/module.png>
+Package pdftex.def Info: images/deployment/module.png  used on input line 160.
+(pdftex.def)             Requested size: 85.35826pt x 41.73184pt.
+<images/deployment/node.png, id=373, 103.88812pt x 77.53969pt>
+File: images/deployment/node.png Graphic file (type png)
+<use images/deployment/node.png>
+Package pdftex.def Info: images/deployment/node.png  used on input line 163.
+(pdftex.def)             Requested size: 85.35826pt x 63.7119pt.
+<images/deployment/package.png, id=374, 100.87688pt x 79.04532pt>
+File: images/deployment/package.png Graphic file (type png)
+<use images/deployment/package.png>
+Package pdftex.def Info: images/deployment/package.png  used on input line 166.
+
+(pdftex.def)             Requested size: 85.35826pt x 66.88608pt.
+<images/deployment/dependency.png, id=375, 112.92188pt x 26.34843pt>
+File: images/deployment/dependency.png Graphic file (type png)
+<use images/deployment/dependency.png>
+Package pdftex.def Info: images/deployment/dependency.png  used on input line 1
+69.
+(pdftex.def)             Requested size: 85.35826pt x 19.91806pt.
+
+Underfull \hbox (badness 1142) in paragraph at lines 170--170
+[]\OT1/cmr/m/n/12 Kebergantungan me-nun-jukk-an hu-bung-an an-tar
+ []
+
+<images/deployment/relation.png, id=376, 91.84312pt x 16.56187pt>
+File: images/deployment/relation.png Graphic file (type png)
+<use images/deployment/relation.png>
+Package pdftex.def Info: images/deployment/relation.png  used on input line 172
+.
+(pdftex.def)             Requested size: 85.35826pt x 15.39352pt.
+) [19 <./images/deployment/component.png> <./images/deployment/module.png> <./i
+mages/deployment/node.png> <./images/deployment/package.png> <./images/deployme
+nt/dependency.png> <./images/deployment/relation.png>] (chapters/bab3.tex)
+(chapters/bab4.tex) (chapters/bab5.tex) (bukped.bbl [20]) [21
 
 ] (bukped.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `bukped.out' has not changed.
-(rerunfilecheck)             Checksum: CAD9F234209929BC8943471E67267D8E;15362.
+(rerunfilecheck)             Checksum: 0D2E774A11A94886EE3919F1FE6B5D08;4318.
  ) 
 Here is how much of TeX's memory you used:
- 13621 strings out of 467871
- 226060 string characters out of 5418376
- 656092 words of memory out of 5000000
- 42024 multiletter control sequences out of 15000+600000
- 633793 words of font info for 60 fonts, out of 8000000 for 9000
+ 13170 strings out of 467870
+ 218440 string characters out of 5417871
+ 652564 words of memory out of 5000000
+ 41812 multiletter control sequences out of 15000+600000
+ 633097 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,9n,79p,1136b,694s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{cite.ariesta2020} has been referenced but does not 
-exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.alfedaghi2020} has been referenced but does no
-t exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.ramdany2020} has been referenced but does not 
-exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.jha2023} has been referenced but does not exis
-t, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.sandfreni2021} has been referenced but does no
-t exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.wang2025} has been referenced but does not exi
-st, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.abbott2025} has been referenced but does not e
-xist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.fauzan2021} has been referenced but does not e
-xist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.jebli2024} has been referenced but does not ex
-ist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.marchezan2023} has been referenced but does no
-t exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.dabdawb2024} has been referenced but does not 
-exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.siska2024} has been referenced but does not ex
-ist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.amani2024} has been referenced but does not ex
-ist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.carvalho2023} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.byali2022} has been referenced but does not ex
-ist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.zhao2020} has been referenced but does not exi
-st, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.sun2022} has been referenced but does not exis
-t, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.chandramouli2020} has been referenced but does
- not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.neelan2022} has been referenced but does not e
-xist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.ball2020} has been referenced but does not exi
-st, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.nashikhuddin2023} has been referenced but does
- not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.rahman2020} has been referenced but does not e
-xist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.bucko2023} has been referenced but does not ex
-ist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.gudu2025} has been referenced but does not exi
-st, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.yasuda2022} has been referenced but does not e
-xist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.hammann2020} has been referenced but does not 
-exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.singh2023} has been referenced but does not ex
-ist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.philippaerts2022} has been referenced but does
- not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.lodderstedt2025} has been referenced but does 
-not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.aprilliyani2020} has been referenced but does 
-not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.roziqin2023} has been referenced but does not 
-exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.ehsan2022} has been referenced but does not ex
-ist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.nyabuto2023} has been referenced but does not 
-exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.geofrey2020} has been referenced but does not 
-exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.assistantprofessor2020} has been referenced bu
-t does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.ismail2023} has been referenced but does not e
-xist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.prabu2025} has been referenced but does not ex
-ist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.maruf2020} has been referenced but does not ex
-ist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.fraihat2022} has been referenced but does not 
-exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.sirisawat2022} has been referenced but does no
-t exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.fadzirul2020} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.indriyani2024} has been referenced but does no
-t exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.hidayatullah2022} has been referenced but does
- not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.febriandika2024} has been referenced but does 
-not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.jullien2021} has been referenced but does not 
-exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.zhou2025} has been referenced but does not exi
-st, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.shneor2020} has been referenced but does not e
-xist, replaced by a fixed one
-
- <C:\Users\mrest\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm12
-00.pk><C:/Users/mrest/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
-/cm/cmbx12.pfb><C:/Users/mrest/AppData/Local/Programs/MiKTeX/fonts/type1/public
-/amsfonts/cm/cmbxti10.pfb><C:/Users/mrest/AppData/Local/Programs/MiKTeX/fonts/t
-ype1/public/amsfonts/cm/cmmi12.pfb><C:/Users/mrest/AppData/Local/Programs/MiKTe
-X/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/mrest/AppData/Local/Progra
-ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/mrest/AppData/Loc
-al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/mrest/Ap
-pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on bukped.pdf (73 pages, 3736727 bytes).
+ 75i,12n,79p,1136b,589s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
+/cmbx12.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
+msfonts/cm/cmr12.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1
+/public/amsfonts/cm/cmti12.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/f
+onts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on bukped.pdf (25 pages, 250657 bytes).
 PDF statistics:
- 1248 PDF objects out of 1440 (max. 8388607)
- 317 named destinations out of 1000 (max. 500000)
- 923 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 440 PDF objects out of 1000 (max. 8388607)
+ 81 named destinations out of 1000 (max. 500000)
+ 387 words of extra memory for PDF output out of 10000 (max. 10000000)
 

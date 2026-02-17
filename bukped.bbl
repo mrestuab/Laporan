@@ -1,3 +1,360 @@
 \begin{thebibliography}{}
 
+\bibitem [\protect \citeauthoryear {%
+Annaram%
+}{%
+Annaram%
+}{%
+{\protect \APACyear {2024}}%
+}]{%
+annaram2024}
+\APACinsertmetastar {%
+annaram2024}%
+\begin{APACrefauthors}%
+Annaram.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2024}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {React Virtual DOM} {React virtual dom}.{\BBCQ}
+\newblock
+
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Authors%
+}{%
+Authors%
+}{%
+{\protect \APACyear {2023}}%
+}]{%
+goDocumentation}
+\APACinsertmetastar {%
+goDocumentation}%
+\begin{APACrefauthors}%
+Authors, T\BPBI G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{}{}.
+\newblock
+\APACrefbtitle {The Go Programming Language Documentation.} {The go programming
+  language documentation.}
+\newblock
+\APACrefnote{\url{https://golang.org}}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Axios%
+}{%
+Axios%
+}{%
+{\protect \APACyear {2023}}%
+}]{%
+axiosDocumentation}
+\APACinsertmetastar {%
+axiosDocumentation}%
+\begin{APACrefauthors}%
+Axios.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{}{}.
+\newblock
+\APACrefbtitle {Axios Documentation.} {Axios documentation.}
+\newblock
+\APACrefnote{\url{https://axios-http.com}}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Banubakode%
+\ \BBA {} Chore%
+}{%
+Banubakode%
+\ \BBA {} Chore%
+}{%
+{\protect \APACyear {2022}}%
+}]{%
+banubakode2022}
+\APACinsertmetastar {%
+banubakode2022}%
+\begin{APACrefauthors}%
+Banubakode%
+\BCBT {}\ \BBA {} Chore.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {REST API Study} {Rest api study}.{\BBCQ}
+\newblock
+
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+DaisyUI%
+}{%
+DaisyUI%
+}{%
+{\protect \APACyear {2023}}%
+}]{%
+daisyuiDocumentation}
+\APACinsertmetastar {%
+daisyuiDocumentation}%
+\begin{APACrefauthors}%
+DaisyUI.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{}{}.
+\newblock
+\APACrefbtitle {DaisyUI Documentation.} {Daisyui documentation.}
+\newblock
+\APACrefnote{\url{https://daisyui.com}}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+F.~et al.%
+}{%
+F.~et al.%
+}{%
+{\protect \APACyear {2022}}%
+}]{%
+fernandes2022}
+\APACinsertmetastar {%
+fernandes2022}%
+\begin{APACrefauthors}%
+et al., F.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Judul Artikel} {Judul artikel}.{\BBCQ}
+\newblock
+
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+K.~et al.%
+}{%
+K.~et al.%
+}{%
+{\protect \APACyear {2022}}%
+}]{%
+kanvar2022}
+\APACinsertmetastar {%
+kanvar2022}%
+\begin{APACrefauthors}%
+et al., K.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {JSON in Web Services} {Json in web services}.{\BBCQ}
+\newblock
+
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+T\BPBI N\BPBI P.~et al.%
+}{%
+T\BPBI N\BPBI P.~et al.%
+}{%
+{\protect \APACyear {2022}}%
+}]{%
+pudjiastuti2022}
+\APACinsertmetastar {%
+pudjiastuti2022}%
+\begin{APACrefauthors}%
+et al., T\BPBI N\BPBI P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Judul Artikel} {Judul artikel}.{\BBCQ}
+\newblock
+
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+W.~et al.%
+}{%
+W.~et al.%
+}{%
+{\protect \APACyear {2022}}%
+}]{%
+wai2022}
+\APACinsertmetastar {%
+wai2022}%
+\begin{APACrefauthors}%
+et al., W.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {JavaScript Web Development} {Javascript web
+  development}.{\BBCQ}
+\newblock
+
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Fiber%
+}{%
+Fiber%
+}{%
+{\protect \APACyear {2023}}%
+}]{%
+fiber}
+\APACinsertmetastar {%
+fiber}%
+\begin{APACrefauthors}%
+Fiber.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{}{}.
+\newblock
+\APACrefbtitle {Fiber Web Framework.} {Fiber web framework.}
+\newblock
+\APACrefnote{\url{https://gofiber.io}}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Gurusamy%
+}{%
+Gurusamy%
+}{%
+{\protect \APACyear {2020}}%
+}]{%
+gurusamy2020}
+\APACinsertmetastar {%
+gurusamy2020}%
+\begin{APACrefauthors}%
+Gurusamy.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Node.js Performance} {Node.js performance}.{\BBCQ}
+\newblock
+
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Habib%
+}{%
+Habib%
+}{%
+{\protect \APACyear {2019}}%
+}]{%
+habib2019}
+\APACinsertmetastar {%
+habib2019}%
+\begin{APACrefauthors}%
+Habib.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2019}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Microservices Architecture} {Microservices
+  architecture}.{\BBCQ}
+\newblock
+
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+MongoDB%
+}{%
+MongoDB%
+}{%
+{\protect \APACyear {2023}}%
+}]{%
+mongodbDocumentation}
+\APACinsertmetastar {%
+mongodbDocumentation}%
+\begin{APACrefauthors}%
+MongoDB.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{}{}.
+\newblock
+\APACrefbtitle {MongoDB Documentation.} {Mongodb documentation.}
+\newblock
+\APACrefnote{\url{https://www.mongodb.com}}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Shoikhedbrod%
+}{%
+Shoikhedbrod%
+}{%
+{\protect \APACyear {2023}}%
+}]{%
+shoikhedbrod2023}
+\APACinsertmetastar {%
+shoikhedbrod2023}%
+\begin{APACrefauthors}%
+Shoikhedbrod.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Modern JavaScript} {Modern javascript}.{\BBCQ}
+\newblock
+
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Systems%
+}{%
+Systems%
+}{%
+{\protect \APACyear {2021}}%
+}]{%
+sparx2021}
+\APACinsertmetastar {%
+sparx2021}%
+\begin{APACrefauthors}%
+Systems, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{}{}.
+\newblock
+\APACrefbtitle {UML Overview.} {Uml overview.}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Yee%
+}{%
+Yee%
+}{%
+{\protect \APACyear {2019}}%
+}]{%
+yee2019}
+\APACinsertmetastar {%
+yee2019}%
+\begin{APACrefauthors}%
+Yee.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2019}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Event Driven Programming} {Event driven
+  programming}.{\BBCQ}
+\newblock
+
+\PrintBackRefs{\CurrentBib}
+
 \end{thebibliography}

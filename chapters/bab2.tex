@@ -1,74 +1,176 @@
-\section{Platform Donasi Digital}
+\chapter{Tinjauan Pustaka}
 
-Platform donasi digital merupakan pengembangan dari teknologi platform berbasis internet yang memfasilitasi interaksi antara berbagai pihak untuk tujuan sosial dan filantropi. Platform digital didefinisikan sebagai seperangkat komponen teknologi yang menyediakan fungsi inti bagi suatu sistem dan menjadi fondasi bagi pengembangan layanan pelengkap di atasnya \cite{shneor2020,zhou2025}. Secara konseptual, platform ini beroperasi sebagai \textit{two-sided market} yang mempertemukan kelompok pengguna berbeda namun saling bergantung, seperti donatur dan penerima manfaat, di mana nilai platform tercipta dari interaksi antar pengguna tersebut \cite{jullien2021}.
+\section{Landasan Teori}
 
-Dalam konteks filantropi di Indonesia, platform digital digunakan sebagai alternatif lembaga amil konvensional dengan menawarkan kemudahan akses, transparansi, dan kecepatan distribusi dana untuk zakat, infaq, sedekah, dan wakaf \cite{febriandika2024,hidayatullah2022}. Perkembangan ini sejalan dengan meningkatnya kepercayaan masyarakat terhadap sistem donasi daring serta pergeseran perilaku filantropi ke media digital \cite{indriyani2024}.
+\subsection{API}
 
-Dalam lingkup penggalangan dana massal, platform donation-based crowdfunding didefinisikan secara spesifik sebagai perantara teknologi yang digunakan oleh penggalang dana untuk mencocokkan donasi dengan tujuan para donatur. Tujuan yang dipertemukan dalam platform ini tidak bersifat moneter, melainkan pemenuhan kebutuhan psikologis donatur \cite{fadzirul2020}. Dalam ekosistem ini, penyedia situs web berperan menyediakan layanan web dan membangun sistem yang mendukung pemilik proyek untuk mempresentasikan kampanye mereka kepada calon pendukung guna menggalang donasi \cite{fadzirul2020,sirisawat2022}.
+REST API (\textit{Representational State Transfer API}) merupakan kerangka kerja yang memungkinkan layanan diakses di berbagai platform dan lingkungan, mendukung interoperabilitas, serta mematuhi standar web. REST API menjadi metode umum untuk mempublikasikan layanan di internet karena sifatnya yang tidak terikat pada platform tertentu dan kemudahan implementasinya \cite{banubakode2022}. RESTful API terdiri dari berbagai \textit{endpoint} yang menunjukkan fungsi spesifik dari suatu proses bisnis dan dapat diakses melalui protokol HTTP menggunakan metode seperti \textit{GET}, \textit{POST}, \textit{PUT}, dan \textit{DELETE}.
 
-\section{Arsitektur Aplikasi Web Modern}
+JSON (\textit{JavaScript Object Notation}) menjadi format komunikasi standar dalam REST API karena kesederhanaan dan kompatibilitas lintas platform \cite{kanvar2022}. JSON banyak digunakan dalam arsitektur mikro-layanan karena memungkinkan pengembangan aplikasi yang fleksibel dan cepat \cite{habib2019}.
 
-Bagian ini membahas konsep dasar arsitektur aplikasi web modern yang menjadi landasan dalam memahami cara kerja sistem berbasis web \cite{fraihat2022}. Pemahaman mengenai pola komunikasi serta pembagian lapisan dalam aplikasi diperlukan untuk menjelaskan bagaimana komponen penyusun sistem saling berinteraksi dan menjalankan fungsinya. Oleh karena itu, pembahasan berikut difokuskan pada model client--server dan arsitektur three-tier/N-tier sebagai struktur arsitektural yang umum digunakan dalam pengembangan aplikasi web masa kini.
+\subsection{Node.js}
 
-\subsection{Arsitektur Three-Tier/N-Tier}
+Node.js adalah lingkungan \textit{runtime} JavaScript yang memungkinkan pengembang menulis kode sisi server menggunakan JavaScript \cite{gurusamy2020}. Dibangun di atas mesin V8 milik Google Chrome, Node.js mampu menangani operasi I/O non-blocking secara efisien. Platform ini menggunakan model berbasis peristiwa dengan mekanisme \textit{callback}, sehingga mampu menangani ribuan koneksi secara bersamaan tanpa memerlukan \textit{threading} kompleks \cite{yee2019}. Node.js banyak digunakan oleh perusahaan besar seperti PayPal, LinkedIn, Medium, dan Netflix karena performanya yang tinggi \cite{gurusamy2020}.
 
-Arsitektur three-tier (tiga lapisan) atau N-tier merupakan sebuah model arsitektur perangkat lunak yang membagi fungsionalitas aplikasi menjadi tiga lapisan logis dan fisik yang berbeda untuk meningkatkan skalabilitas dan keandalan sistem \cite{maruf2020,prabu2025}. Tiga lapisan utama tersebut terdiri dari: lapisan presentasi (\textit{presentation tier}), yang berinteraksi langsung dengan pengguna; lapisan aplikasi (\textit{application tier} atau \textit{business logic tier}), yang menangani pemorosesan data dan logika bisnis inti; dan lapisan data (\textit{data tier}), yang bertanggung jawab atas penyimpanan dan manajemen basis data \cite{maruf2020}. Pemisahan fungsionalitas ini memungkinkan setiap lapisan dikelola dan dikembangkan secara \textit{independent}, menjadi arsitektur ini pilihan yang efektif untuk sistem yang memerlukan ketersediaan tinggi (\textit{high availabilitiy}), seperti pada kasus penerapan LMS Moodle \cite{ismail2023}.
+\subsection{Go (Golang)}
 
-\subsection{Konsep Client-Server}
+Go adalah bahasa pemrograman sumber terbuka yang dikompilasi dengan performa tinggi dan sintaks ringkas. Go mendukung pemrograman konkuren melalui \textit{goroutines} dan \textit{channel}, serta memiliki sistem tipe yang kuat dan modularitas berbasis paket. Selain cepat dalam kompilasi, Go menyediakan \textit{garbage collection} dan refleksi sehingga efektif untuk membangun layanan backend berskala besar \cite{goDocumentation}.
 
-Client-server merupakan model perangkat lunak yang memungkinkan sumber daya dan permintaan layanan dipenuhi melalui jaringan, di mana komputer klien akan meminta layanan dan server akan menerima, memproses, serta memberikan respons yang sesuai \cite{assistantprofessor2020,geofrey2020}. Komunikasi antara klien dan server difasilitasi melalui protokol standar seperti HTTP, FTP, dan SMTP \cite{nyabuto2023}.
+\subsection{React.js}
 
-\section{REST API dan Protokol HTTP}
+React.js merupakan pustaka JavaScript untuk membangun antarmuka pengguna berbasis komponen yang modular dan efisien \cite{annaram2024}. Salah satu keunggulan React adalah penggunaan \textit{Virtual DOM}, yang memungkinkan pembaruan tampilan secara cepat tanpa merender ulang seluruh halaman. Hal ini menjadikan React cocok untuk aplikasi web yang interaktif dan responsif.
 
-REST \textit{API} dipahami sebagai pendekatan arsitektur web service yang memanfaatkan prinsip \textit{Representational State Transfer} \cite{ehsan2022,roziqin2023}. REST menekankan penggunaan URI standar untuk mengidentifikasi resource, komunikasi stateless, serta penerapan uniform interface. HTTP berperan sebagai protokol utama yang digunakan sebagai standar komunikasi dengan metode GET, POST, PUT, dan DELETE \cite{aprilliyani2020,roziqin2023}.
+\subsection{JavaScript}
 
-\section{Autentikasi dan Otorisasi}
+JavaScript adalah bahasa pemrograman tingkat tinggi yang digunakan untuk membuat halaman web menjadi interaktif \cite{wai2022}. Bahasa ini memungkinkan pembuatan komponen seperti validasi formulir, galeri gambar responsif, dan animasi. Selain berjalan di sisi klien melalui browser, JavaScript juga dapat dijalankan di sisi server menggunakan lingkungan seperti Node.js \cite{shoikhedbrod2023}.
 
-Bagian ini membahas konsep dasar autentikasi dan otorisasi yang menjadi fondasi penting dalam pengamanan aplikasi berbasis web. Mekanisme pengenalan identitas pengguna dan pemberian hak akses harus dirancang secara tepat agar interaksi antar sistem tetap aman, terukur, dan sesuai dengan tingkat kewenangan yang dibutuhkan. Oleh karena itu, pembahasan berikut mencakup OAuth 2.0 sebagai protokol delegasi akses, OpenID Connect sebagai lapisan identitas, JSON Web Token (JWT) sebagai format token yang umum digunakan, skema Bearer Token yang banyak diadopsi dalam komunikasi API, serta prinsip-prinsip keamanan API yang memastikan perlindungan terhadap ancaman dan penyalahgunaan akses.
+\subsection{MongoDB}
 
-\subsection{OAuth 2.0}
+MongoDB adalah basis data NoSQL berbasis dokumen yang menyimpan data dalam format BSON/JSON. MongoDB mendukung skalabilitas horizontal dan fleksibilitas skema, sehingga cocok untuk aplikasi yang berkembang pesat. Namun, fleksibilitas ini memerlukan perencanaan data yang baik agar tidak menimbulkan inkonsistensi \cite{mongodbDocumentation}.
 
-\textit{OAuth} 2.0 didefinisikan sebagai framework otorisasi yang memungkinkan suatu aplikasi memperoleh akses terbatas ke resource yang dilindungi tanpa harus menyimpan kredensial pengguna secara langsung \cite{lodderstedt2025}. OAuth 2.0 menyediakan seperangkat authorization server \cite{philippaerts2022}. Framework ini dirancang untuk mendukung berbagai konteks-mulai dari aplikasi web, single-page apps, hingga aplikasi mobile-dengan cara memberikan fleksibilitas pada mekanisme autentikasi dan otorisasi yang aman di antara berbagai jenis klien\cite{singh2023}.
+\subsection{DaisyUI}
 
-\subsection{OpenID Connect}
+DaisyUI adalah \textit{component library} berbasis Tailwind CSS yang menyediakan berbagai komponen antarmuka siap pakai seperti tombol, formulir, dan navigasi. DaisyUI mendukung berbagai tema serta mempermudah pengembangan UI modern tanpa menambah ukuran file CSS secara signifikan \cite{daisyuiDocumentation}.
 
-OpenID Connect (OIDC) merupakan sebuah protokol yang mapan yang digunakan secara luas dalam manajemen identitas terfederasi (federated identity management). Protokol ini berfungsi sebagai dasar bagi otentikasi dan sistem Masuk Tunggal (Single Sign-On atau SSO), yang memungkinkan klien untuk memverifikasi identitas pengguna akhir berdasarkan otentikasi yang dilakukan oleh Penyedia Identitas (Identity Provider)\cite{hammann2020,yasuda2022}. Dibangun di atas kerangka kerja otorisasi OAuth 2.0, kegunaan OIDC meluas hingga ke infrastruktur kompleks, seperti memfasilitasi akses Secure Shell (SSH) pada pengaturan terfederasi dengan menggunakan token akses OIDC untuk otentikasi pengguna pada server jarak jauh\cite{gudu2025}.
+\subsection{Axios}
 
-\subsection{JWT}
+Axios adalah \textit{HTTP client library} berbasis JavaScript untuk melakukan permintaan HTTP seperti \textit{GET}, \textit{POST}, \textit{PUT}, dan \textit{DELETE}. Axios mendukung Promise serta menyediakan fitur seperti \textit{interceptors}, pengaturan \textit{timeout}, dan otomatis konversi JSON \cite{axiosDocumentation}.
 
-\textit{JSON Web Token} (\textit{JWT}) merupakan sebuah standar terbuka yang didasarkan pada RFC 7519, yang digunakan secara luas sebagai mekanisme standar untuk otentikasi dan otorisasi pengguna pada layanan web. Standar ini tidak hanya populer untuk mengamankan transmisi data dan otentikasi pada RESTful API, tetapi juga dapat diperluas untuk meningkatkan keamanan dengan menyimpan informasi historis perilaku pengguna, seperti konsistensi alamat IP dan jenis user agent \cite{bucko2023,rahman2020}. Sementara itu, JWT secara fundamental adalah format token yang memfasilitasi transmisi data yang ringkas dan aman antara pihak-pihak yang berkepentingan sebagai objek JSON, yang menjadikannya mekanisme otentikasi yang penting dalam implementasi berbagai aplikasi modern \cite{nashikhuddin2023}.
+\subsection{UML}
 
-\subsection{Skema Bearer Token}
+Unified Modeling Language (UML) merupakan bahasa pemodelan standar dalam pengembangan perangkat lunak berorientasi objek. UML digunakan untuk mendokumentasikan, menspesifikasikan, dan membangun sistem secara terstruktur sehingga proses pengembangan dapat dilakukan secara sistematis \cite{sparx2021}.
 
-Skema Bearer Token merupakan mekanisme autentikasi pada OAuth 2.0 di mana klien cukup menyertakan token pada header (Authorization: Bearer <token>) untuk memperoleh akses ke resource yang dilindungi \cite{lodderstedt2025}. Karena token ini bersifat bearer, siapa pun yang memilikinya dapat menggunakannya tanpa verifikasi tambahan, sehingga membuat keamanan transport menjadi aspek kritis. Penelitian terbaru menyoroti bahwa risiko pencurian token dapat diminimalkan melalui penggunaan kalal terenskripsi, pembatasan masa hidup token, serta validasi ketat pada sisi server \cite{ball2020}. Selain itu, praktik modern juga menekankan pentingnya menghindari pengiriman token melalui URL dan memastikan proses otorisasi mengikuti pedoman keamanan OAuth 2.0 \cite{neelan2022}.
+\section{Use Case Diagram}
 
-\subsection{Keamanan API}
+Use Case Diagram merupakan pemodelan yang menggambarkan perilaku sistem informasi yang akan dibuat. Use case digunakan untuk mengidentifikasi fungsi-fungsi dalam sistem serta aktor yang memiliki hak akses terhadap fungsi tersebut \cite{sparx2021}. Simbol-simbol yang digunakan dalam Use Case Diagram ditampilkan pada Tabel~\ref{tab:usecase}.
 
-Keamanan API merupakan aspek kritis karena API sering menjadi target serangan \cite{chandramouli2020}. Banyak celah keamanan muncul akibat pengelolaan aset API yang lemah, API lama yang tidak terinventarisasi, serta kerentanan pada alur data dan logika bisnis \cite{sun2022}. Selain itu, meningkatnya kompleksitas arsitektur RESTful dan GraphQL memperluas permukaan serangan, termasuk risiko seperti information leakage, unauthorized access, dan eksploitasi validasi input yang tidak memadai \cite{zhao2020}
+\begin{table}[H]
+\centering
+\caption{Simbol Use Case Diagram}
+\label{tab:usecase}
+\begin{tabular}{|c|p{9cm}|}
+\hline
+\textbf{Gambar} & \textbf{Keterangan} \\ \hline
 
-Untuk mengatasi ancaman tersebut, mekanisme keamanan API membutuhkan pendekatan berlapis yang mencakup autentikasi kuas berbasis OAuth/JWT, penggunaan HTTPS/TLS untuk mengamankan transmisi data, serta manjemen hak akses yang detail guna mencegah penyalahgunaan kredensial \cite{zhao2020}. Pentingnya teknik seperti asset discovery, traffic auditing, dan analisis alur data untuk mengidentifikasi API tersembunyi dan aktivitas mencurigakan \cite{sun2022}. Di samping itu, penggunaan API Gateaway dapat membantu menerapkan pembatasan trafik, filtrasi permintaan, dan perlindungan terhadap serangan seperti DDoS, sehingga API tetap terawasi dan terlindungi secara konsisten. 
+\includegraphics[width=2.5cm]{images/usecase/usecase.png} &
+Use Case menggambarkan fungsionalitas yang disediakan oleh sistem dalam bentuk unit-unit interaksi antara sistem dan aktor. \\ \hline
 
-\section{Database NoSQL (MongoDB)}
+\includegraphics[width=2cm]{images/usecase/actor.png} &
+Actor merupakan entitas yang berinteraksi dengan sistem untuk menjalankan proses tertentu. \\ \hline
 
-Basis data dokumen NoSQL (\textit{Not Only SQL}) muncul sebagai alternatif yang signifikan terhadap basis data relasional tradisional yang sering memiliki batasan ketat pada struktur data dan relasi, sehingga kurang efisien untuk menangani volume data yang sangat besar (\textit{huge database}) \cite{byali2022}. NoSQL document database mengatasi masalah ini dengan menyediakan kemampuan untuk menyimppan dan mengelola data dalam format dokumen, sehingga dapat menampung data yang tidak terstruktur, semi-struktur, maupun terstruktur \cite{carvalho2023}. Keunggulan utama NoSQL, khususnya jenis berorientasi dokumen seperti MongoDB, terletak pada fleksibilitas dan skalabilitas horizontal yang tinggi, menjadikannya pilihan esensial ketika skema data yang dinamis tidak sesuai dengan kebutuhan basis data realisonal \cite{byali2022}.
+\includegraphics[width=3cm]{images/usecase/association.png} &
+Asosiasi menunjukkan hubungan interaksi antara aktor dan use case. \\ \hline
 
-Secara opsional, basis data dokumen NoSQL menyimpan dalam bentuk dokumen. Meskipun memiliki perbedaan dalam beberapa aspek, MongoDB, Couchbase, dan CouchDB adalah contoh utama dari basis data dokume yang terkenal \cite{carvalho2023}. Sebagai contoh MongoDB merupakan basis data berorientasi dokumen, crossplatform, yang menawarkan kinjera tinggi, ketersediaan tinggi, dan skalabilitas yang sederhana. Basis data ini menggunakan MongoDB Query Language (MQL) yang dirancang untuk kemudahan penggunaan oleh pengembang \cite{byali2022}. Oleh karena itu, basis data dokumen NoSQL menjadi solusi penting untuk aplikasi padat data, memastikan penyimpanan big data dan kinerja kueri yang baik.
+\includegraphics[width=3cm]{images/usecase/association_arrow.png} &
+Asosiasi dengan panah terbuka menunjukkan interaksi pasif aktor terhadap sistem. \\ \hline
 
-\section{Unified Modeling Language (UML)}
+\includegraphics[width=3cm]{images/usecase/include.png} &
+Include menunjukkan bahwa suatu use case memanggil use case lain. \\ \hline
 
-Unified Modeling Language (UML) didefinisikan sebagai sebuah bahasa pemodelan standar yang digunakan untuk merancang dan mendokumentasikan sistem berorientasi objek. Sebagai bahasa standar, UML menyediakan seperangkat notasi grafis yang komprehensif untuk memvisualisasikan, memspesifikasikan, membangun, dan mendokumentasikan artefak dalam sistem perangkat. Tujuan utama penggunaan UML adalah untuk memperjelas model yang tidak konsisten dan mengurangi ambiguitas selama proses pengembangan perangkat lunak \cite{amani2024}. UML membantu memvisualkan, menspesifikasikan, dan mendokumentasikan desain sistem secara grafis \cite{siska2024}.
+\includegraphics[width=3cm]{images/usecase/extend.png} &
+Extend menunjukkan perluasan use case berdasarkan kondisi tertentu. \\ \hline
 
-Dengan menggunakan diagram-diagram yang berbeda, seperti Use Case Diagram dan Activity Diagram, UML membantu pengembang dalam memodelkan interaksi, struktur, dan perilaku sistem \cite{dabdawb2024}. Penerapan UML sangat krusial dalam siklus hidup pengembangan sistem (\textit{System Development Life Cycle} atau SDLC) karena membantu memastikan konsistensi model dan mempermudah komunikasi antara pihak-pihak yang terlibat dalam proyek \cite{marchezan2023}.
+\end{tabular}
+\end{table}
 
-\subsection{Use Case Diagram}
-Use Case adalah suatu diagram fundamental yang umum diajarkan dalam ilmu komputer dan rekayasa perangkat lunak. Diagram ini berfungsi sebagai representasi visual dari fungsionalitas sistem dari sudut pandang pengguna. Meskipun definisinya tampak sederhana, penilaian terhadap diagram use case sering kali menjadi hambatan dalam proses pembelajaran, terutama karena dua masalah utama: masalah interpersonal (tidak adanya standar penilaian di antara para pengajar) \cite{jebli2024} dan masalah intrapersonal (inkonsistensi seorang pengajar saat menilai banyak diagram) \cite{fauzan2021,abbott2025,wang2025}.
+\section{Diagram Aktivitas (Activity Diagram)}
 
-\subsection{Activity Diagram}
-Activity Diagram adalah salah satu diagram perilaku yang tersedia dalam Unified Model Language (UML) yang digunakan untuk memodelkan alur kontrol dan alur data dalam suatu sistem \cite{sandfreni2021}. Diagram ini secara visual merepresentasikan Langkah-langkah, keputusan, dan urutan tindakan yang diperlukan untuk menyelesaikan suatu proses atau kegiatan bisnis tertentu \cite{siska2024}. Dalam konteks pemodelan sistem, Activity Diagram sangat berguna untuk memvisualisasikan bagaimana berbagai kegiatan saling terkait dan bergantung satu sama lain \cite{jha2023,ramdany2020}.
+Activity Diagram menggambarkan alur kerja atau aktivitas dari suatu sistem maupun proses bisnis \cite{sparx2021}. Simbol-simbol yang digunakan dalam Activity Diagram ditampilkan pada Tabel~\ref{tab:activity}.
 
-\subsection{Sequence Diagram}
-Sequence Diagram adalah diagram UML yang paling umum kedua, digunakan untuk merepresentasikan interaksi objek dan pertukaran pesan antar objek tersebut seiring berjalannya waktu \cite{siska2024}. Diagram ini secara visual menunjukkan bagaimana peristiwa atau aktivitas yang ada dalam sebuah use case dipetakan menjadi operasi-operasi dari kelas objek yang ada pada Class Diagram \cite{alfedaghi2020}.
+\begin{table}[H]
+\centering
+\caption{Simbol Activity Diagram}
+\label{tab:activity}
+\begin{tabular}{|c|p{9cm}|}
+\hline
+\textbf{Gambar} & \textbf{Keterangan} \\ \hline
 
-\subsection{Class Diagram}
-Class Diagram merupakan salah satu diagram Unified Modeling Language (UML) yang paling umum digunakan dalam Pendidikan dan pengembangan perangkat lunak berorientasi objek \cite{siska2024}. Fungsi utama dari Class Diagram adalah untuk merepresentasikan kelas-kelas dalam sistem perangkat lunak dan hubungan yang terjalin antar kelas-kelas tersebut \cite{fauzan2021}.
+\includegraphics[width=1.5cm]{images/activity_diagram/start.png} &
+Start Point menandakan awal dari suatu aktivitas atau aliran kerja. \\ \hline
 
+\includegraphics[width=1.5cm]{images/activity_diagram/end.png} &
+End Point menandakan akhir dari suatu aktivitas atau proses. \\ \hline
+
+\includegraphics[width=3cm]{images/activity_diagram/activity.png} &
+Activities menggambarkan proses atau kegiatan bisnis yang dilakukan dalam sistem. \\ \hline
+
+\includegraphics[width=3cm]{images/activity_diagram/fork.png} &
+Fork menunjukkan percabangan proses yang berjalan secara paralel dalam sistem. \\ \hline
+
+\includegraphics[width=2.5cm]{images/activity_diagram/decision.png} &
+Decision Point menunjukkan titik pengambilan keputusan (true/false) dalam alur kerja. \\ \hline
+
+\includegraphics[width=3cm]{images/activity_diagram/lane.png} &
+Swimlane menunjukkan pembagian tanggung jawab aktor dalam suatu proses. \\ \hline
+
+\end{tabular}
+\end{table}
+
+\section{Diagram Urutan (Sequence Diagram)}
+
+Sequence Diagram menggambarkan interaksi antar objek dalam suatu use case dengan memperlihatkan waktu hidup objek serta pesan yang dikirim dan diterima \cite{sparx2021}. Simbol-simbol yang digunakan dalam Sequence Diagram ditampilkan pada Tabel~\ref{tab:sequence}.
+
+\begin{table}[H]
+\centering
+\caption{Simbol Sequence Diagram}
+\label{tab:sequence}
+\begin{tabular}{|c|p{9cm}|}
+\hline
+\textbf{Gambar} & \textbf{Keterangan} \\ \hline
+
+\includegraphics[width=2cm]{images/sequence/entity.png} &
+Entity Class merepresentasikan entitas utama dalam sistem dan menjadi dasar struktur basis data. \\ \hline
+
+\includegraphics[width=2cm]{images/sequence/boundary.png} &
+Boundary Class berfungsi sebagai antarmuka antara aktor dan sistem. \\ \hline
+
+\includegraphics[width=2cm]{images/sequence/control.png} &
+Control Class bertanggung jawab mengatur logika aplikasi dan koordinasi antar objek. \\ \hline
+
+\includegraphics[width=3cm]{images/sequence/message.png} &
+Message merepresentasikan komunikasi antar objek dalam sistem. \\ \hline
+
+\includegraphics[width=3cm]{images/sequence/recursive.png} &
+Recursive menunjukkan objek mengirim pesan kepada dirinya sendiri. \\ \hline
+
+\includegraphics[width=2cm]{images/sequence/activation.png} &
+Activation menunjukkan durasi eksekusi suatu operasi pada objek. \\ \hline
+
+\includegraphics[width=2cm]{images/sequence/lifeline.png} &
+Lifeline menunjukkan keberadaan objek selama siklus hidupnya. \\ \hline
+
+\end{tabular}
+\end{table}
+
+\section{Deployment Diagram}
+
+Deployment Diagram menunjukkan bagaimana dan di mana sistem diterapkan, termasuk arsitektur eksekusi sistem. Perangkat keras, prosesor, dan lingkungan eksekusi perangkat lunak direpresentasikan sebagai \textit{node}. Diagram ini juga dapat menampilkan relasi \textit{deployment} dan \textit{manifest} antar artefak serta node \cite{sparx2021}.
+
+\begin{table}[H]
+\centering
+\caption{Simbol Deployment Diagram}
+\label{tab:deployment}
+\begin{tabular}{|c|p{9cm}|}
+\hline
+\textbf{Simbol} & \textbf{Keterangan} \\ \hline
+
+\includegraphics[width=3cm]{images/deployment/component.png} &
+Komponen merupakan bagian modular dari sistem yang perilakunya ditentukan oleh antarmuka yang disediakan dan dibutuhkan. \\ \hline
+
+\includegraphics[width=3cm]{images/deployment/module.png} &
+Komponen perangkat lunak yang merepresentasikan unit dengan fungsi tertentu dalam struktur sistem. \\ \hline
+
+\includegraphics[width=3cm]{images/deployment/node.png} &
+Node merepresentasikan perangkat keras atau perangkat lunak eksternal dalam sistem. \\ \hline
+
+\includegraphics[width=3cm]{images/deployment/package.png} &
+Package adalah wadah untuk mengelompokkan elemen-elemen sistem dalam struktur terorganisir. \\ \hline
+
+\includegraphics[width=3cm]{images/deployment/dependency.png} &
+Kebergantungan menunjukkan hubungan antar node, dengan arah panah menuju node yang digunakan. \\ \hline
+
+\includegraphics[width=3cm]{images/deployment/relation.png} &
+Relasi menunjukkan hubungan antar node dalam menjalankan sistem. \\ \hline
+
+\end{tabular}
+\end{table}

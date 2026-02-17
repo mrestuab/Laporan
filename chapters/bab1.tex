@@ -1,140 +1,62 @@
+\chapter{Pendahuluan}
+
 \section{Latar Belakang}
 
-Keterbatasan akses terhadap alat bantu medis di Indonesia masih menjadi masalah kesehatan masyarakat yang signifikan. Banyak penyandang disabilitas dan pasien dengan kebutuhan medis khusus mengalami kesulitan mendapatkan alat bantu seperti kursi roda, tongkat oksigen, dan alat rehabilitasi lainnya karena faktor ekonomi dan ketersediaan alat di fasilitas kesehatan yang terbatas. Akses yang terbatas ini tidak hanya memperburuk kondisi kesehatan pengguna tetapi juga berdampak pada tingkat kemandirian dan risiko kemalangan akibat tidak tersedianya kebutuhan dasar medis.
+Keterbatasan akses terhadap alat bantu medis di Indonesia masih menjadi masalah kesehatan masyarakat yang signifikan. Banyak penyandang disabilitas dan pasien dengan kebutuhan medis khusus mengalami kesulitan mendapatkan alat bantu seperti kursi roda, tabung oksigen, dan alat rehabilitasi lainnya karena faktor ekonomi dan keterbatasan ketersediaan alat di fasilitas kesehatan. Akses yang terbatas ini tidak hanya memperburuk kondisi kesehatan pengguna tetapi juga berdampak pada tingkat kecacatan dan risiko kematian akibat tidak terpenuhinya kebutuhan dasar medis \cite{pudjiastuti2022}.
 
-Banyak fasilitas kesehatan, terutama rumah sakit umum, sering kali kekurangan stok alat bantu medis yang dibutuhkan oleh pasien, sementara kemampuan masyarakat untuk membeli alat tersebut secara mandiri masih rendah. Hal ini memperlihatkan kebutuhan untuk solusi alternatif agar alat bantu medis dapat diakses oleh masyarakat yang membutuhkan tanpa harus membeli dengan harga tinggi.
+Banyak fasilitas kesehatan, terutama rumah sakit umum, sering kali kehabisan stok alat bantu medis yang dibutuhkan oleh pasien, sementara kemampuan masyarakat untuk membeli alat tersebut secara mandiri masih rendah. Hal ini menunjukkan perlunya solusi alternatif agar alat bantu medis dapat diakses oleh masyarakat tanpa harus membeli dengan biaya tinggi \cite{fernandes2022}.
 
-Dalam konteks tersebut, pengembangan sistem peminjaman alat bantu medis menjadi solusi inovatif yang dapat membantu mengatasi masalah keterbatasan akses ini. Sistem ini akan memungkinkan masyarakat memperoleh alat bantu medis secara temporal melalui peminjaman, terutama bagi mereka yang tidak mampu membeli alat tersebut dan ketika stok alat di rumah sakit habis. Dengan adanya sistem ini, diharapkan dapat meningkatkan ketersediaan alat bantu medis bagi masyarakat yang membutuhkan dan mengurangi risiko komplikasi kesehatan yang dapat timbul akibat tidak tersedianya alat bantu yang penting.
+Dalam konteks tersebut, pengembangan sistem peminjaman alat bantu medis menjadi solusi inovatif untuk mengatasi keterbatasan akses tersebut. Sistem ini memungkinkan masyarakat memperoleh alat bantu medis secara temporer melalui mekanisme peminjaman, terutama bagi mereka yang belum mampu membeli alat tersebut atau ketika stok di rumah sakit habis. Dengan adanya sistem ini, diharapkan ketersediaan alat bantu medis bagi masyarakat dapat meningkat serta risiko komplikasi kesehatan akibat keterbatasan alat dapat dikurangi.
 
-Berdasarkan kondisi tersebut, aplikasi \textit{MedisLink} dikembangkan sebagai sistem informasi berbasis \textit{web} yang menghubungkan peminjaman dan donasi alat medis. Sistem ini mengintegrasikan teknologi modern seperti \textit{React.js} di sisi depan, \textit{Golang} (\textit{Fiber}) di sisi \textit{backend}, dan \textit{MongoDB} sebagai basis data non-relasional. \textit{MedisLink} dirancang untuk memberikan pengalaman pengguna yang transparan, efisien, dan terpercaya dalam mengakses alat bantu medis.
+\section{Deskripsi Aplikasi}
+
+Aplikasi \textit{MedisLink} merupakan platform berbasis web yang dirancang untuk membantu masyarakat memperoleh akses alat bantu medis secara lebih mudah, cepat, dan efisien melalui sistem peminjaman. Aplikasi ini menjadi solusi bagi individu yang membutuhkan alat bantu medis seperti kursi roda, tongkat kruk, \textit{walker}, atau alat pernapasan namun terkendala biaya atau ketersediaan alat di fasilitas kesehatan.
+
+Melalui MedisLink, pengguna dapat melihat ketersediaan alat, melakukan peminjaman, melacak status pinjaman, serta menerima notifikasi pengembalian secara otomatis. Selain itu, sistem juga mempermudah pengelolaan inventaris bagi admin sehingga pemantauan stok dapat dilakukan secara transparan dan akurat.
+
+Fitur utama aplikasi MedisLink meliputi:
+
+\begin{enumerate}
+    \item \textbf{Peminjaman Alat Bantu Medis} \\
+    Pengguna dapat memilih jenis alat yang tersedia, melihat detail alat, dan melakukan peminjaman secara daring. Setiap transaksi tersimpan dalam sistem sehingga status peminjaman dapat dipantau.
+
+    \item \textbf{Pengelolaan Inventaris Alat} \\
+    Admin dapat mengelola stok alat, menambahkan alat baru, memperbarui kondisi alat, serta mencatat riwayat keluar-masuk alat melalui fitur \textit{Inventory Log}.
+
+    \item \textbf{Notifikasi Pengembalian} \\
+    Sistem mengirimkan notifikasi kepada pengguna untuk mengingatkan jadwal pengembalian alat agar dapat digunakan kembali oleh peminjam lainnya.
+\end{enumerate}
 
 \section{Identifikasi Masalah}
 
-Meskipun kebutuhan alat bantu medis sangat tinggi di masyarakat, sistem peminjaman alat medis yang terorganisir dan mudah diakses masih terbatas. Sebagian besar fasilitas kesehatan belum memiliki sistem yang dapat memfasilitasi peminjaman alat medis kepada masyarakat umum secara efisien.
-
-Berdasarkan kondisi tersebut, kebutuhan yang muncul adalah:
+Berdasarkan latar belakang tersebut, permasalahan yang diidentifikasi adalah:
 
 \begin{enumerate}
-    \item Kebutuhan untuk memahami sekaligus mempraktikkan implementasi sistem informasi berbasis \textit{web} untuk sektor kesehatan melalui proyek nyata.
-    \item Kebutuhan akan platform peminjaman alat medis yang mudah diakses dan sederhana, tanpa kompleksitas berlebih.
-    \item Kebutuhan akan sebuah media inovasi teknologi di bidang kesehatan yang tetap memiliki potensi digunakan oleh publik.
+    \item Bagaimana membangun sistem peminjaman alat bantu medis yang memudahkan masyarakat mengakses alat tanpa harus membelinya?
+    \item Bagaimana sistem dapat membantu mengatasi keterbatasan stok alat bantu medis di rumah sakit atau fasilitas kesehatan?
+    \item Bagaimana memfasilitasi masyarakat yang memiliki alat bantu medis tidak terpakai agar dapat mendonasikannya secara tepat sasaran?
 \end{enumerate}
 
 \section{Tujuan}
 
-Tujuan utama dari pengembangan sistem \textit{MedisLink} adalah membangun platform peminjaman alat bantu medis yang sederhana, fungsional, dan dapat menjadi dasar pengembangan lebih lanjut. Secara khusus, tujuan proyek ini adalah:
+Tujuan pengembangan sistem ini adalah menyediakan solusi berupa sistem peminjaman alat bantu medis yang dapat memperluas akses masyarakat terhadap alat kesehatan.
+
+Tujuan khusus proyek ini adalah:
 
 \begin{enumerate}
-    \item Merancang dan mengimplementasikan sistem peminjaman alat medis berbasis \textit{web} sebagai penerapan teknologi informasi di bidang kesehatan.
-    \item Menyediakan alternatif sistem peminjaman alat medis yang mudah diakses, fleksibel, dan mudah dikembangkan sesuai kebutuhan.
-    \item Membangun pondasi produk digital yang dapat diekspansi menjadi sistem yang lebih kompleks di masa depan sekaligus menjadi sarana pembelajaran dan inovasi di bidang teknologi kesehatan.
+    \item Merancang dan membangun platform peminjaman alat bantu medis berbasis web.
+    \item Mengembangkan sistem manajemen inventaris untuk melacak perputaran dan ketersediaan alat.
+    \item Menyediakan fitur donasi yang memfasilitasi penyaluran alat bantu medis yang tidak terpakai.
 \end{enumerate}
 
 \section{Ruang Lingkup}
 
-Ruang lingkup pengembangan ini difokuskan pada perancangan, pembangunan, dan evaluasi prototipe \textit{MedisLink}, yaitu sistem informasi \textit{web} untuk peminjaman alat bantu medis. Lingkup ini mencakup proses analisis kebutuhan, perancangan arsitektur dan model data, implementasi modul inti, serta pengujian fungsional dalam lingkungan pengembangan.
+\subsection{Pengembangan Teknologi}
 
-\subsection{Cakupan Fungsional}
+Dokumentasi ini membahas proses pengembangan sistem peminjaman alat bantu medis berbasis web menggunakan Golang (Fiber) sebagai \textit{backend}, React.js sebagai \textit{frontend}, dan MongoDB sebagai basis data. Sistem dilengkapi dengan autentikasi JWT untuk menjaga keamanan akses pengguna serta struktur API yang efisien \cite{fiber}.
 
-Penelitian ini mencakup pengembangan fitur inti sebagai berikut:
+Selain itu, sistem menyediakan fitur notifikasi pengembalian alat untuk mengingatkan pengguna mengenai batas waktu pengembalian. Dokumentasi ini mencakup perancangan arsitektur, desain basis data, serta implementasi fitur aplikasi.
 
-\begin{enumerate}
-    \item \textbf{Manajemen Pengguna} \\
-    Meliputi registrasi, autentikasi, dan otorisasi pengguna menggunakan dua metode:
-    \begin{itemize}
-        \item \textit{JSON Web Token} (\textit{JWT}) untuk autentikasi berbasis \textit{username/password}.
-        \item Sistem verifikasi identitas untuk memastikan keamanan peminjaman alat medis.
-    \end{itemize}
+\subsection{Peningkatan Akses dan Efisiensi Layanan}
 
-    \item \textbf{Pengelolaan Inventaris Alat Medis} \\
-    Pencatatan alat medis yang tersedia (nama, kondisi, ketersediaan), penyimpanan data inventaris, serta penyajian informasi ketersediaan alat kepada pengguna.
-
-    \item \textbf{Sistem Peminjaman} \\
-    Proses peminjaman alat medis dengan pencatatan identitas peminjam, durasi peminjaman, dan status pengembalian alat.
-
-    \item \textbf{Notifikasi Otomatis} \\
-    Sistem notifikasi pengembalian alat otomatis menggunakan mekanisme \textit{Cron Job} dengan interval waktu harian untuk memastikan waktu distribusi inventaris yang tepat.
-
-    \item \textbf{Antarmuka Pengguna \textit{Web}} \\
-    Halaman publik untuk menampilkan katalog alat medis dan melakukan proses peminjaman, serta halaman \textit{admin} untuk pengelolaan inventaris.
-\end{enumerate}
-
-\subsection{Cakupan Teknis}
-
-Secara teknis, penelitian ini mencakup:
-
-\begin{enumerate}
-    \item \textbf{Arsitektur Aplikasi} \\
-    Pembangunan sistem dengan arsitektur terpisah menggunakan \textit{React.js} di sisi \textit{frontend}, \textit{Golang} (\textit{Fiber}) di sisi \textit{backend}, dan \textit{MongoDB} sebagai basis data non-relasional.
-
-    \item \textbf{Keamanan Dasar Sistem} \\
-    Meliputi:
-    \begin{itemize}
-        \item Implementasi \textit{JWT} untuk autentikasi pengguna
-        \item Validasi input dan sanitasi untuk keamanan data
-        \item Penanganan akses \textit{endpoint} privat berdasarkan \textit{token}
-        \item Verifikasi identitas untuk peminjaman alat medis
-    \end{itemize}
-
-    \item \textbf{Perancangan dan Pemodelan} \\
-    Meliputi \textit{use case diagram}, \textit{flowchart} proses (alur peminjaman, autentikasi, inventaris), dan rancangan model data (User, Equipment, Transaction).
-
-    \item \textbf{Integrasi Modul Internal} \\
-    Modul koneksi basis data, \textit{middleware} verifikasi \textit{token}, utilitas \textit{hashing}, serta pengelolaan data melalui \textit{schema} User dan Equipment.
-\end{enumerate}
-
-\subsection{Cakupan Pengujian}
-
-Pengujian dilakukan meliputi:
-
-\begin{enumerate}
-    \item Uji fungsional terhadap \textit{endpoint} inti seperti autentikasi pengguna, pencatatan/pengambilan data peminjaman, dan pemuatan data inventaris.
-    \item Uji integritas sederhana untuk memastikan alur peminjaman hingga pengembalian berjalan \textit{end-to-end} menggunakan data simulasi.
-\end{enumerate}
-
-\subsection{Batasan Penelitian}
-
-Penelitian ini dibatasi pada aspek-aspek berikut:
-
-\begin{enumerate}
-    \item \textbf{Fokus Pada Alur Peminjaman Dasar} \\
-    Sistem hanya mencakup proses peminjaman sederhana tanpa fitur pendukung seperti manajemen \textit{maintenance} alat, penjadwalan peminjaman lanjutan, atau sistem rating.
-
-    \item \textbf{Lingkup Pengembangan Berskala Proyek} \\
-    Optimasi performa produksi, skalabilitas tinggi, dan \textit{security hardening} tingkat lanjut tidak menjadi fokus utama.
-
-    \item \textbf{Integrasi Sistem Kesehatan} \\
-    Sistem tidak terintegrasi dengan sistem informasi rumah sakit atau fasilitas kesehatan lainnya; beroperasi sebagai sistem mandiri untuk tujuan pembelajaran dan pengujian konsep.
-\end{enumerate}
-
-\subsection{Luaran Penelitian}
-
-Luaran yang dihasilkan meliputi:
-
-\begin{enumerate}
-    \item Prototipe aplikasi \textit{web} \textit{MedisLink} yang dapat dijalankan pada lingkungan pengembangan.
-    \item Dokumen desain arsitektur, \textit{use case}, \textit{flowchart}, dan \textit{schema} model data.
-    \item Spesifikasi \textit{endpoint API} inti, termasuk manajemen inventaris dan sistem notifikasi.
-    \item Hasil pengujian fungsional serta evaluasi ketercapaian kebutuhan.
-\end{enumerate}
-
-\section{Sistematika Penulisan}
-
-Sistematika penulisan analisis ini disusun dalam 5 bab dan bagian akhir terdapat daftar pustaka dan lampiran. Di mana pada setiap bab tersebut akan dibagi lagi menjadi sub-bab yang akan dibahas secara terperinci. Berikut merupakan sistematika penulisan dan keterangan singkatnya:
-
-\begin{enumerate}
-    \item \textbf{Bab I Pendahuluan} \\
-    Berisi latar belakang, identifikasi masalah, tujuan, ruang lingkup, batasan, dan sistematika penulisan. Bab ini juga menjelaskan alasan pemilihan teknologi seperti \textit{React.js}, \textit{Golang} (\textit{Fiber}), \textit{MongoDB}, dan \textit{JWT}.
-
-    \item \textbf{Bab II Landasan Teori} \\
-    Menguraikan teori dan konsep pendukung seperti arsitektur \textit{web} modern, sistem informasi kesehatan, autentikasi \textit{JWT}, \textit{API REST}, basis data \textit{NoSQL}, serta \textit{UML}.
-
-    \item \textbf{Bab III Metode Penelitian} \\
-    Menjelaskan metode analisis kebutuhan, perancangan, pemodelan, dan pengujian untuk sistem peminjaman alat medis.
-
-    \item \textbf{Bab IV Hasil dan Pembahasan} \\
-    Menyajikan hasil implementasi prototipe, struktur proyek, model data, \textit{endpoint}, antarmuka pengguna, hasil pengujian, serta evaluasi sesuai ruang lingkup.
-
-    \item \textbf{Bab V Kesimpulan dan Saran} \\
-    Berisi kesimpulan akhir dan rekomendasi pengembangan lebih lanjut sistem \textit{MedisLink}.
-\end{enumerate}
+Melalui pengembangan sistem MedisLink, aplikasi ini diharapkan dapat meningkatkan akses masyarakat terhadap alat bantu medis. Dengan fitur peminjaman daring, pengguna tidak perlu datang langsung ke fasilitas kesehatan sehingga proses menjadi lebih cepat dan efisien. Sistem juga dilengkapi dengan kategori alat, ulasan pengguna, serta pengelolaan inventaris yang terstruktur.
